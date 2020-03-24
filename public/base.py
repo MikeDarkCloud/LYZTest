@@ -1,6 +1,5 @@
 import requests
 
-
 class YzApi():
     def __init__(self, loginurl=None, data=None, headers=None):
         self.r = requests.session()

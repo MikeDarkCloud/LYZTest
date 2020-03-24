@@ -1,5 +1,5 @@
 import logging, time, os
-from model.Config import *
+from public.Config import *
 class Log:
     def __init__(self):
         # 文件的命名

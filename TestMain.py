@@ -7,7 +7,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import smtplib
 import os
-from Config import *
+from public.Config import *
 
 '''
 # 这个是优化版执行所有用例并发送报告，分四个步骤

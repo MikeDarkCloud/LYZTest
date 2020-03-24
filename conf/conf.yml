@@ -1,0 +1,59 @@
+#用户账号
+bmslogin:
+  username: 蓝明勇
+  password: Yz123456
+
+#报告发送邮箱
+send:
+  sender: lanmingyong@126.com
+  pwd: mike5788973
+
+#目标邮箱
+receiver: 975922642@qq.com
+
+#后台域名
+bms: http://bms.yzwill.cn/
+#bms: http://bms-3.yzwill.cn/
+
+#公众号域名
+zm: https://test.yzwill.cn/
+#zm: http://zm-3.yzwill.cn/
+
+#日志文件存放路径
+#windows
+path_log: test_reprot\log
+#Linxu
+#path_log: test_reprot/log
+
+#excel文件存放路径
+#windows
+path_excel: test_data\Excel_File\ApiStudentBaseInfo.xlsx
+#Linxu
+#path_excel: test_data/Excel_File/ApiStudentBaseInfo.xlsx
+
+#用例存放目录
+path_case: test_case
+
+#测试报告存放目录
+#windows
+path_report: test_report\report
+#Linxu
+#path_report: test_report/report
+
+#图片存放目录
+#windows
+path_jpg: test_data\jpg\1.jpg
+#Linxu
+#path_jpg: test_data/jpg/1.jpg
+
+db:
+  bms :
+    host: 120.24.167.89
+    user: yzDev
+    password: '@yZdev0512!'
+    db: bms
+#  bms-3:
+#    host: 10.0.0.224
+#    user: root
+#    password: databases001
+#    db: bms

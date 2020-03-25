@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5bf0887-d6be-4162-8a08-b246a94f5d68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestYaml/testdata.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ConnectMysql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_case/ddTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestMain.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestMain.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/CreateMobile.py" beforeDir="false" afterPath="$PROJECT_DIR$/public/CreateMobile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Log.py" beforeDir="false" afterPath="$PROJECT_DIR$/public/Log.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/public/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/ddTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/ddTest.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +16,7 @@
     <session id="-442486890">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.opened" value="2" />
@@ -30,27 +24,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="21" />
-          <entry key="yaml" value="1" />
+          <entry key="py" value="22" />
+          <entry key="yaml" value="2" />
           <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="21" />
-          <entry key="YAML" value="3" />
+          <entry key="Python" value="22" />
+          <entry key="YAML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="914" />
+          <entry key="py" value="930" />
           <entry key="txt" value="3" />
+          <entry key="yaml" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="914" />
+          <entry key="Python" value="930" />
+          <entry key="YAML" value="50" />
         </counts>
       </usages-collector>
     </session>
@@ -72,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_case/ddTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            <state relative-caret-position="96">
+              <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -82,10 +78,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/ddt.py">
+        <entry file="file://$PROJECT_DIR$/test1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="92">
+              <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testdata.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -94,7 +102,7 @@
         <entry file="file://$PROJECT_DIR$/TestYaml/testdata.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="8" selection-end-column="8" />
+              <caret selection-end-line="2" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -165,12 +173,14 @@
         <option value="$PROJECT_DIR$/test_case/test_01_recruitAdd.py" />
         <option value="$PROJECT_DIR$/TestYaml/testdata.yaml" />
         <option value="$PROJECT_DIR$/test_case/ddTest.py" />
+        <option value="$PROJECT_DIR$/test1.py" />
+        <option value="$PROJECT_DIR$/testdata.yaml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="147" />
-    <option name="y" value="299" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="22" />
+    <option name="y" value="76" />
     <option name="width" value="1534" />
     <option name="height" value="907" />
   </component>
@@ -190,11 +200,6 @@
             <path>
               <item name="LYZTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="LYZTest" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LYZTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LYZTest" type="462c0819:PsiDirectoryNode" />
               <item name="TestYaml" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -210,6 +215,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\YZeducation\PyProject\LYZTest" />
       <recent name="C:\YZeducation\PyProject\LYZTest\test_case" />
       <recent name="C:\YZeducation\PyProject\LYZTest\public" />
       <recent name="C:\YZeducation\PyProject\LYZTest\report" />
@@ -228,49 +234,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for ddTest.ddTest.test_case">
-    <configuration name="Config" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LYZTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/public" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/public/Config.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="base" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LYZTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/public" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/public/base.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests in test1.py">
     <configuration name="Unittests for ddTest.ddTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="LYZTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -299,34 +263,62 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in ddTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test1.MyTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="LYZTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_case/ddTest.py&quot;" />
+      <option name="_new_target" value="&quot;test1.MyTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test1.MyTest.test_add" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="LYZTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test1.MyTest.test_add&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test1.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="LYZTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test1.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.base" />
-      <item itemvalue="Python.Config" />
       <item itemvalue="Python tests.Unittests for ddTest.ddTest" />
       <item itemvalue="Python tests.Unittests for ddTest.ddTest.test_case" />
-      <item itemvalue="Python tests.Unittests in ddTest.py" />
+      <item itemvalue="Python tests.Unittests for test1.MyTest" />
+      <item itemvalue="Python tests.Unittests for test1.MyTest.test_add" />
+      <item itemvalue="Python tests.Unittests in test1.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in test1.py" />
+        <item itemvalue="Python tests.Unittests for test1.MyTest.test_add" />
+        <item itemvalue="Python tests.Unittests for test1.MyTest" />
         <item itemvalue="Python tests.Unittests for ddTest.ddTest.test_case" />
         <item itemvalue="Python tests.Unittests for ddTest.ddTest" />
-        <item itemvalue="Python tests.Unittests in ddTest.py" />
-        <item itemvalue="Python.Config" />
-        <item itemvalue="Python.base" />
       </list>
     </recent_temporary>
   </component>
@@ -352,39 +344,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_ddTest_ddTest - 2020.03.24 at 14h 49m 04s.xml">
-      <configuration name="Unittests for ddTest.ddTest" configurationId="tests" />
+    <history-entry file="Unittests_for_test1_MyTest_test_add - 2020.03.25 at 09h 15m 48s.xml">
+      <configuration name="Unittests for test1.MyTest.test_add" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_ddTest_ddTest_test_case - 2020.03.24 at 14h 51m 26s.xml">
-      <configuration name="Unittests for ddTest.ddTest.test_case" configurationId="tests" />
+    <history-entry file="Unittests_in_test1_py - 2020.03.25 at 09h 15m 56s.xml">
+      <configuration name="Unittests in test1.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_ddTest_ddTest - 2020.03.24 at 14h 51m 42s.xml">
-      <configuration name="Unittests for ddTest.ddTest" configurationId="tests" />
+    <history-entry file="Unittests_for_test1_MyTest_test_add - 2020.03.25 at 09h 16m 29s.xml">
+      <configuration name="Unittests for test1.MyTest.test_add" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_ddTest_ddTest - 2020.03.24 at 14h 52m 00s.xml">
-      <configuration name="Unittests for ddTest.ddTest" configurationId="tests" />
+    <history-entry file="Unittests_in_test1_py - 2020.03.25 at 09h 17m 52s.xml">
+      <configuration name="Unittests in test1.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_ddTest_ddTest - 2020.03.24 at 14h 53m 04s.xml">
-      <configuration name="Unittests for ddTest.ddTest" configurationId="tests" />
+    <history-entry file="Unittests_in_test1_py - 2020.03.25 at 09h 25m 16s.xml">
+      <configuration name="Unittests in test1.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_ddTest_ddTest_test_case - 2020.03.24 at 14h 53m 46s.xml">
-      <configuration name="Unittests for ddTest.ddTest.test_case" configurationId="tests" />
+    <history-entry file="Unittests_in_test1_py - 2020.03.25 at 09h 25m 26s.xml">
+      <configuration name="Unittests in test1.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_ddTest_ddTest_test_case - 2020.03.24 at 14h 54m 29s.xml">
-      <configuration name="Unittests for ddTest.ddTest.test_case" configurationId="tests" />
+    <history-entry file="Unittests_in_test1_py - 2020.03.25 at 09h 26m 02s.xml">
+      <configuration name="Unittests in test1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test1_py - 2020.03.25 at 09h 27m 17s.xml">
+      <configuration name="Unittests in test1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test1_py - 2020.03.25 at 09h 28m 34s.xml">
+      <configuration name="Unittests in test1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_ddTest_py - 2020.03.25 at 17h 46m 49s.xml">
+      <configuration name="Unittests in ddTest.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="147" y="299" width="1534" height="907" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17513369" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13804004" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49933156" weight="0.2348285" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39973614" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49933156" weight="0.3384785" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39911798" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -406,6 +406,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test1.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test1.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -511,13 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestYaml/testdata.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/myunit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -525,20 +530,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/ddt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1256">
+          <caret line="63" column="7" lean-forward="true" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_case/ddTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        <state relative-caret-position="96">
+          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/ddt.py">
+    <entry file="file://$PROJECT_DIR$/TestYaml/testdata.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+        <state>
+          <caret selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

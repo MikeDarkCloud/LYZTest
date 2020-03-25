@@ -5,7 +5,7 @@ from public.base import *
 class ddTest(StartEnd):
 
     # @unittest.skip('skip this  case')
-    ddt.file_data('TestYaml/testdata.yaml')
+    @ddt.file_data('TestYaml/testdata.yaml')
     def test_case(self,**kwargs):
         '''testing'''
         k = kwargs.get("bmslogin")

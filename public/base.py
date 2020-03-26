@@ -1,13 +1,15 @@
 import requests
-
-class YzApi():
-    def __init__(self, loginurl=None, data=None, headers=None):
+from public.Log import *
+class YzApi:
+    def __init__(self, url=None, data=None, headers=None):
         self.r = requests.session()
+        self.log = Log()
         try:
-            if loginurl != None:
-                self.r.post(loginurl, data, headers)
+            if url != None:
+                self.r.post(url, data, headers)
         except   Exception as e:
-            print(loginurl + ":请求登录失败:" + e)
+            self.log.info(url + ":请求登录失败:" + e)
+            # print(loginurl + ":请求登录失败:" + e)
 
     def lapi(self, method, urls, data=None, headers=None):
         if method == "post" or method == "POST":
@@ -16,7 +18,8 @@ class YzApi():
                 r.encoding = 'utf-8'
                 return r
             except Exception as e:
-                print(urls + ":请求失败:" + e)
+                self.log.info(urls + ":请求失败:" + e)
+                # print(urls + ":请求失败:" + e)
 
         if method == "get" or method == "GET":
             try:
@@ -24,7 +27,8 @@ class YzApi():
                 r.encoding = 'utf-8'
                 return r
             except Exception as e:
-                print(urls + ":请求失败:" + e)
+                self.log.info(urls + ":请求失败:" + e)
+                # print(urls + ":请求失败:" + e)
 
 
 if __name__ == '__main__':

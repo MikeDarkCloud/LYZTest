@@ -1,3 +1,11 @@
-bmslogin:
-  username: 蓝明勇
-  password: Yz123456
+test1:
+  method: post
+  url: /loginByMobile.do
+  data: {}
+  headers:
+  - {}
+
+
+
+
+

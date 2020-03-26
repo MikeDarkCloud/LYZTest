@@ -1,6 +1,11 @@
-bmslogin:
-  - username: 蓝明勇
-    password: Yz123456
-bmslogin1:
-  - username: 蓝明勇1
-    password: Yz1234561
+- test1:
+    method: post1
+    url: /loginByMobile.do
+    data: {}
+    headers:
+
+- test2:
+    method: post2
+    url: /loginByMobile.do
+    data: {}
+    headers:

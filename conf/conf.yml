@@ -8,6 +8,9 @@ send:
   sender: lanmingyong@126.com
   pwd: mike5788973
 
+#是否随机
+isRandom: 0
+
 #目标邮箱
 receiver: 975922642@qq.com
 

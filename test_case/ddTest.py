@@ -1,6 +1,7 @@
-from public.myunit import *
+from common.myunit import *
 import ddt
-from public.base import *
+
+
 @ddt
 class ddTest(StartEnd):
 

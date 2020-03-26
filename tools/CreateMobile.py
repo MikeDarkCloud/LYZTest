@@ -1,5 +1,5 @@
 import random
-from public.ConnectMysql import *
+from tools.ConnectMysql import *
 '''生成随机号码'''
 def get_mobile():
     prelist = ["130", "131", "132", "133", "134", "135", "136", "137", "138", "139", "147", "150", "151", "152", "153",

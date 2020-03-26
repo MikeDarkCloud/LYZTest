@@ -1,5 +1,5 @@
 import requests
-from public.Log import *
+from common.Log import *
 class YzApi:
     def __init__(self, url=None, data=None, headers=None):
         self.r = requests.session()

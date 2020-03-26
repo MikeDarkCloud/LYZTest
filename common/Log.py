@@ -1,5 +1,5 @@
-import logging, time, os
-from public.Config import *
+import logging, time
+from common.conf import *
 class Log:
     def __init__(self):
         # 文件的命名

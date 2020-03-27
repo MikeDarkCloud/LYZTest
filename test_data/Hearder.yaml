@@ -1,8 +1,17 @@
 hearder:
-  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
-  Accept-Encoding: gzip, deflate
-  Accept-Language: zh-CN,zh;q=0.9
-  Connection: keep-alive
-  Host: new.yzou.cn
-  Upgrade-Insecure-Requests: 1
-  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36
+    Accept: application/json, text/javascript, */*; q=0.01
+    Accept-Encoding: gzip, deflate
+    Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+    Connection: keep-alive
+    Content-Length: 336
+    Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+    Host: bms.yzwill.cn
+    Origin: http://bms.yzwill.cn
+    Referer: http://bms.yzwill.cn/recruit/toStudentList.do
+    sendTime: 1585283711455
+    title: '%E5%85%A8%E9%83%A8%E5%AD%A6%E5%91%98%E4%BF%A1%E6%81%AF'
+    transferId: 5b7e394da2574618a0c3be1543e72fd2
+    transferSeq: 1
+    uri: http://bms.yzwill.cn/recruit/toStudentList.do
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+    X-Requested-With: XMLHttpRequest

@@ -11,32 +11,27 @@ class Config:
         self.path2 = os.path.dirname(os.path.abspath('.'))
         # self.path2 = os.path.abspath(os.path.dirname(pwd) + os.path.sep + ".")
         # self.f = self.path2 + "\\config\\application.yaml"
-        self.f = self.path2 + "\\test_data\\regiester.yaml"
-        self.h = self.path2 + "\\test_data\\Hearder.yaml"
+        self.f = self.path1 + "\\test_data\\regiester.yaml"
+        self.h = self.path1 + "\\test_data\\Hearder.yaml"
 
     '''写入yaml文件'''
-    def Wyaml(self,args):
+    def Wyaml(self,content):
         with open(self.f,'w',encoding='utf-8') as f:
-            yaml.dump(args,f)
+            yaml.dump(content,f)
 
-    '''取的hearder'''
-    def Hyaml(self):
-        with open(self.h,'r',encoding='utf-8') as f:
-            return yaml.load(f,Loader=yaml.FullLoader).get('hearder')
     '''读取yaml文件'''
     def Ryaml(self):
         with open(self.f,'r',encoding='utf-8') as f:
-            return yaml.load(f,Loader=yaml.FullLoader)
+            return yaml.load(f)
+    def Hyaml(self):
+        with open(self.h,'r',encoding='utf-8') as f:
+            return yaml.load(f)
 
-    def Upyaml(self,k,v):
-        with open(self.f,'w',encoding="utf-8") as f:
-            content = yaml.load(f,Loader=yaml.FullLoader)
-            # r = content[k[0]]
-            for i in k:
-                content = content[k[i]]
-            yaml.dump(content,f)
 
 
 if __name__ == '__main__':
     i= Config()
-    i.Upyaml(['regiester','test1','data','mobile'],155555555)
+    print(i.Ryaml())
+    # t=i.Ryaml()
+    # t['Student0']['mobile']['ta_name']=999888
+    # i.Wyaml  (t)

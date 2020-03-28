@@ -1,14 +1,20 @@
 import requests
 from common.Log import *
-class YzApi:
-    def __init__(self, url=None, data=None, headers=None):
+class YzApi():
+    def __init__(self):
+        y = Config()
         self.r = requests.session()
         self.log = Log()
+        self.url='http://bms.yzwill.cn/loginByMobile.do'
+        self.data = {'isOpenImage': '','mobile': 13560148201,'ImgValidCode': '','validCode': 888888}
+        self.header = y.Hyaml()['hearder']
+
         try:
-            if url != None:
-                self.r.post(url, data, headers)
+            if self.url != None:
+                r = self.r.post(url=self.url, data=self.data,headers =self.header)
+                print(r.text)
         except   Exception as e:
-            self.log.info(url + ":请求登录失败:" + e)
+            self.log.info(self.url + ":请求登录失败:" + str(e))
             # print(loginurl + ":请求登录失败:" + e)
 
     def lapi(self, method, urls, data=None, headers=None):
@@ -18,8 +24,8 @@ class YzApi:
                 r.encoding = 'utf-8'
                 return r
             except Exception as e:
-                self.log.info(urls + ":请求失败:" + e)
-                # print(urls + ":请求失败:" + e)
+                # self.log.info(urls + ":请求失败:" + str(e))
+                print(urls + ":请求失败:" + str(e))
 
         if method == "get" or method == "GET":
             try:
@@ -27,7 +33,7 @@ class YzApi:
                 r.encoding = 'utf-8'
                 return r
             except Exception as e:
-                self.log.info(urls + ":请求失败:" + e)
+                self.log.info(urls + ":请求失败:" + str(e))
                 # print(urls + ":请求失败:" + e)
 
 

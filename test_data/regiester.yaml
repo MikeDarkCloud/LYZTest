@@ -1,170 +1,113 @@
+#学员注册接口
+method: post
+urls: http://bms.yzwill.cn/recruit/recruitAdd.do
+hearder:
+  Accept: application/json, text/javascript, */*; q=0.01
+  Accept-Encoding: gzip, deflate
+  Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+  Connection: keep-alive
+  Content-Length: '8418'
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7AB2FZ2a4Mf4flUx
+  Host: bms.yzwill.cn
+  Origin: http://bms.yzwill.cn
+  Referer: http://bms.yzwill.cn/recruit/toRecruitAdd.do?recruitType=1
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+    Gecko) Chrome/73.0.3683.86 Safari/537.36
+  X-Requested-With: XMLHttpRequest
+  sendTime: '1585529418689'
+  title: '%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF'
+  transferId: 21e84e771d3549aa85f90b5300186cd0
+  transferSeq: '1'
+  uri: http://bms.yzwill.cn/recruit/toRecruitAdd.do?recruitType=1
+
 data:
-  address: "\u730E\u5FB7\u51BC\u67511\u53F7"
-  adminssionTime: '2016-03-01'
-  birthday: '2000-03-28'
-  bpType: 1
-  diploma: 888888
-  edcsSystem: 3
-  edcsType: 1
+  address: ''
+  adminssionTime: ''
+  birthday: '1990-03-07'
+  bpType: '3'
+  diploma: ''
+  edcsSystem: ''
+  edcsType: ''
   email: ''
   emergencyContact: ''
-  enrollType: 1
+  enrollType: '1'
   enrollUnvsName: ''
-  feeId: 157067833689758832
-  feeList:
-  - amount: '199.00'
-    discount: '0.00'
-    discountType: null
-    fdId: null
-    feeId: null
-    itemCode: Y0
-    itemName: "\u8003\u524D\u8F85\u5BFC\u8D3911"
-    itemSeq: null
-    itemType: '1'
-    itemYear: '0'
-    odId: null
-    orderNum: '1'
-    payable: '199.00'
-  - amount: '1000.00'
-    discount: '0.00'
-    discountType: null
-    fdId: null
-    feeId: null
-    itemCode: Y1
-    itemName: "\u4EE3\u6536\u7B2C\u4E00\u5E74\u5B66\u8D39"
-    itemSeq: null
-    itemType: '2'
-    itemYear: '1'
-    odId: null
-    orderNum: '2'
-    payable: '1000.00'
-  - amount: '400.00'
-    discount: '0.00'
-    discountType: null
-    fdId: null
-    feeId: null
-    itemCode: S1
-    itemName: "\u4EE3\u6536\u7B2C\u4E00\u5E74\u4E66\u8D39"
-    itemSeq: null
-    itemType: '4'
-    itemYear: '1'
-    odId: null
-    orderNum: '3'
-    payable: '400.00'
-  - amount: '1000.00'
-    discount: '0.00'
-    discountType: null
-    fdId: null
-    feeId: null
-    itemCode: Y2
-    itemName: "\u4EE3\u6536\u7B2C\u4E8C\u5E74\u5B66\u8D39"
-    itemSeq: null
-    itemType: '2'
-    itemYear: '2'
-    odId: null
-    orderNum: '5'
-    payable: '1000.00'
-  - amount: '400.00'
-    discount: '0.00'
-    discountType: null
-    fdId: null
-    feeId: null
-    itemCode: S2
-    itemName: "\u4EE3\u6536\u7B2C\u4E8C\u5E74\u4E66\u8D39"
-    itemSeq: null
-    itemType: '4'
-    itemYear: '2'
-    odId: null
-    orderNum: '6'
-    payable: '400.00'
-  - amount: '1000.00'
-    discount: '0.00'
-    discountType: null
-    fdId: null
-    feeId: null
-    itemCode: Y3
-    itemName: "\u4EE3\u6536\u7B2C\u4E09\u5E74\u5B66\u8D39"
-    itemSeq: null
-    itemType: '2'
-    itemYear: '3'
-    odId: null
-    orderNum: '8'
-    payable: '1000.00'
-  - amount: '200.00'
-    discount: '0.00'
-    discountType: null
-    fdId: null
-    feeId: null
-    itemCode: S3
-    itemName: "\u4EE3\u6536\u7B2C\u4E09\u5E74\u4E66\u8D39"
-    itemSeq: null
-    itemType: '4'
-    itemYear: '3'
-    odId: null
-    orderNum: '9'
-    payable: '200.00'
-  - amount: '0.00'
-    discount: '0.00'
-    discountType: null
-    fdId: null
-    feeId: null
-    itemCode: YS
-    itemName: "\u4EE3\u6536\u827A\u672F\u52A0\u8003\u8D39"
-    itemSeq: null
-    itemType: '3'
-    itemYear: ''
-    odId: null
-    orderNum: '100'
-    payable: '0.00'
-  grade: 2021
-  graduateTime: '2018-03-01'
+  feeId: '157067833689758832'
+  feeList: "[{\"itemCode\":\"Y0\",\"itemName\":\"\u8003\u524D\u8F85\u5BFC\u8D3911\"\
+    ,\"amount\":\"199.00\",\"discount\":\"0.00\",\"fdId\":null,\"odId\":null,\"payable\"\
+    :\"199.00\",\"discountType\":null,\"orderNum\":\"1\",\"itemYear\":\"0\",\"itemType\"\
+    :\"1\",\"feeId\":null,\"itemSeq\":null},{\"itemCode\":\"Y1\",\"itemName\":\"\u4EE3\
+    \u6536\u7B2C\u4E00\u5E74\u5B66\u8D39\",\"amount\":\"1000.00\",\"discount\":\"\
+    0.00\",\"fdId\":null,\"odId\":null,\"payable\":\"1000.00\",\"discountType\":null,\"\
+    orderNum\":\"2\",\"itemYear\":\"1\",\"itemType\":\"2\",\"feeId\":null,\"itemSeq\"\
+    :null},{\"itemCode\":\"S1\",\"itemName\":\"\u4EE3\u6536\u7B2C\u4E00\u5E74\u4E66\
+    \u8D39\",\"amount\":\"400.00\",\"discount\":\"0.00\",\"fdId\":null,\"odId\":null,\"\
+    payable\":\"400.00\",\"discountType\":null,\"orderNum\":\"3\",\"itemYear\":\"\
+    1\",\"itemType\":\"4\",\"feeId\":null,\"itemSeq\":null},{\"itemCode\":\"Y2\",\"\
+    itemName\":\"\u4EE3\u6536\u7B2C\u4E8C\u5E74\u5B66\u8D39\",\"amount\":\"1000.00\"\
+    ,\"discount\":\"0.00\",\"fdId\":null,\"odId\":null,\"payable\":\"1000.00\",\"\
+    discountType\":null,\"orderNum\":\"5\",\"itemYear\":\"2\",\"itemType\":\"2\",\"\
+    feeId\":null,\"itemSeq\":null},{\"itemCode\":\"S2\",\"itemName\":\"\u4EE3\u6536\
+    \u7B2C\u4E8C\u5E74\u4E66\u8D39\",\"amount\":\"400.00\",\"discount\":\"0.00\",\"\
+    fdId\":null,\"odId\":null,\"payable\":\"400.00\",\"discountType\":null,\"orderNum\"\
+    :\"6\",\"itemYear\":\"2\",\"itemType\":\"4\",\"feeId\":null,\"itemSeq\":null},{\"\
+    itemCode\":\"Y3\",\"itemName\":\"\u4EE3\u6536\u7B2C\u4E09\u5E74\u5B66\u8D39\"\
+    ,\"amount\":\"1000.00\",\"discount\":\"0.00\",\"fdId\":null,\"odId\":null,\"payable\"\
+    :\"1000.00\",\"discountType\":null,\"orderNum\":\"8\",\"itemYear\":\"3\",\"itemType\"\
+    :\"2\",\"feeId\":null,\"itemSeq\":null},{\"itemCode\":\"S3\",\"itemName\":\"\u4EE3\
+    \u6536\u7B2C\u4E09\u5E74\u4E66\u8D39\",\"amount\":\"200.00\",\"discount\":\"0.00\"\
+    ,\"fdId\":null,\"odId\":null,\"payable\":\"200.00\",\"discountType\":null,\"orderNum\"\
+    :\"9\",\"itemYear\":\"3\",\"itemType\":\"4\",\"feeId\":null,\"itemSeq\":null},{\"\
+    itemCode\":\"YS\",\"itemName\":\"\u4EE3\u6536\u827A\u672F\u52A0\u8003\u8D39\"\
+    ,\"amount\":\"0.00\",\"discount\":\"0.00\",\"fdId\":null,\"odId\":null,\"payable\"\
+    :\"0.00\",\"discountType\":null,\"orderNum\":\"100\",\"itemYear\":\"\",\"itemType\"\
+    :\"3\",\"feeId\":null,\"itemSeq\":null}]"
+  grade: '2021'
+  graduateTime: ''
   headPic: ''
   headPortrait: ''
-  idCard: '15879970806'
-  idType: 1
-  isOpenUnvs: 0
+  idCard: '533100197811282173'
+  idType: '1'
   isPhotoChange: ''
   jobTitle: ''
-  jobType: 11
+  jobType: ''
   maritalStatus: ''
   materialCode: ''
-  mobile: 13563148201
-  nation: 1
-  nowCityCode: 1601
-  nowCityName: "\u5E7F\u5DDE\u5E02"
-  nowDistrictCode: 3633
-  nowDistrictName: "\u5929\u6CB3\u533A"
-  nowProvinceCode: 19
-  nowProvinceName: "\u5E7F\u4E1C\u7701"
+  mobile: '15938978956'
+  nation: ''
+  nowCityCode: ''
+  nowCityName: ''
+  nowDistrictName: ''
+  nowProvinceCode: ''
+  nowProvinceName: ''
   nowStreetName: ''
   offerId: ''
-  oldCityCode: 110100
-  oldDistrictCode: 110101
+  oldCityCode: ''
   oldEducationName: ''
   oldEducationNum: ''
-  oldProvinceCode: 110000
+  oldProvinceCode: ''
   pfsnCode: ''
-  pfsnId: 157067827435885468
-  pfsnLevel: 5
+  pfsnId: '157067827435885468'
+  pfsnLevel: '5'
   pfsnName: ''
-  points: 0
-  politicalStatus: 1
-  profession: "\u793E\u4F1A\u793E\u4F1A"
+  points: '20'
+  politicalStatus: ''
+  profession: ''
   qq: ''
-  recruitType: 1
+  recruitType: '1'
   remark: ''
-  rprAddressCode: 440101
-  rprType: 1
-  scholarship: 69
+  rprAddressCode: '440101'
+  rprType: ''
+  scholarship: '69'
   secUnvsId: ''
-  sex: 2
+  sex: '1'
   stdId: ''
-  stdName: "\u5BF9\u5BF9\u5BF9"
-  taId: 161
+  stdName: ATUOTEST
+  taId: '161'
   taName: ''
   telephone: ''
-  unvsId: 1
-  unvsName: "\u793E\u4F1A\u5C0F\u5B66"
+  unvsId: '1'
+  unvsName: ''
   wechat: ''
   workPlace: ''
   wpAddress: ''
@@ -172,4 +115,4 @@ data:
   wpProvinceCode: ''
   wpTelephone: ''
   wpTime: ''
-  zipCode: 616450
+  zipCode: '310000'

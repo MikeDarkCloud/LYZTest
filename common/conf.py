@@ -13,6 +13,8 @@ class Config:
         # self.f = self.path2 + "\\config\\application.yaml"
         self.f = self.path1 + "\\test_data\\regiester.yaml"
         self.h = self.path1 + "\\test_data\\Hearder.yaml"
+        self.l = self.path1 + "\\test_data\\Logining.yaml"
+        self.app = self.path1 + "\\config\\application.yaml"
 
     '''写入yaml文件'''
     def Wyaml(self,content):
@@ -23,12 +25,20 @@ class Config:
     def Ryaml(self):
         with open(self.f,'r',encoding='utf-8') as f:
             return yaml.load(f)
+
     def Hyaml(self):
         with open(self.h,'r',encoding='utf-8') as f:
             return yaml.load(f)
 
+    def Lyaml(self):
+        with open(self.l,'r',encoding='utf-8') as f:
+            return yaml.load(f)
 
-
+    def path_log(self):
+        with open(self.app,'r',encoding='utf-8') as f:
+            p2=yaml.load(f)['path_log']
+            path = os.path.join(self.path2, p2)
+            return path
 if __name__ == '__main__':
     i= Config()
     print(i.Ryaml())

@@ -9,7 +9,7 @@ class Log:
         self.formatter = logging.Formatter('[%(asctime)s] - %(filename)s] - %(levelname)s: %(message)s')
     def __console(self,level, message):
         # 创建一个FileHandler，用于写到本地
-        self.logname = os.path.join(Config().path_log(), '%s.log'%time.strftime('%Y_%m_%d'))
+        self.logname = os.path.join(Config().path_log(), '%s.log'%time.strftime('LYZTest%Y_%m_%d'))
         fh = logging.FileHandler(self.logname, 'a', encoding='utf-8')  # 这个是python3的追加模式
 
         fh.setLevel(logging.DEBUG)

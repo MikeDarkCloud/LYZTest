@@ -6,9 +6,10 @@ import ddt
 class ddTest(StartEnd):
 
     # @unittest.skip('skip this  case')
-    @ddt.file_data('TestYaml/testdata.yaml')
+    # @ddt.file_data('TestYaml/testdata.yaml')
     def test_case(self,**kwargs):
         '''testing'''
+        # print(StartEnd().r)
         k = kwargs.get("bmslogin")
 
         # response = YzApi().lapi(k)

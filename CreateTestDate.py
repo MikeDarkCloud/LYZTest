@@ -1,24 +1,20 @@
+from requests_toolbelt import MultipartEncoder
 from common.base import *
-from common.conf import *
-from tools.CreateIdentity import *
-from tools.CreateMobile import *
 class createTestdate():
     '''生成测试数据'''
     def createRegiesterTestdate(self):
-
-        id_card = create_identity(int(area_dict1), 22, 1)
-        mobile = get_mobile()
+        r = YzApi()
         y = Config()
         t = y.Ryaml()
-        t['data']['idCard'] = id_card
-        t['data']['idCard'] = mobile
-        y.Wyaml(t)
-        h=y.Hyaml()
-        print(h['hearder'])
-        r = YzApi()
-        print(t['data'])
-        qq=r.lapi(method= 'post',urls='http://bms.yzwill.cn/recruit/recruitAdd.do',data=t['data'],headers=h['hearder'])
+        t['data']['idCard'] = r.getBaseinfo('idCard')
+        t['data']['mobile'] = r.getBaseinfo('mobile')
+        m = MultipartEncoder(fields=t['data'])
+        t['hearder']['Content-Type'] = m.content_type
+        qq=r.lapi(method= t['method'],urls=t['urls'],data=m,headers=t['hearder'])
         print(qq.text)
 if __name__ == '__main__':
     q=createTestdate()
-    r = q.createRegiesterTestdate()
+    i = 1
+    while(i > 0 ):
+      r = q.createRegiesterTestdate()
+      i=i-1

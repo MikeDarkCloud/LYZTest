@@ -9,6 +9,7 @@ class RegiesterTest(StartEnd):
 
     # @unittest.skip('skip this  case')
     # @ddt.file_data([{'ww':1},{'ee':2}])
+
     @ddt.data([{'ww':1},{'ee':2}])
     def test_regiester_case(self,**kwargs):
         '''testing test_regiester_case'''

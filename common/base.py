@@ -6,21 +6,15 @@ from tools.CreateMobile import *
 
 class YzApi():
     def __init__(self):
-        y = Config()
+        self.y = Config().Rallyaml('Logining')
         self.r = requests.session()
         self.log = Log()
-        self.IDurl = y.Lyaml()['IDurl']
-        self.MOurl = y.Lyaml()['MOurl']
-        self.url = y.Lyaml()['urls']
-        self.data = y.Lyaml()['data']
-        self.header = y.Hyaml()['hearder']
-
         try:
-            if self.url != None:
-                r = self.r.post(url=self.url, data=self.data, headers=self.header)
-                self.log.info('loging success!')
+            if self.y['urls'] != None:
+                self.r.post(url=self.y['urls'], data=self.y['data'], headers=self.y['hearder'])
+                self.log.info('logining success!')
         except Exception as e:
-            self.log.info(self.url + ":请求登录失败:" + str(e))
+            self.log.info(self.y['urls'] + ":请求登录失败:" + str(e))
 
     def lapi(self, method, urls, data=None, headers=None):
         if method == "post" or method == "POST":
@@ -44,12 +38,12 @@ class YzApi():
             i = True
             while (i):
                 if type == 'idCard':
-                    url = self.IDurl
+                    url = self.y['IDurl']
                     data = {'stdName': '', 'idCard': create_identity(int(area_dict1), 22, 1), 'idType': 1, 'recruitType': 1}
                 if type == 'mobile':
-                    url = self.MOurl
+                    url = self.y['MOurl']
                     data = {'mobile': get_mobile()}
-                r = self.r.post(url=url, data=data, headers=self.header)
+                r = self.r.post(url=url, data=data, headers=self.y['hearder'])
                 r.encoding = 'utf-8'
                 if 'true' in r.text:
                     i = False

@@ -6,6 +6,8 @@ def regx(context,patt):
 
 
 
+
+
 text ="var appidString='wx4acabbb70612e297';var redirectUriString='http://bms.yzwill.cn';var hrefString='https://static.yzou.cn/css/wxLogin.css';"
 patt = r"appidString='(.+?)';"
 print(regx(text,patt))

@@ -9,3 +9,97 @@
 [2020-03-31 14:31:07,624] - Log.py] - INFO: loging success!
 [2020-03-31 14:34:17,994] - Log.py] - INFO: loging success!
 [2020-03-31 14:36:03,523] - Log.py] - INFO: loging success!
+[2020-03-31 15:52:22,305] - Log.py] - INFO: http://bms.yzwill.cn/loginByMobile.do:请求登录失败:Value for header {Content-Length: 62} must be of type str or bytes, not <class 'int'>
+[2020-03-31 15:52:22,323] - Log.py] - INFO: :请求失败:Value for header {Content-Length: 62} must be of type str or bytes, not <class 'int'>
+[2020-03-31 15:52:22,326] - Log.py] - INFO: :请求失败:Value for header {Content-Length: 62} must be of type str or bytes, not <class 'int'>
+[2020-03-31 15:56:44,917] - Log.py] - INFO: http://bms.yzwill.cn/loginByMobile.do:请求登录失败:Value for header {Content-Length: 62} must be of type str or bytes, not <class 'int'>
+[2020-03-31 15:56:49,473] - Log.py] - INFO: :请求失败:Value for header {Content-Length: 62} must be of type str or bytes, not <class 'int'>
+[2020-03-31 15:56:49,476] - Log.py] - INFO: :请求失败:Value for header {Content-Length: 62} must be of type str or bytes, not <class 'int'>
+[2020-03-31 16:08:42,006] - Log.py] - INFO: http://bms.yzwill.cn/loginByMobile.do:请求登录失败:Value for header {Content-Length: 62} must be of type str or bytes, not <class 'int'>
+[2020-03-31 16:08:42,024] - Log.py] - INFO: :请求失败:'YzApi' object has no attribute 'header'
+[2020-03-31 16:08:42,025] - Log.py] - INFO: :请求失败:'YzApi' object has no attribute 'header'
+[2020-03-31 16:11:08,643] - Log.py] - INFO: http://bms.yzwill.cn/loginByMobile.do:请求登录失败:Value for header {Content-Length: 62} must be of type str or bytes, not <class 'int'>
+[2020-03-31 16:11:08,662] - Log.py] - INFO: :请求失败:'YzApi' object has no attribute 'header'
+[2020-03-31 16:11:08,663] - Log.py] - INFO: :请求失败:'YzApi' object has no attribute 'header'
+[2020-03-31 16:16:56,138] - Log.py] - INFO: http://bms.yzwill.cn/loginByMobile.do:请求登录失败:Value for header {Content-Length: 62} must be of type str or bytes, not <class 'int'>
+[2020-03-31 16:16:56,156] - Log.py] - INFO: :请求失败:'YzApi' object has no attribute 'header'
+[2020-03-31 16:16:56,158] - Log.py] - INFO: :请求失败:'YzApi' object has no attribute 'header'
+[2020-03-31 16:25:14,747] - Log.py] - INFO: http://bms.yzwill.cn/loginByMobile.do:请求登录失败:Value for header {Content-Length: 62} must be of type str or bytes, not <class 'int'>
+[2020-03-31 16:25:14,766] - Log.py] - INFO: :请求失败:'YzApi' object has no attribute 'header'
+[2020-03-31 16:25:14,768] - Log.py] - INFO: :请求失败:'YzApi' object has no attribute 'header'
+[2020-03-31 16:26:14,079] - Log.py] - INFO: http://bms.yzwill.cn/loginByMobile.do:请求登录失败:Value for header {Content-Length: 62} must be of type str or bytes, not <class 'int'>
+[2020-03-31 16:26:14,098] - Log.py] - INFO: :请求失败:'YzApi' object has no attribute 'header'
+[2020-03-31 16:26:14,100] - Log.py] - INFO: :请求失败:'YzApi' object has no attribute 'header'
+[2020-03-31 16:32:34,313] - Log.py] - INFO: loging success!
+[2020-03-31 16:32:34,334] - Log.py] - INFO: :请求失败:'YzApi' object has no attribute 'header'
+[2020-03-31 16:32:34,335] - Log.py] - INFO: :请求失败:'YzApi' object has no attribute 'header'
+[2020-03-31 16:33:51,301] - Log.py] - INFO: loging success!
+[2020-03-31 16:33:51,353] - Log.py] - INFO: :请求失败:'YzApi' object has no attribute 'header'
+[2020-03-31 16:33:51,355] - Log.py] - INFO: :请求失败:'YzApi' object has no attribute 'header'
+[2020-03-31 16:37:30,601] - Log.py] - INFO: loging success!
+[2020-03-31 17:18:56,663] - Log.py] - INFO: logining success!
+[2020-03-31 17:18:58,188] - Log.py] - INFO: logining success!
+[2020-03-31 17:18:58,750] - Log.py] - INFO: logining success!
+[2020-03-31 17:18:59,324] - Log.py] - INFO: logining success!
+[2020-03-31 17:18:59,916] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:00,470] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:01,013] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:01,559] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:02,119] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:02,591] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:03,131] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:03,674] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:04,118] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:04,592] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:05,064] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:05,511] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:06,013] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:06,459] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:06,928] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:07,352] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:07,810] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:08,249] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:08,650] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:09,115] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:09,565] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:09,988] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:10,435] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:10,857] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:11,304] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:11,718] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:12,170] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:12,603] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:13,088] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:13,526] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:13,927] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:14,333] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:14,757] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:15,226] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:15,660] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:16,110] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:16,512] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:17,005] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:17,484] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:17,902] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:18,388] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:18,839] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:19,263] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:19,733] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:20,184] - Log.py] - INFO: logining success!
+[2020-03-31 17:19:20,760] - Log.py] - INFO: logining success!
+[2020-03-31 17:20:12,563] - Log.py] - INFO: logining success!
+[2020-03-31 17:20:23,173] - Log.py] - INFO: logining success!
+[2020-03-31 17:49:04,114] - Log.py] - INFO: logining success!
+[2020-03-31 18:26:15,449] - Log.py] - INFO: logining success!
+[2020-03-31 18:27:11,157] - Log.py] - INFO: logining success!
+[2020-03-31 18:28:16,232] - Log.py] - INFO: logining success!
+[2020-03-31 18:30:26,920] - Log.py] - INFO: logining success!
+[2020-03-31 18:32:22,859] - Log.py] - INFO: logining success!
+[2020-03-31 18:34:45,731] - Log.py] - INFO: logining success!
+[2020-03-31 18:38:26,202] - Log.py] - INFO: logining success!
+[2020-03-31 18:40:03,768] - Log.py] - INFO: logining success!
+[2020-03-31 18:40:36,561] - Log.py] - INFO: logining success!
+[2020-03-31 18:43:15,152] - Log.py] - INFO: logining success!
+[2020-03-31 18:44:11,158] - Log.py] - INFO: logining success!
+[2020-03-31 18:45:10,893] - Log.py] - INFO: logining success!
+[2020-03-31 18:45:17,072] - Log.py] - INFO: logining success!

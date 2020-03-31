@@ -5,17 +5,19 @@ from common.conf import Config
 class TestCaseAssembly():
 
     def __init__(self):
-        self.y = Config().Ryaml()
+        # self.y = Config().Rallyaml('regiester')
+        pass
 
 
-    def getRegisterTestCaseData(self,r):
-        self.y['data']['idCard'] = r.getBaseinfo('idCard')
-        self.y['data']['mobile'] = r.getBaseinfo('mobile')
-        data = MultipartEncoder(fields=self.y['data'])
-        self.y['hearder']['Content-Type'] = data.content_type
-        headers = self.y['hearder']
-        method = self.y['method']
-        urls = self.y['urls']
+    def getRegisterTestCaseData(self,r,casefile):
+        y = Config().Rallyaml(casefile)
+        y['data']['idCard'] = r.getBaseinfo('idCard')
+        y['data']['mobile'] = r.getBaseinfo('mobile')
+        data = MultipartEncoder(fields=y['data'])
+        y['hearder']['Content-Type'] = data.content_type
+        headers = y['hearder']
+        method = y['method']
+        urls = y['urls']
         return method,headers,urls,data
 
     def getPay(self):

@@ -1,4 +1,4 @@
-#学员注册接口
+#学员注册接口模板
 method: post
 urls: http://bms.yzwill.cn/recruit/recruitAdd.do
 hearder:

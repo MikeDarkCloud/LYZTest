@@ -9,8 +9,9 @@ class Config:
     def __init__(self):
         self.path1 = os.getcwd()
         self.path2 = os.path.dirname(os.path.abspath('.'))
+        # self.filename=os.listdir(self.path2+"\\test_data")
         # self.path2 = os.path.abspath(os.path.dirname(pwd) + os.path.sep + ".")
-        # self.f = self.path2 + "\\config\\application.yaml"
+
         self.f = self.path1 + "\\test_data\\regiester.yaml"
         self.h = self.path1 + "\\test_data\\Hearder.yaml"
         self.l = self.path1 + "\\test_data\\Logining.yaml"
@@ -40,8 +41,5 @@ class Config:
             path = os.path.join(self.path2, p2)
             return path
 if __name__ == '__main__':
-    i= Config()
-    print(i.Ryaml())
-    # t=i.Ryaml()
-    # t['Student0']['mobile']['ta_name']=999888
-    # i.Wyaml  (t)
+    print(os.listdir(os.path.dirname(os.path.abspath('.')) + "\\test_data"))
+

@@ -7,28 +7,33 @@ from tools.CreateMobile import *
 class YzApi():
     def __init__(self):
         self.y = Config().Rallyaml('Logining')
-        self.r = requests.session()
+        self.w = Config()
         self.log = Log()
+
         try:
             if self.y['urls'] != None:
-                self.r.post(url=self.y['urls'], data=self.y['data'], headers=self.y['hearder'])
-                self.log.info('logining success!')
+                r=requests.session().post(url=self.y['urls'], data=self.y['data'], headers=self.y['hearders'])
+                self.y['Cookie'] = requests.utils.dict_from_cookiejar(r.cookies)
+                self.w.Wyaml(self.y,'Logining')
+                self.log.info('post'+' '+'logining success!')
         except Exception as e:
             self.log.info(self.y['urls'] + ":请求登录失败:" + str(e))
 
     def lapi(self, method, urls, data=None, headers=None):
         if method == "post" or method == "POST":
             try:
-                r = self.r.post(url=urls, data=data, headers=headers)
+                r = requests.post(url=urls, data=data, headers=headers,cookies = self.y['Cookie'])
                 r.encoding = 'utf-8'
+                self.log.info(method+' '+urls + ":请求发送成功！")
                 return r
             except Exception as e:
-                self.log.info(urls + ":请求失败:" + str(e))
+                self.log.info(method+' '+urls + ":请求失败:" + str(e))
 
         if method == "get" or method == "GET":
             try:
-                r = self.r.get(url=urls, params=data, headers=headers)
+                r = requests.get(url=urls, params=data, headers=headers,cookies = self.y['Cookie'])
                 r.encoding = 'utf-8'
+                self.log.info(method+' '+urls + ":请求发送成功！")
                 return r
             except Exception as e:
                 self.log.info(urls + ":请求失败:" + str(e))
@@ -43,9 +48,9 @@ class YzApi():
                 if type == 'mobile':
                     url = self.y['MOurl']
                     data = {'mobile': get_mobile()}
-                r = self.r.post(url=url, data=data, headers=self.y['hearder'])
+                r = requests.post(url=url, data=data, headers=self.y['hearders'],cookies = self.y['Cookie'])
                 r.encoding = 'utf-8'
-                if 'true' in r.text:
+                if 'true' in r.text or 'E000034' in r.text:
                     i = False
             return data[type]
         except Exception as e:
@@ -56,3 +61,6 @@ if __name__ == '__main__':
     '''调试'''
     t = YzApi()
     t.log.info('aaaaaaaaaaaaaa')
+    #self.w = Config().Rallyaml('Logining')
+    # cookies = self.y['Cookie']
+    #

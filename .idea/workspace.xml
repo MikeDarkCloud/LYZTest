@@ -2,16 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5bf0887-d6be-4162-8a08-b246a94f5d68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test_data/Gkregiester.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/YBase64.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_data/StudentInfo.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_data/getGkOpenEnrollCityInfo.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_data/getOpenPfsnByTaId.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_data/getOpenTestAreaByCity.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_data/sPfsnByOnScholarship.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_data/sTaNotStop.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_data/sUnvs.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_data/showFeeList.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CreateTestDate.py" beforeDir="false" afterPath="$PROJECT_DIR$/CreateTestDate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/conf.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/TestCaseAssembly.py" beforeDir="false" afterPath="$PROJECT_DIR$/public/TestCaseAssembly.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/TestCaseAssert.py" beforeDir="false" afterPath="$PROJECT_DIR$/public/TestCaseAssert.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestLog/LYZTest2020_03_31.log" beforeDir="false" afterPath="$PROJECT_DIR$/report/TestLog/LYZTest2020_03_31.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/Gkregiester.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/test_data/Gkregiester.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/Hearder.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/test_data/Hearder.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_data/Logining.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/test_data/Logining.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/regiester.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/test_data/regiester.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tools/Regular.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/Regular.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,29 +42,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1972" />
-          <entry key="yaml" value="824" />
+          <entry key="py" value="3686" />
+          <entry key="yaml" value="1285" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1972" />
-          <entry key="YAML" value="824" />
+          <entry key="Python" value="3686" />
+          <entry key="YAML" value="1285" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="log" value="4" />
-          <entry key="py" value="44" />
-          <entry key="yaml" value="15" />
+          <entry key="getGkOpenEnrollCityInfo" value="1" />
+          <entry key="log" value="6" />
+          <entry key="py" value="58" />
+          <entry key="yaml" value="49" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Log" value="4" />
-          <entry key="Python" value="44" />
-          <entry key="YAML" value="16" />
+          <entry key="Log" value="6" />
+          <entry key="Python" value="58" />
+          <entry key="YAML" value="51" />
         </counts>
       </usages-collector>
     </session>
@@ -65,44 +73,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/TestCaseAssert.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <marker date="1585648143440" expanded="true" signature="80:81" ph="..." />
-                <marker date="1585648143440" expanded="true" signature="80:85" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_data/Hearder.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="161">
+              <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tools/Regular.py">
+        <entry file="file://$PROJECT_DIR$/test_data/Logining.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="9" column="8" selection-start-line="9" selection-end-line="9" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_data/StudentInfo.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_data/sUnvs.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <marker date="1585648143383" expanded="true" signature="116:120" ph="..." />
-              </folding>
+              <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test1.py">
+        <entry file="file://$PROJECT_DIR$/test_data/Gkregiester.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="15" />
+            <state relative-caret-position="1956">
+              <caret line="135" column="16" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -111,57 +130,41 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestMain.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_data/Gkregiester.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_data/regiester.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/TestCaseAssembly.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="-2392">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="40" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
-                <marker date="1585650374595" expanded="true" signature="130:139" ph="..." />
+                <marker date="1585824821288" expanded="true" signature="191:200" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CreateTestDate.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_data/getOpenTestAreaByCity.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-                <marker date="1585650624047" expanded="true" signature="163:193" ph="..." />
-              </folding>
+            <state relative-caret-position="115">
+              <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_data/getOpenPfsnByTaId.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_data/getGkOpenEnrollCityInfo.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -174,6 +177,15 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Hearder</find>
+      <find>bms.yzwill.cn</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -197,29 +209,39 @@
         <option value="$PROJECT_DIR$/config/conf.yml" />
         <option value="$PROJECT_DIR$/testyaml.py" />
         <option value="$PROJECT_DIR$/test_data/testdata.yaml" />
-        <option value="$PROJECT_DIR$/test_data/Hearder.yaml" />
         <option value="$PROJECT_DIR$/tools/CreateMobile.py" />
         <option value="$PROJECT_DIR$/common/Log.py" />
         <option value="$PROJECT_DIR$/config/application.yaml" />
         <option value="$PROJECT_DIR$/common/myunit.py" />
         <option value="$PROJECT_DIR$/test_case/TestingRegiester.py" />
         <option value="$PROJECT_DIR$/test_case/ddTest.py" />
-        <option value="$PROJECT_DIR$/test_data/regiester.yaml" />
-        <option value="$PROJECT_DIR$/test_data/Logining.yaml" />
         <option value="$PROJECT_DIR$/common/conf.py" />
-        <option value="$PROJECT_DIR$/common/base.py" />
         <option value="$PROJECT_DIR$/tools/YBase64.py" />
+        <option value="$PROJECT_DIR$/test_data/getschool.yaml" />
+        <option value="$PROJECT_DIR$/test_data/getPfsn.yaml" />
+        <option value="$PROJECT_DIR$/test_data/Logining.yaml" />
+        <option value="$PROJECT_DIR$/common/base.py" />
         <option value="$PROJECT_DIR$/tools/Regular.py" />
         <option value="$PROJECT_DIR$/public/TestCaseAssert.py" />
-        <option value="$PROJECT_DIR$/public/TestCaseAssembly.py" />
-        <option value="$PROJECT_DIR$/CreateTestDate.py" />
+        <option value="$PROJECT_DIR$/test_data/StudentInfo.yaml" />
         <option value="$PROJECT_DIR$/test_data/Gkregiester.yaml" />
+        <option value="$PROJECT_DIR$/test_data/regiester.yaml" />
+        <option value="$PROJECT_DIR$/CreateTestDate.py" />
+        <option value="$PROJECT_DIR$/test_data/Hearder.yaml" />
+        <option value="$PROJECT_DIR$/public/TestCaseAssembly.py" />
+        <option value="$PROJECT_DIR$/test_data/showFeeList.yaml" />
+        <option value="$PROJECT_DIR$/test_data/sPfsnByOnScholarship.yaml" />
+        <option value="$PROJECT_DIR$/test_data/sTaNotStop.yaml" />
+        <option value="$PROJECT_DIR$/test_data/sUnvs.yaml" />
+        <option value="$PROJECT_DIR$/test_data/getOpenTestAreaByCity.yaml" />
+        <option value="$PROJECT_DIR$/test_data/getOpenPfsnByTaId.yaml" />
+        <option value="$PROJECT_DIR$/test_data/getGkOpenEnrollCityInfo.yaml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="179" />
-    <option name="y" value="60" />
+    <option name="x" value="93" />
+    <option name="y" value="31" />
     <option name="width" value="1534" />
     <option name="height" value="894" />
   </component>
@@ -317,7 +339,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.CreateTestDate">
+  <component name="RunManager" selected="Python.testyaml">
     <configuration name="CreateTestDate" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LYZTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -360,7 +382,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="conf" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="TestCaseAssert" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LYZTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/public" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/public/TestCaseAssert.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="base" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LYZTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -372,7 +415,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/conf.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/base.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -381,48 +424,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for ddTest.Test.test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="testyaml" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LYZTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;ddTest.Test.test&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in ddTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="LYZTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_case/ddTest.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testyaml.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests in ddTest.py" />
-      <item itemvalue="Python tests.Unittests for ddTest.Test.test" />
       <item itemvalue="Python.Regular" />
       <item itemvalue="Python.CreateTestDate" />
-      <item itemvalue="Python.conf" />
+      <item itemvalue="Python.base" />
+      <item itemvalue="Python.TestCaseAssert" />
+      <item itemvalue="Python.testyaml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.testyaml" />
         <item itemvalue="Python.CreateTestDate" />
-        <item itemvalue="Python.conf" />
+        <item itemvalue="Python.TestCaseAssert" />
         <item itemvalue="Python.Regular" />
-        <item itemvalue="Python tests.Unittests in ddTest.py" />
-        <item itemvalue="Python tests.Unittests for ddTest.Test.test" />
+        <item itemvalue="Python.base" />
       </list>
     </recent_temporary>
   </component>
@@ -486,13 +522,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13962065" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13962065" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32986626" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49933156" visible="true" weight="0.34178612" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49933156" visible="true" weight="0.4950386" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42337376" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -583,14 +620,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/CreateTestDate.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="16" />
+          <url>file://$PROJECT_DIR$/common/base.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/public/TestCaseAssembly.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="17" />
+          <url>file://$PROJECT_DIR$/common/base.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -606,20 +643,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/requests/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/BSTestRunner.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://C:/Program Files/Python 3.5/Lib/unittest/main.py" />
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/ddt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1256">
-          <caret line="63" column="7" lean-forward="true" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/Python 3.5/Lib/unittest/suite.py" />
     <entry file="file://$PROJECT_DIR$/TestYaml/testdata.yaml" />
     <entry file="file://D:/Python 3.5/Lib/codecs.py" />
@@ -709,13 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/testdata.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="70" column="12" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/ResetEnvironment.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -751,13 +767,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/Logining.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="56" lean-forward="true" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/Log.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -768,32 +777,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-          <folding>
-            <element signature="e#42#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_case/TestingRegiester.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-69">
           <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="58" lean-forward="true" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -842,27 +831,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/Regular.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <marker date="1585648143383" expanded="true" signature="116:120" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/TestCaseAssert.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <marker date="1585648143440" expanded="true" signature="80:81" ph="..." />
-            <marker date="1585648143440" expanded="true" signature="80:85" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/Python 3.5/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
@@ -870,45 +838,180 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/TestCaseAssembly.py">
+    <entry file="file://$PROJECT_DIR$/report/TestLog/LYZTest2020_04_01.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="345">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/testdata.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="70" column="12" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/getGkOpenEnrollCityInfo">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Program Files/Python 3.5/Lib/site-packages/requests/sessions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <caret line="413" selection-start-line="413" selection-end-line="413" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/Regular.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
-            <element signature="e#0#46#0" expanded="true" />
-            <marker date="1585650374595" expanded="true" signature="130:139" ph="..." />
+            <marker date="1585814025739" expanded="true" signature="136:140" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/Hearder.yaml">
+    <entry file="file://$PROJECT_DIR$/common/conf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="107">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+          <folding>
+            <element signature="e#42#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/TestLog/LYZTest2020_04_02.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-7051">
+          <caret line="246" column="43" lean-forward="true" selection-start-line="246" selection-start-column="43" selection-end-line="246" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_data/regiester.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        <state relative-caret-position="253">
+          <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/Gkregiester.yaml">
+    <entry file="file://$PROJECT_DIR$/public/TestCaseAssert.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
-          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+          <folding>
+            <marker date="1585816745330" expanded="true" signature="80:81" ph="..." />
+            <marker date="1585816745330" expanded="true" signature="80:85" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CreateTestDate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="345">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
-            <marker date="1585650624047" expanded="true" signature="163:193" ph="..." />
+            <marker date="1585823442731" expanded="true" signature="188:218" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/showFeeList.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/sPfsnByOnScholarship.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/sTaNotStop.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/StudentInfo.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/sUnvs.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/Gkregiester.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1956">
+          <caret line="135" column="16" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/TestCaseAssembly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2392">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+            <marker date="1585824821288" expanded="true" signature="191:200" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/getOpenTestAreaByCity.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/getOpenPfsnByTaId.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/getGkOpenEnrollCityInfo.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/Hearder.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/Logining.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="9" column="8" selection-start-line="9" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>

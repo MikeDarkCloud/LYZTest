@@ -1,0 +1,10 @@
+#获取院校信息接口模板
+method: get
+urls: http://bms-3.yzwill.cn/baseinfo/sUnvs.do
+hearders: ''
+data:
+  page: 1
+  rows: 100
+  ext1: 1
+
+regx: '"unvsId":"(.+?)",'

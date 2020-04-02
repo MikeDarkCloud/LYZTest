@@ -9,7 +9,11 @@ class MyAssert():
 
 
     def assertchar(self,context,k):
-        if k in context:
-            return True
-        else:
-            return False
+        isTrue = True
+        for i in k:
+            if i not in context:
+                isTrue =isTrue and False
+        return isTrue
+
+if __name__ == '__main__':
+    print(MyAssert().assertchar('11223344',['11','225']))

@@ -1,0 +1,11 @@
+#获取院校信息接口模板
+method: post
+urls: http://bms-3.yzwill.cn/recruit/showFeeList.do
+hearders: ''
+data:
+  pfsnId: 157067827435885468
+  taId: 161
+  scholarship: 71
+  recruitType: 1
+
+regx: '"feeList":(.+?)},"msg"'

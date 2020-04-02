@@ -1,0 +1,13 @@
+#获取院校信息接口模板
+method: get
+urls: http://bms-3.yzwill.cn/baseinfo/sPfsnByOnScholarship.do
+hearders: ''
+data:
+  page: 1
+  rows: 200
+  sId: 1
+  ext1: 5
+  ext2: 2021
+
+
+regx: 'pfsnId":"(.+?)",'

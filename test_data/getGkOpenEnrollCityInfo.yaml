@@ -1,0 +1,11 @@
+#获取院校信息接口模板
+method: get
+urls: http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do
+hearders: ''
+data:
+  page: 1
+  rows: 100
+  ext1: 5
+  ext2: 202009
+
+regx: '"cityCode":"(.+?)"'

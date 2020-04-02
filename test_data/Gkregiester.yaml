@@ -1,15 +1,129 @@
-method: post
-urls: http://bms.yzwill.cn/recruit/recruitAdd.do
-hearder:
+data:
+  address: ''
+  adminssionTime: ''
+  birthday: '1990-10-07'
+  city: '440300'
+  diploma: ''
+  edcsSystem: ''
+  edcsType: ''
+  email: ''
+  emergencyContact: ''
+  enrollType: '1'
+  enrollUnvsName: "\u56FD\u5BB6\u5F00\u653E\u5927\u5B66"
+  feeId: '153836681959757626'
+  feeList: "[{\"itemCode\":\"Y1\",\"itemName\":\"\u4EE3\u6536\u7B2C\u4E00\u5E74\u5B66\
+    \u8D39\",\"amount\":\"1000.00\",\"discount\":\"0.00\",\"fdId\":null,\"odId\":null,\"\
+    payable\":\"1000.00\",\"discountType\":null,\"orderNum\":\"2\",\"itemYear\":\"\
+    1\",\"itemType\":\"2\",\"feeId\":null,\"itemSeq\":null},{\"itemCode\":\"S1\",\"\
+    itemName\":\"\u4EE3\u6536\u7B2C\u4E00\u5E74\u4E66\u8D39\",\"amount\":\"250.00\"\
+    ,\"discount\":\"0.00\",\"fdId\":null,\"odId\":null,\"payable\":\"250.00\",\"discountType\"\
+    :null,\"orderNum\":\"3\",\"itemYear\":\"1\",\"itemType\":\"4\",\"feeId\":null,\"\
+    itemSeq\":null},{\"itemCode\":\"W1\",\"itemName\":\"\u4EE3\u6536\u7B2C\u4E00\u5E74\
+    \u7F51\u7EDC\u8D39\",\"amount\":\"150.00\",\"discount\":\"0.00\",\"fdId\":null,\"\
+    odId\":null,\"payable\":\"150.00\",\"discountType\":null,\"orderNum\":\"4\",\"\
+    itemYear\":\"1\",\"itemType\":\"5\",\"feeId\":null,\"itemSeq\":null},{\"itemCode\"\
+    :\"Y2\",\"itemName\":\"\u4EE3\u6536\u7B2C\u4E8C\u5E74\u5B66\u8D39\",\"amount\"\
+    :\"1000.00\",\"discount\":\"0.00\",\"fdId\":null,\"odId\":null,\"payable\":\"\
+    1000.00\",\"discountType\":null,\"orderNum\":\"5\",\"itemYear\":\"2\",\"itemType\"\
+    :\"2\",\"feeId\":null,\"itemSeq\":null},{\"itemCode\":\"S2\",\"itemName\":\"\u4EE3\
+    \u6536\u7B2C\u4E8C\u5E74\u4E66\u8D39\",\"amount\":\"250.00\",\"discount\":\"0.00\"\
+    ,\"fdId\":null,\"odId\":null,\"payable\":\"250.00\",\"discountType\":null,\"orderNum\"\
+    :\"6\",\"itemYear\":\"2\",\"itemType\":\"4\",\"feeId\":null,\"itemSeq\":null},{\"\
+    itemCode\":\"W2\",\"itemName\":\"\u4EE3\u6536\u7B2C\u4E8C\u5E74\u7F51\u7EDC\u8D39\
+    \",\"amount\":\"150.00\",\"discount\":\"0.00\",\"fdId\":null,\"odId\":null,\"\
+    payable\":\"150.00\",\"discountType\":null,\"orderNum\":\"7\",\"itemYear\":\"\
+    2\",\"itemType\":\"5\",\"feeId\":null,\"itemSeq\":null},{\"itemCode\":\"Y3\",\"\
+    itemName\":\"\u4EE3\u6536\u7B2C\u4E09\u5E74\u5B66\u8D39\",\"amount\":\"1000.00\"\
+    ,\"discount\":\"0.00\",\"fdId\":null,\"odId\":null,\"payable\":\"1000.00\",\"\
+    discountType\":null,\"orderNum\":\"8\",\"itemYear\":\"3\",\"itemType\":\"2\",\"\
+    feeId\":null,\"itemSeq\":null},{\"itemCode\":\"S3\",\"itemName\":\"\u4EE3\u6536\
+    \u7B2C\u4E09\u5E74\u4E66\u8D39\",\"amount\":\"250.00\",\"discount\":\"0.00\",\"\
+    fdId\":null,\"odId\":null,\"payable\":\"250.00\",\"discountType\":null,\"orderNum\"\
+    :\"9\",\"itemYear\":\"3\",\"itemType\":\"4\",\"feeId\":null,\"itemSeq\":null},{\"\
+    itemCode\":\"W3\",\"itemName\":\"\u4EE3\u6536\u7B2C\u4E09\u5E74\u7F51\u7EDC\u8D39\
+    \",\"amount\":\"150.00\",\"discount\":\"0.00\",\"fdId\":null,\"odId\":null,\"\
+    payable\":\"150.00\",\"discountType\":null,\"orderNum\":\"10\",\"itemYear\":\"\
+    3\",\"itemType\":\"5\",\"feeId\":null,\"itemSeq\":null},{\"itemCode\":\"Y4\",\"\
+    itemName\":\"\u4EE3\u6536\u7B2C\u56DB\u5E74\u5B66\u8D39\",\"amount\":\"1000.00\"\
+    ,\"discount\":\"0.00\",\"fdId\":null,\"odId\":null,\"payable\":\"1000.00\",\"\
+    discountType\":null,\"orderNum\":\"11\",\"itemYear\":\"4\",\"itemType\":\"2\"\
+    ,\"feeId\":null,\"itemSeq\":null},{\"itemCode\":\"S4\",\"itemName\":\"\u4EE3\u6536\
+    \u7B2C\u56DB\u5E74\u4E66\u8D39\",\"amount\":\"250.00\",\"discount\":\"0.00\",\"\
+    fdId\":null,\"odId\":null,\"payable\":\"250.00\",\"discountType\":null,\"orderNum\"\
+    :\"12\",\"itemYear\":\"4\",\"itemType\":\"4\",\"feeId\":null,\"itemSeq\":null},{\"\
+    itemCode\":\"W4\",\"itemName\":\"\u4EE3\u6536\u7B2C\u56DB\u5E74\u7F51\u7EDC\u8D39\
+    \",\"amount\":\"150.00\",\"discount\":\"0.00\",\"fdId\":null,\"odId\":null,\"\
+    payable\":\"150.00\",\"discountType\":null,\"orderNum\":\"13\",\"itemYear\":\"\
+    4\",\"itemType\":\"5\",\"feeId\":null,\"itemSeq\":null},{\"itemCode\":\"YS\",\"\
+    itemName\":\"\u4EE3\u6536\u827A\u672F\u52A0\u8003\u8D39\",\"amount\":\"0.00\"\
+    ,\"discount\":\"0.00\",\"fdId\":null,\"odId\":null,\"payable\":\"0.00\",\"discountType\"\
+    :null,\"orderNum\":\"100\",\"itemYear\":\"\",\"itemType\":\"3\",\"feeId\":null,\"\
+    itemSeq\":null}]"
+  grade: '202009'
+  graduateTime: ''
+  headPic: ''
+  headPortrait: ''
+  idCard: '330103200105218215'
+  idType: '1'
+  isPhotoChange: ''
+  jobStatus: ''
+  jobTitle: ''
+  maritalStatus: ''
+  materialCode: ''
+  mobile: '15933773527'
+  nation: ''
+  nowCityCode: ''
+  nowCityName: "\u8BF7\u9009\u62E9"
+  nowDistrictName: ''
+  nowProvinceCode: ''
+  nowProvinceName: "\u8BF7\u9009\u62E9"
+  nowStreetName: ''
+  offerId: ''
+  oldCityCode: ''
+  oldEducationName: ''
+  oldEducationNum: ''
+  oldProvinceCode: ''
+  pfsnCode: '100102'
+  pfsnId: '153836539871974180'
+  pfsnLevel: '5'
+  pfsnName: "\u8F6F\u4EF6\u5F00\u53D1"
+  politicalStatus: ''
+  profession: ''
+  qq: ''
+  recruitType: '2'
+  remark: ''
+  rprCityCode: '350100'
+  rprDistrictCode: '350102'
+  rprProvinceCode: '350000'
+  rprType: ''
+  scholarship: '1'
+  secUnvsId: ''
+  sex: '1'
+  stdId: ''
+  stdName: AUTOTEST
+  taId: '182'
+  taName: "\u6DF1\u5733\u9F99\u534E"
+  telephone: ''
+  unvsId: '155347846321071782'
+  unvsName: ''
+  wechat: ''
+  workPlace: ''
+  wpAddress: ''
+  wpCityCode: ''
+  wpProvinceCode: ''
+  wpTelephone: ''
+  wpTime: ''
+  zipCode: '350000'
+hearders:
   Accept: application/json, text/javascript, */*; q=0.01
   Accept-Encoding: gzip, deflate
   Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
   Connection: keep-alive
   Content-Length: '8418'
-  Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7AB2FZ2a4Mf4flUx
+  Content-Type: multipart/form-data; boundary=268fd146d2d94a21a9842ee0c2dba2d0
   Host: bms.yzwill.cn
-  Origin: http://bms.yzwill.cn
-  Referer: http://bms.yzwill.cn/recruit/toRecruitAdd.do?recruitType=1
+  Origin: http://bms-3.yzwill.cn
+  Referer: http://bms-3.yzwill.cn/recruit/toRecruitAdd.do?recruitType=1
   User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
     Gecko) Chrome/73.0.3683.86 Safari/537.36
   X-Requested-With: XMLHttpRequest
@@ -17,77 +131,7 @@ hearder:
   title: '%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF'
   transferId: 21e84e771d3549aa85f90b5300186cd0
   transferSeq: '1'
-  uri: http://bms.yzwill.cn/recruit/toRecruitAdd.do?recruitType=1
-
-data:
-  stdId: ''
-  recruitType: '2'
-  nowProvinceName: '广东省'
-  nowCityName: '广州市'
-  nowDistrictName: '天河区'
-  nowStreetName: ''
-  stdName: 'ATUOTEST'
-  idType: '1'
-  idCard: '330102199003079611'
-  sex: '1'
-  birthday: '1990-03-07'
-  mobile: '15632587458'
-  nation: '01'
-  politicalStatus: '01'
-  rprType: '1'
-  rprProvinceCode: '440000'
-  rprCityCode: '440100'
-  rprDistrictCode: '440101'
-  nowProvinceCode: '19'
-  nowCityCode: '1601'
-  nowDistrictCode: '3633'
-  address: '猎德冼村1号'
-  jobStatus: '1'
-  wpTime: ''
-  wpProvinceCode: ''
-  wpCityCode: ''
-  wpAddress: ''
-  wpTelephone: ''
-  zipCode: '510000'
-  emergencyContact: '15684523365'
-  headPic: ''
-  headPortrait: ''
-  isPhotoChange: ''
-  telephone: ''
-  email: ''
-  qq: ''
-  wechat: ''
-  jobTitle: ''
-  workPlace: ''
-  maritalStatus: '1'
-  remark: ''
-  edcsType: '2'
-  unvsName: '社会小学'
-  oldProvinceCode: '110000'
-  oldCityCode: '110100'
-  oldDistrictCode: '110101'
-  adminssionTime: '2016-02-25'
-  graduateTime: '2018-03-30'
-  profession: '社会社会'
-  diploma: '8848'
-  edcsSystem: '3'
-  isOpenUnvs: '0'
-  oldEducationName: 'autotest'
-  oldEducationNum: '330102199003079611'
-  materialCode: ''
-  pfsnLevel: '5'
-  enrollType: '1'
-  grade: '202009'
-  city: '440100'
-  unvsId: '46'
-  taId: '164'
-  pfsnId: '158521226915363051'
-  secUnvsId: ''
-  scholarship: '1'
-  feeList: '[{"itemCode":"Y1","itemName":"代收第一年学费","amount":"1713.00","discount":"0.00","fdId":null,"odId":null,"payable":"1713.00","discountType":null,"orderNum":"2","itemYear":"1","itemType":"2","feeId":null,"itemSeq":null},{"itemCode":"S1","itemName":"代收第一年书费","amount":"250.00","discount":"0.00","fdId":null,"odId":null,"payable":"250.00","discountType":null,"orderNum":"3","itemYear":"1","itemType":"4","feeId":null,"itemSeq":null},{"itemCode":"W1","itemName":"代收第一年网络费","amount":"150.00","discount":"0.00","fdId":null,"odId":null,"payable":"150.00","discountType":null,"orderNum":"4","itemYear":"1","itemType":"5","feeId":null,"itemSeq":null},{"itemCode":"Y2","itemName":"代收第二年学费","amount":"1713.00","discount":"0.00","fdId":null,"odId":null,"payable":"1713.00","discountType":null,"orderNum":"5","itemYear":"2","itemType":"2","feeId":null,"itemSeq":null},{"itemCode":"S2","itemName":"代收第二年书费","amount":"250.00","discount":"0.00","fdId":null,"odId":null,"payable":"250.00","discountType":null,"orderNum":"6","itemYear":"2","itemType":"4","feeId":null,"itemSeq":null},{"itemCode":"W2","itemName":"代收第二年网络费","amount":"150.00","discount":"0.00","fdId":null,"odId":null,"payable":"150.00","discountType":null,"orderNum":"7","itemYear":"2","itemType":"5","feeId":null,"itemSeq":null},{"itemCode":"Y3","itemName":"代收第三年学费","amount":"1713.00","discount":"0.00","fdId":null,"odId":null,"payable":"1713.00","discountType":null,"orderNum":"8","itemYear":"3","itemType":"2","feeId":null,"itemSeq":null},{"itemCode":"S3","itemName":"代收第三年书费","amount":"250.00","discount":"0.00","fdId":null,"odId":null,"payable":"250.00","discountType":null,"orderNum":"9","itemYear":"3","itemType":"4","feeId":null,"itemSeq":null},{"itemCode":"W3","itemName":"代收第三年网络费","amount":"150.00","discount":"0.00","fdId":null,"odId":null,"payable":"150.00","discountType":null,"orderNum":"10","itemYear":"3","itemType":"5","feeId":null,"itemSeq":null},{"itemCode":"Y4","itemName":"代收第四年学费","amount":"1713.00","discount":"0.00","fdId":null,"odId":null,"payable":"1713.00","discountType":null,"orderNum":"11","itemYear":"4","itemType":"2","feeId":null,"itemSeq":null},{"itemCode":"S4","itemName":"代收第四年书费","amount":"250.00","discount":"0.00","fdId":null,"odId":null,"payable":"250.00","discountType":null,"orderNum":"12","itemYear":"4","itemType":"4","feeId":null,"itemSeq":null},{"itemCode":"W4","itemName":"代收第四年网络费","amount":"150.00","discount":"0.00","fdId":null,"odId":null,"payable":"150.00","discountType":null,"orderNum":"13","itemYear":"4","itemType":"5","feeId":null,"itemSeq":null},{"itemCode":"YS","itemName":"代收艺术加考费","amount":"0.00","discount":"0.00","fdId":null,"odId":null,"payable":"0.00","discountType":null,"orderNum":"100","itemYear":"","itemType":"3","feeId":null,"itemSeq":null}]'
-  feeId: '158521240130715253'
-  offerId: ''
-  enrollUnvsName: ''
-  pfsnName: ''
-  pfsnCode: ''
-  taName: ''
+  uri: http://bms-3.yzwill.cn/recruit/toRecruitAdd.do?recruitType=1
+method: post
+recruitType: '2'
+urls: http://bms-3.yzwill.cn/recruit/recruitAdd.do

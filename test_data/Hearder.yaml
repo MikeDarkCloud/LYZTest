@@ -1,4 +1,4 @@
-hearder:
+hearders:
     Accept: 'application/json, text/javascript, */*; q=0.01'
     Accept-Encoding: 'gzip, deflate'
     Accept-Language: 'zh-CN,zh;q=0.9,en;q=0.8'
@@ -6,12 +6,30 @@ hearder:
     Content-Length: '336'
     Content-Type: 'application/x-www-form-urlencoded; charset=UTF-8'
     Host: 'bms.yzwill.cn'
-    Origin: 'http://bms.yzwill.cn'
+    Origin: 'http://bms-3.yzwill.cn'
     Referer: 'http://bms.yzwill.cn/recruit/toStudentList.do'
     sendTime: '1585283711455'
     title: '%E5%85%A8%E9%83%A8%E5%AD%A6%E5%91%98%E4%BF%A1%E6%81%AF'
     transferId: '5b7e394da2574618a0c3be1543e72fd2'
     transferSeq: '1'
-    uri: 'http://bms.yzwill.cn/recruit/toStudentList.do'
+    uri: 'http://bms-3.yzwill.cn/recruit/toStudentList.do'
     User-Agent: 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
     X-Requested-With: 'XMLHttpRequest'
+
+
+Hearders0:
+    Host: bms-3.yzwill.cn
+    Connection: keep-alive
+    transferId: 7843ccf93e484415a493dcb8b70fe372
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+    uri: http://bms-3.yzwill.cn/recruit/toRecruitAdd.do?recruitType=1
+    title: '%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF'
+    Accept: application/json, text/javascript, */*; q=0.01
+    transferSeq: '1'
+    X-Requested-With: XMLHttpRequest
+    sendTime: '1585718935489'
+    Referer: http://bms-3.yzwill.cn/recruit/toRecruitAdd.do?recruitType=1
+    Accept-Encoding: gzip, deflate
+    Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+

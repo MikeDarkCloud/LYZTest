@@ -1,0 +1,68 @@
+[2020-04-01 08:17:34,954] - Log.py] - INFO: logining success!
+[2020-04-01 08:17:35,606] - Log.py] - INFO: :请求失败:invalid literal for int() with base 10: '-'
+[2020-04-01 08:20:02,690] - Log.py] - INFO: logining success!
+[2020-04-01 08:22:07,190] - Log.py] - INFO: logining success!
+[2020-04-01 08:29:58,344] - Log.py] - INFO: logining success!
+[2020-04-01 08:29:58,746] - Log.py] - INFO: posthttp://bms.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[2020-04-01 08:29:59,087] - Log.py] - INFO: posthttp://bms.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[2020-04-01 08:29:59,429] - Log.py] - INFO: posthttp://bms.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[2020-04-01 08:29:59,747] - Log.py] - INFO: posthttp://bms.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[2020-04-01 08:30:00,166] - Log.py] - INFO: posthttp://bms.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[2020-04-01 08:30:00,518] - Log.py] - INFO: posthttp://bms.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[2020-04-01 08:30:00,816] - Log.py] - INFO: posthttp://bms.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[2020-04-01 08:30:01,201] - Log.py] - INFO: posthttp://bms.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[2020-04-01 08:30:01,569] - Log.py] - INFO: posthttp://bms.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[2020-04-01 08:30:01,898] - Log.py] - INFO: posthttp://bms.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[2020-04-01 18:00:39,423] - Log.py] - INFO: logining success!
+[2020-04-01 18:01:05,621] - Log.py] - INFO: logining success!
+[2020-04-01 18:03:41,092] - Log.py] - INFO: logining success!
+[2020-04-01 18:03:41,172] - Log.py] - INFO: gethttp://bms.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-01 18:04:40,481] - Log.py] - INFO: logining success!
+[2020-04-01 18:04:40,553] - Log.py] - INFO: gethttp://bms.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-01 18:05:28,168] - Log.py] - INFO: logining success!
+[2020-04-01 18:05:28,242] - Log.py] - INFO: gethttp://bms.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-01 18:06:12,738] - Log.py] - INFO: logining success!
+[2020-04-01 18:06:12,810] - Log.py] - INFO: gethttp://bms.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-01 18:06:12,857] - Log.py] - INFO: gethttp://bms.yzwill.cn/baseinfo/sPfsnByOnScholarship.do:请求发送成功！
+[2020-04-01 18:06:12,910] - Log.py] - INFO: gethttp://bms.yzwill.cn/baseinfo/sTaNotStop.do:请求发送成功！
+[2020-04-01 18:22:49,135] - Log.py] - INFO: logining success!
+[2020-04-01 18:22:49,217] - Log.py] - INFO: gethttp://bms.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-01 18:24:01,306] - Log.py] - INFO: logining success!
+[2020-04-01 18:24:01,385] - Log.py] - INFO: gethttp://bms.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-01 18:25:19,819] - Log.py] - INFO: logining success!
+[2020-04-01 18:25:19,898] - Log.py] - INFO: gethttp://bms.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-01 18:26:33,467] - Log.py] - INFO: logining success!
+[2020-04-01 18:26:33,626] - Log.py] - INFO: gethttp://bms.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-01 18:27:26,216] - Log.py] - INFO: logining success!
+[2020-04-01 18:27:26,380] - Log.py] - INFO: gethttp://bms.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-01 18:29:52,731] - Log.py] - INFO: logining success!
+[2020-04-01 18:29:52,893] - Log.py] - INFO: gethttp://bms.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-01 18:37:28,758] - Log.py] - INFO: logining success!
+[2020-04-01 18:37:28,914] - Log.py] - INFO: gethttp://bms.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-01 18:40:41,193] - Log.py] - INFO: logining success!
+[2020-04-01 18:40:41,352] - Log.py] - INFO: gethttp://bms.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-01 18:42:14,258] - Log.py] - INFO: logining success!
+[2020-04-01 18:42:14,417] - Log.py] - INFO: gethttp://bms.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-01 18:43:19,559] - Log.py] - INFO: logining success!
+[2020-04-01 18:43:19,736] - Log.py] - INFO: gethttp://bms.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-01 18:44:06,844] - Log.py] - INFO: logining success!
+[2020-04-01 18:44:07,003] - Log.py] - INFO: gethttp://bms.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-01 18:44:41,297] - Log.py] - INFO: logining success!
+[2020-04-01 18:46:03,058] - Log.py] - INFO: logining success!
+[2020-04-01 18:47:05,043] - Log.py] - INFO: logining success!
+[2020-04-01 18:47:21,422] - Log.py] - INFO: logining success!
+[2020-04-01 18:47:55,671] - Log.py] - INFO: logining success!
+[2020-04-01 18:47:55,749] - Log.py] - INFO: gethttp://bms.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-01 18:47:55,788] - Log.py] - INFO: gethttp://bms.yzwill.cn/baseinfo/sPfsnByOnScholarship.do:请求发送成功！
+[2020-04-01 18:47:55,826] - Log.py] - INFO: gethttp://bms.yzwill.cn/baseinfo/sTaNotStop.do:请求发送成功！
+[2020-04-01 18:48:30,096] - Log.py] - INFO: logining success!
+[2020-04-01 18:48:30,255] - Log.py] - INFO: gethttp://bms.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-01 18:48:40,746] - Log.py] - INFO: gethttp://bms.yzwill.cn/baseinfo/sPfsnByOnScholarship.do:请求发送成功！
+[2020-04-01 18:49:08,198] - Log.py] - INFO: logining success!
+[2020-04-01 18:49:08,354] - Log.py] - INFO: gethttp://bms.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-01 18:49:14,355] - Log.py] - INFO: gethttp://bms.yzwill.cn/baseinfo/sPfsnByOnScholarship.do:请求发送成功！
+[2020-04-01 18:49:17,367] - Log.py] - INFO: gethttp://bms.yzwill.cn/baseinfo/sTaNotStop.do:请求发送成功！
+[2020-04-01 18:52:13,958] - Log.py] - INFO: logining success!
+[2020-04-01 18:52:14,032] - Log.py] - INFO: gethttp://bms.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-01 18:52:14,072] - Log.py] - INFO: gethttp://bms.yzwill.cn/baseinfo/sPfsnByOnScholarship.do:请求发送成功！
+[2020-04-01 18:52:14,119] - Log.py] - INFO: gethttp://bms.yzwill.cn/baseinfo/sTaNotStop.do:请求发送成功！

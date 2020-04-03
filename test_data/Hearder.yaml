@@ -18,18 +18,18 @@ hearders:
 
 
 Hearders0:
-    Host: bms-3.yzwill.cn
-    Connection: keep-alive
-    transferId: 7843ccf93e484415a493dcb8b70fe372
-    User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
-    uri: http://bms-3.yzwill.cn/recruit/toRecruitAdd.do?recruitType=1
+    Host: 'bms-3.yzwill.cn'
+    Connection: 'keep-alive'
+    transferId: '7843ccf93e484415a493dcb8b70fe372'
+    User-Agent: 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+    uri: ''
     title: '%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF'
-    Accept: application/json, text/javascript, */*; q=0.01
+    Accept: 'application/json, text/javascript, */*; q=0.01'
     transferSeq: '1'
-    X-Requested-With: XMLHttpRequest
+    X-Requested-With: 'XMLHttpRequest'
     sendTime: '1585718935489'
-    Referer: http://bms-3.yzwill.cn/recruit/toRecruitAdd.do?recruitType=1
-    Accept-Encoding: gzip, deflate
-    Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+    Referer: 'http://bms-3.yzwill.cn/recruit/toRecruitAdd.do?recruitType=1'
+    Accept-Encoding: 'gzip, deflate'
+    Accept-Language: 'zh-CN,zh;q=0.9,en;q=0.8'
 
 

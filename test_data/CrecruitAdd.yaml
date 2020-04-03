@@ -15,23 +15,23 @@ data:
     ,\"amount\":\"299.00\",\"discount\":\"0.00\",\"fdId\":null,\"odId\":null,\"payable\"\
     :\"299.00\",\"discountType\":null,\"orderNum\":\"1\",\"itemYear\":\"0\",\"itemType\"\
     :\"1\",\"feeId\":null,\"itemSeq\":null},{\"itemCode\":\"Y1\",\"itemName\":\"\u4EE3\
-    \u6536\u7B2C\u4E00\u5E74\u5B66\u8D39\",\"amount\":\"2000.00\",\"discount\":\"\
-    0.00\",\"fdId\":null,\"odId\":null,\"payable\":\"2000.00\",\"discountType\":null,\"\
+    \u6536\u7B2C\u4E00\u5E74\u5B66\u8D39\",\"amount\":\"3000.00\",\"discount\":\"\
+    0.00\",\"fdId\":null,\"odId\":null,\"payable\":\"3000.00\",\"discountType\":null,\"\
     orderNum\":\"2\",\"itemYear\":\"1\",\"itemType\":\"2\",\"feeId\":null,\"itemSeq\"\
     :null},{\"itemCode\":\"S1\",\"itemName\":\"\u4EE3\u6536\u7B2C\u4E00\u5E74\u4E66\
     \u8D39\",\"amount\":\"400.00\",\"discount\":\"0.00\",\"fdId\":null,\"odId\":null,\"\
     payable\":\"400.00\",\"discountType\":null,\"orderNum\":\"3\",\"itemYear\":\"\
     1\",\"itemType\":\"4\",\"feeId\":null,\"itemSeq\":null},{\"itemCode\":\"Y2\",\"\
-    itemName\":\"\u4EE3\u6536\u7B2C\u4E8C\u5E74\u5B66\u8D39\",\"amount\":\"2000.00\"\
-    ,\"discount\":\"0.00\",\"fdId\":null,\"odId\":null,\"payable\":\"2000.00\",\"\
+    itemName\":\"\u4EE3\u6536\u7B2C\u4E8C\u5E74\u5B66\u8D39\",\"amount\":\"3000.00\"\
+    ,\"discount\":\"0.00\",\"fdId\":null,\"odId\":null,\"payable\":\"3000.00\",\"\
     discountType\":null,\"orderNum\":\"5\",\"itemYear\":\"2\",\"itemType\":\"2\",\"\
     feeId\":null,\"itemSeq\":null},{\"itemCode\":\"S2\",\"itemName\":\"\u4EE3\u6536\
     \u7B2C\u4E8C\u5E74\u4E66\u8D39\",\"amount\":\"400.00\",\"discount\":\"0.00\",\"\
     fdId\":null,\"odId\":null,\"payable\":\"400.00\",\"discountType\":null,\"orderNum\"\
     :\"6\",\"itemYear\":\"2\",\"itemType\":\"4\",\"feeId\":null,\"itemSeq\":null},{\"\
     itemCode\":\"Y3\",\"itemName\":\"\u4EE3\u6536\u7B2C\u4E09\u5E74\u5B66\u8D39\"\
-    ,\"amount\":\"2000.00\",\"discount\":\"0.00\",\"fdId\":null,\"odId\":null,\"payable\"\
-    :\"2000.00\",\"discountType\":null,\"orderNum\":\"8\",\"itemYear\":\"3\",\"itemType\"\
+    ,\"amount\":\"3000.00\",\"discount\":\"0.00\",\"fdId\":null,\"odId\":null,\"payable\"\
+    :\"3000.00\",\"discountType\":null,\"orderNum\":\"8\",\"itemYear\":\"3\",\"itemType\"\
     :\"2\",\"feeId\":null,\"itemSeq\":null},{\"itemCode\":\"S3\",\"itemName\":\"\u4EE3\
     \u6536\u7B2C\u4E09\u5E74\u4E66\u8D39\",\"amount\":\"400.00\",\"discount\":\"0.00\"\
     ,\"fdId\":null,\"odId\":null,\"payable\":\"400.00\",\"discountType\":null,\"orderNum\"\
@@ -44,14 +44,14 @@ data:
   graduateTime: ''
   headPic: ''
   headPortrait: ''
-  idCard: '330103195708127693'
+  idCard: '421181196404157590'
   idType: '1'
   isPhotoChange: ''
   jobStatus: ''
   jobTitle: ''
   maritalStatus: ''
   materialCode: ''
-  mobile: '14722906011'
+  mobile: '13609120530'
   nation: ''
   nowCityCode: ''
   nowCityName: "\u8BF7\u9009\u62E9"
@@ -65,7 +65,7 @@ data:
   oldEducationNum: ''
   oldProvinceCode: ''
   pfsnCode: '100101'
-  pfsnId: '157838193004883264'
+  pfsnId: '158432168598552135'
   pfsnLevel: '5'
   pfsnName: "\u822A\u7A7A\u822A\u5929"
   politicalStatus: ''
@@ -82,10 +82,10 @@ data:
   sex: '1'
   stdId: ''
   stdName: AUTOTEST
-  taId: '229'
+  taId: '212'
   taName: "\u5E7F\u5DDE\u5929\u6CB3"
   telephone: ''
-  unvsId: '3'
+  unvsId: '5'
   unvsName: ''
   wechat: ''
   workPlace: ''
@@ -101,7 +101,7 @@ hearders:
   Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
   Connection: keep-alive
   Content-Length: '8418'
-  Content-Type: multipart/form-data; boundary=47a5827881a94135b9da92c1ed94a06d
+  Content-Type: multipart/form-data; boundary=a9eb02d80255434097f0151d4eb181a0
   Host: bms.yzwill.cn
   Origin: http://bms-3.yzwill.cn
   Referer: http://bms-3.yzwill.cn/recruit/toRecruitAdd.do?recruitType=1

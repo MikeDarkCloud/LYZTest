@@ -7,6 +7,7 @@ from email.mime.multipart import MIMEMultipart
 import smtplib
 from common.conf import *
 
+
 '''
 # 这个是优化版执行所有用例并发送报告，分四个步骤
 # 第一步加载用例
@@ -68,7 +69,7 @@ def send_mail(sender, psw, receiver, smtpserver, report_file):
         # 定义邮件内容
         msg = MIMEMultipart()
         body = MIMEText(mail_body, _subtype='html', _charset='utf-8')
-        msg["Subject"] = Header("自动化测试报告", 'utf-8').encode()
+        msg["Subject"] = Header("接口自动化测试报告", 'utf-8').encode()
         msg["From"] = "lanmingyong"
         # msg["From"] = sender
         msg["To"] = '975922642@qq.com'
@@ -98,11 +99,11 @@ def send_mail(sender, psw, receiver, smtpserver, report_file):
 
 if __name__ == "__main__":
     # 测试用例的路径、匹配规则
-    case_path = Config().path_case()
-    rule = "test*.py"
+    case_path = Config().getPath('casePath')
+    rule = "MyTest*.py"
     all_case = add_case(case_path, rule)  # 1加载用例
     # 生成测试报告的路径
-    report_path = Config().path_report()
+    report_path = Config().getPath('reportPath')
     run_case(all_case, report_path)  # 2执行用例
     # 获取最新的测试报告文件
     report_file = get_report_file(report_path)  # 3获取最新的测试报告
@@ -117,5 +118,5 @@ if __name__ == "__main__":
     # receiver = "lanmingyong@126.com"
     smtp_server = 'smtp.126.com'
     # smtp_server = 'smtp.qq.com'
-    send_mail(sender, psw, receiver, smtp_server, report_file)
+    # send_mail(sender, psw, receiver, smtp_server, report_file)
     # 4最后一步发送报告，需要发邮件就取消注释

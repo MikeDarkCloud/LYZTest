@@ -3,14 +3,15 @@ from tools.Regular import *
 from common.base import *
 import  random
 from common.Log import *
+from common.base import *
 class TestCaseAssembly():
 
     def __init__(self):
-        # self.y = Config().Rallyaml('regiester')
-        self.log = Log()
+        # self.y = Config().Rallyaml('CrecruitAdd')
+        pass
 
     '''获取接口返回数据'''
-    def getBasedata(self,r,casefile):
+    def getBasedata(self,casefile):
         '''
         :param r:请求实例
         '''
@@ -26,7 +27,7 @@ class TestCaseAssembly():
         D = Config().Rallyaml('getOpenPfsnByTaId')
 
         '''判断是否是国开'''
-        if casefile == 'Gkregiester':
+        if casefile == 'GrecruitAdd':
             '''读取基础信息'''
             R['recruitType'] = str(y['GK']['recruitType'])
             R['data']['grade'] = str(y['GK']['grade'])
@@ -35,13 +36,13 @@ class TestCaseAssembly():
             '''获取城市getGkOpenEnrollCityInfo'''
             C['data']['ext1'] = y['GK']['level']
             C['data']['ext2'] = y['GK']['grade']
-            res = r.lapi(method=C['method'], urls=C['urls'], data=C['data'], headers=H['hearders0'])
+            res = YzApi().lapi(method=C['method'], urls=C['urls'], data=C['data'], headers=H['Hearders0'])
             Code = regx(res.text, C['regx'])
             cityCode = Code[random.randint(0, len(Code) - 1)]
             R['data']['city'] = str(cityCode)
             '''获取院校sUnvs'''
             S['data']['ext1'] = y['GK']['recruitType']
-            sUnvs = r.lapi(method=S['method'], urls=S['urls'], data=S['data'], headers=H['hearders0'])
+            sUnvs = YzApi().lapi(method=S['method'], urls=S['urls'], data=S['data'], headers=H['Hearders0'])
             sid = regx(sUnvs.text, S['regx'])
             unvsid = sid[random.randint(0, len(sid) - 1)]
             R['data']['unvsId'] = str(unvsid)
@@ -50,7 +51,7 @@ class TestCaseAssembly():
             Q['data']['ext1'] = str(cityCode)
             Q['data']['ext2'] = y['GK']['level']
             Q['data']['ext3'] = y['GK']['grade']
-            Area = r.lapi(method=Q['method'], urls=Q['urls'], data=Q['data'], headers=H['hearders0'])
+            Area = YzApi().lapi(method=Q['method'], urls=Q['urls'], data=Q['data'], headers=H['Hearders0'])
             CityArea = regx(Area.text, Q['regx'])
             Area_s = CityArea[random.randint(0, len(CityArea) - 1)]
             R['data']['taId'] = str(Area_s[0])
@@ -59,7 +60,7 @@ class TestCaseAssembly():
             D['data']['ext1'] = str(Area_s[0])
             D['data']['ext2'] = str(y['GK']['level'])
             D['data']['ext3'] = str(y['GK']['grade'])
-            Tid = r.lapi(method=D['method'], urls=D['urls'], data=D['data'], headers=H['hearders0'])
+            Tid = YzApi().lapi(method=D['method'], urls=D['urls'], data=D['data'], headers=H['Hearders0'])
             Pfsn = regx(Tid.text, D['regx'])
             Pfsn_s = Pfsn[random.randint(0, len(Pfsn) - 1)]
             R['data']['pfsnId'] = str(Pfsn_s[0])
@@ -71,17 +72,17 @@ class TestCaseAssembly():
             F['data']['taId'] = Area_s[0]
             F['data']['scholarship'] = y['GK']['scholarships']
             F['data']['recruitType'] = y['GK']['recruitType']
-            Free = r.lapi(method=F['method'], urls=F['urls'], data=F['data'], headers=H['hearders0'])
+            Free = YzApi().lapi(method=F['method'], urls=F['urls'], data=F['data'], headers=H['Hearders0'])
             feeList = regx(Free.text, F['regx'])
             R['data']['feeList'] = str(feeList[0])
 
             Config().Wyaml(R, casefile)
 
-        if casefile == 'regiester':
+        if casefile == 'CrecruitAdd':
             S['data']['ext1'] = y['CJ']['recruitType']
             P['data']['ext1']=y['CJ']['level']
             P['data']['ext2']=y['CJ']['grade']
-            sUnvs = r.lapi(method = S['method'],urls =S['urls'],data =S['data'],headers =H['hearders0'])
+            sUnvs = YzApi().lapi(method = S['method'],urls =S['urls'],data =S['data'],headers =H['Hearders0'])
             sid = regx(sUnvs.text, S['regx'])
             unvsid=sid[random.randint(0, len(sid)-1)]
             '''组装参数'''
@@ -95,7 +96,7 @@ class TestCaseAssembly():
             F['data']['scholarship'] = y['CJ']['scholarships']
 
             '''获取专业'''
-            response = r.lapi(method = P['method'],urls =P['urls'],data =P['data'],headers =H['hearders0'])
+            response = YzApi().lapi(method = P['method'],urls =P['urls'],data =P['data'],headers =H['Hearders0'])
             pid = regx(response.text, P['regx'])
             pfsnid = pid[random.randint(0, len(pid)-1)]
             R['data']['pfsnId'] =str(pfsnid)
@@ -103,28 +104,28 @@ class TestCaseAssembly():
             T['data']['sId'] = pfsnid
 
             '''获取考区'''
-            response1 = r.lapi(method=T['method'], urls=T['urls'], data=T['data'], headers=H['hearders0'])
+            response1 = YzApi().lapi(method=T['method'], urls=T['urls'], data=T['data'], headers=H['Hearders0'])
             tid = regx(response1.text, T['regx'])
             taId = tid[random.randint(0, len(tid)-1)]
             R['data']['taId'] = str(taId)
             F['data']['taId'] = taId
             '''获取收费标准'''
-            response2 = r.lapi(method=F['method'], urls=F['urls'], data=F['data'], headers=H['hearders0'])
+            response2 = YzApi().lapi(method=F['method'], urls=F['urls'], data=F['data'], headers=H['Hearders0'])
             feeList = regx(response2.text, F['regx'])
             R['data']['feeList'] = str(feeList[0])
             '''写回到yaml文件'''
             Config().Wyaml(R,casefile)
 
-    def getRegisterTestCaseData(self,r,casefile):
+    def getRegisterTestCaseData(self,casefile):
         '''
         :param r:请求实例
         :param casefile:参数所在文件名
         :return: tuple
         '''
-        self.getBasedata(r,casefile)
+        self.getBasedata(casefile)
         y = Config().Rallyaml(casefile)
-        y['data']['idCard'] = r.getBaseinfo('idCard')
-        y['data']['mobile'] = r.getBaseinfo('mobile')
+        y['data']['idCard'] = YzApi().getBaseinfo('idCard')
+        y['data']['mobile'] = YzApi().getBaseinfo('mobile')
         data = MultipartEncoder(fields=y['data'])
         y['hearders']['Content-Type'] = data.content_type
         headers = y['hearders']

@@ -10,6 +10,7 @@ class YzApi():
         self.w = Config()
         self.log = Log()
 
+    def login(self):
         try:
             if self.y['urls'] != None:
                 r=requests.session().post(url=self.y['urls'], data=self.y['data'], headers=self.y['hearders'])

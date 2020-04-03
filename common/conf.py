@@ -12,7 +12,8 @@ class Config:
         self.path2 = os.path.dirname(os.path.abspath('.'))
         self.app = self.path1 + "\\config\\application.yaml"
         # self.f = os.walk(os.path.dirname(os.path.abspath('.')) + "\\test_data", topdown=True, onerror=None, followlinks=False)
-        self.f = os.walk(os.getcwd() + "\\test_data", topdown=True, onerror=None, followlinks=False)
+        # self.f = os.walk(os.getcwd() + "\\test_data", topdown=True, onerror=None, followlinks=False)
+        self.f = os.walk(self.path1 + "\\test_data", topdown=True, onerror=None, followlinks=False)
         for (dirpath, dirnames, filenames) in self.f:
             for filename in filenames:
                 self.dirdict[str(filename).split(".")[0]] = os.path.join(dirpath, filename)
@@ -27,11 +28,17 @@ class Config:
         with open(self.dirdict[K],'r',encoding='utf-8') as f:
             return yaml.load(f)
 
-    def path_log(self):
+    def getPath(self,K):
         with open(self.app,'r',encoding='utf-8') as f:
-            p2=yaml.load(f)['path_log']
-            path = os.path.join(self.path2, p2)
+            p2=yaml.load(f)[K]
+            path = os.path.join(self.path1, p2)
             return path
+
+    def getLog(self,K):
+        with open(self.app,'r',encoding='utf-8') as f:
+            p2=yaml.load(f)[K]
+            return p2
+
 if __name__ == '__main__':
     print(os.listdir(os.path.dirname(os.path.abspath('.')) + "\\test_data"))
     pa = {}

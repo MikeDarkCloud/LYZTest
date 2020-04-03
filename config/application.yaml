@@ -1,1 +1,4 @@
-path_log: LYZTest\report\TestLog
+#path_log: LYZTest\report\TestLog
+path_log: C:\YZeducation\PyProject\LYZTest\report\TestLog\
+casePath: test_case
+reportPath:  report\HtmlReport

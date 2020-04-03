@@ -1,9 +1,15 @@
 import unittest
-from common.base import *
+
+from common.Log import *
+from common.base import YzApi
+
+
 class StartEnd(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        pass
+        cls.log = Log()
+        cls.r = YzApi()
+        cls.r.login()
 
 
     @classmethod

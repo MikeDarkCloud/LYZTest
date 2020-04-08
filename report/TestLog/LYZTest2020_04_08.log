@@ -1,0 +1,100 @@
+[2020-04-08 12:59:33,239] - Log.py] - INFO: post logining success!
+[2020-04-08 12:59:33,383] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-08 12:59:33,437] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sPfsnByOnScholarship.do:请求发送成功！
+[2020-04-08 12:59:33,478] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sTaNotStop.do:请求发送成功！
+[2020-04-08 12:59:33,631] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[2020-04-08 12:59:34,044] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[2020-04-08 12:59:34,046] - Log.py] - INFO: {"code":"00","body":null,"msg":"","ok":true}
+[2020-04-08 12:59:34,198] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[2020-04-08 12:59:34,233] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-08 12:59:34,269] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+[2020-04-08 12:59:34,306] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
+[2020-04-08 12:59:34,528] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[2020-04-08 12:59:35,071] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[2020-04-08 12:59:35,073] - Log.py] - INFO: {"code":"00","body":null,"msg":"","ok":true}
+[2020-04-08 13:28:58,726] - Log.py] - INFO: post logining success!
+[2020-04-08 13:28:58,908] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-08 13:28:58,956] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sPfsnByOnScholarship.do:请求发送成功！
+[2020-04-08 13:28:59,004] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sTaNotStop.do:请求发送成功！
+[2020-04-08 13:28:59,148] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[2020-04-08 13:28:59,719] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[2020-04-08 13:28:59,723] - Log.py] - INFO: {"code":"00","body":null,"msg":"","ok":true}
+[2020-04-08 13:29:03,012] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[2020-04-08 13:29:03,073] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-08 13:29:03,155] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+[2020-04-08 13:29:03,238] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
+[2020-04-08 13:29:03,501] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[2020-04-08 13:29:12,633] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[2020-04-08 13:29:14,021] - Log.py] - INFO: {"code":"00","body":null,"msg":"","ok":true}
+[2020-04-08 13:35:11,170] - Log.py] - INFO: post logining success!
+[2020-04-08 13:35:11,273] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-08 13:35:11,308] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sPfsnByOnScholarship.do:请求发送成功！
+[2020-04-08 13:35:11,345] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sTaNotStop.do:请求发送成功！
+[2020-04-08 13:35:11,524] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[2020-04-08 13:35:11,606] - Log.py] - INFO: 手机号：520114196605113837
+[2020-04-08 13:35:11,644] - Log.py] - INFO: 身份证：18778341460
+[2020-04-08 13:35:11,927] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[2020-04-08 13:35:11,929] - Log.py] - INFO: {"code":"00","body":null,"msg":"","ok":true}
+[2020-04-08 13:35:12,032] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[2020-04-08 13:35:12,085] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-08 13:35:12,133] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+[2020-04-08 13:35:12,178] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
+[2020-04-08 13:35:12,384] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[2020-04-08 13:35:12,471] - Log.py] - INFO: 手机号：520114195302113915
+[2020-04-08 13:35:12,508] - Log.py] - INFO: 身份证：13289930441
+[2020-04-08 13:35:12,866] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[2020-04-08 13:35:12,868] - Log.py] - INFO: {"code":"00","body":null,"msg":"","ok":true}
+[2020-04-08 13:53:36,925] - Log.py] - INFO: post logining success!
+[2020-04-08 13:53:37,024] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-08 13:53:37,065] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sPfsnByOnScholarship.do:请求发送成功！
+[2020-04-08 13:53:37,109] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sTaNotStop.do:请求发送成功！
+[2020-04-08 13:53:37,273] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[2020-04-08 13:53:37,348] - Log.py] - INFO: CrecruitAdd手机号：51342519810820483X
+[2020-04-08 13:53:37,424] - Log.py] - INFO: CrecruitAdd身份证：13082691039
+[2020-04-08 13:53:37,782] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[2020-04-08 13:53:37,784] - Log.py] - INFO: {"code":"00","body":null,"msg":"","ok":true}
+[2020-04-08 13:53:37,882] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[2020-04-08 13:53:37,913] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-08 13:53:37,946] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+[2020-04-08 13:53:37,980] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
+[2020-04-08 13:53:38,153] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[2020-04-08 13:53:38,217] - Log.py] - INFO: GrecruitAdd手机号：513425196006096218
+[2020-04-08 13:53:38,248] - Log.py] - INFO: GrecruitAdd身份证：15078200261
+[2020-04-08 13:53:38,585] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[2020-04-08 13:53:38,586] - Log.py] - INFO: {"code":"00","body":null,"msg":"","ok":true}
+[20600]-[2020-04-08 13:56:11,761] - Log.py] - INFO: post logining success!
+[20600]-[2020-04-08 13:56:11,855] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[20600]-[2020-04-08 13:56:11,905] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sPfsnByOnScholarship.do:请求发送成功！
+[20600]-[2020-04-08 13:56:11,941] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sTaNotStop.do:请求发送成功！
+[20600]-[2020-04-08 13:56:12,089] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[20600]-[2020-04-08 13:56:12,175] - Log.py] - INFO: CrecruitAdd手机号：610726195705045398
+[20600]-[2020-04-08 13:56:12,218] - Log.py] - INFO: CrecruitAdd身份证：15892471621
+[20600]-[2020-04-08 13:56:12,499] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[20600]-[2020-04-08 13:56:12,500] - Log.py] - INFO: {"code":"00","body":null,"msg":"","ok":true}
+[20600]-[2020-04-08 13:56:12,599] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[20600]-[2020-04-08 13:56:12,644] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[20600]-[2020-04-08 13:56:12,677] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+[20600]-[2020-04-08 13:56:12,711] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
+[20600]-[2020-04-08 13:56:12,909] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[20600]-[2020-04-08 13:56:12,995] - Log.py] - INFO: GrecruitAdd手机号：610726197512048057
+[20600]-[2020-04-08 13:56:13,033] - Log.py] - INFO: GrecruitAdd身份证：15667900773
+[20600]-[2020-04-08 13:56:13,573] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[20600]-[2020-04-08 13:56:13,575] - Log.py] - INFO: {"code":"00","body":null,"msg":"","ok":true}
+[processID-3932]-[threadName-MainThread]-[2020-04-08 13:57:46,519] - Log.py] - INFO: post logining success!
+[processID-3932]-[threadName-MainThread]-[2020-04-08 13:57:46,614] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-3932]-[threadName-MainThread]-[2020-04-08 13:57:46,662] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sPfsnByOnScholarship.do:请求发送成功！
+[processID-3932]-[threadName-MainThread]-[2020-04-08 13:57:46,697] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sTaNotStop.do:请求发送成功！
+[processID-3932]-[threadName-MainThread]-[2020-04-08 13:57:46,877] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[processID-3932]-[threadName-MainThread]-[2020-04-08 13:57:46,960] - Log.py] - INFO: CrecruitAdd手机号：360602197103194610
+[processID-3932]-[threadName-MainThread]-[2020-04-08 13:57:47,001] - Log.py] - INFO: CrecruitAdd身份证：15844372231
+[processID-3932]-[threadName-MainThread]-[2020-04-08 13:57:47,314] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[processID-3932]-[threadName-MainThread]-[2020-04-08 13:57:47,316] - Log.py] - INFO: {"code":"00","body":null,"msg":"","ok":true}
+[processID-3932]-[threadName-MainThread]-[2020-04-08 13:57:47,419] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-3932]-[threadName-MainThread]-[2020-04-08 13:57:47,453] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-3932]-[threadName-MainThread]-[2020-04-08 13:57:47,488] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+[processID-3932]-[threadName-MainThread]-[2020-04-08 13:57:47,526] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
+[processID-3932]-[threadName-MainThread]-[2020-04-08 13:57:47,740] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[processID-3932]-[threadName-MainThread]-[2020-04-08 13:57:47,827] - Log.py] - INFO: GrecruitAdd手机号：360602196803211755
+[processID-3932]-[threadName-MainThread]-[2020-04-08 13:57:47,862] - Log.py] - INFO: GrecruitAdd身份证：18764160507
+[processID-3932]-[threadName-MainThread]-[2020-04-08 13:57:48,166] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[processID-3932]-[threadName-MainThread]-[2020-04-08 13:57:48,167] - Log.py] - INFO: {"code":"00","body":null,"msg":"","ok":true}

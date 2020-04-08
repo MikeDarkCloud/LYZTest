@@ -1,19 +1,17 @@
 from requests_toolbelt import MultipartEncoder
 from tools.Regular import *
 from common.base import *
-import  random
 from common.Log import *
-from common.base import *
 class TestCaseAssembly():
 
     def __init__(self):
         # self.y = Config().Rallyaml('CrecruitAdd')
-        pass
+        self.log = Log()
 
     '''获取接口返回数据'''
     def getBasedata(self,casefile):
         '''
-        :param r:请求实例
+        :param casefile:文件名
         '''
         H = Config().Rallyaml('Hearder')
         y = Config().Rallyaml('StudentInfo')
@@ -118,14 +116,15 @@ class TestCaseAssembly():
 
     def getRegisterTestCaseData(self,casefile):
         '''
-        :param r:请求实例
         :param casefile:参数所在文件名
         :return: tuple
         '''
         self.getBasedata(casefile)
         y = Config().Rallyaml(casefile)
         y['data']['idCard'] = YzApi().getBaseinfo('idCard')
+        self.log.info(casefile+'手机号：'+y['data']['idCard'])
         y['data']['mobile'] = YzApi().getBaseinfo('mobile')
+        self.log.info(casefile+'身份证：' + y['data']['mobile'])
         data = MultipartEncoder(fields=y['data'])
         y['hearders']['Content-Type'] = data.content_type
         headers = y['hearders']

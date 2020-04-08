@@ -1,0 +1,7 @@
+method: get
+urls: http://bms-3.yzwill.cn/stdFee/toPay.do
+hearders: ''
+data:
+  learnId: ''
+
+regx: ''

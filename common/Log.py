@@ -6,7 +6,7 @@ class Log():
         self.logger = logging.getLogger()
         self.logger.setLevel(logging.DEBUG)
         # 日志输出格式
-        self.formatter = logging.Formatter('[%(asctime)s] - %(filename)s] - %(levelname)s: %(message)s')
+        self.formatter = logging.Formatter('[processID-%(process)d]-[threadName-%(threadName)s]-[%(asctime)s] - %(filename)s] - %(levelname)s: %(message)s')
     def __console(self,level, message):
         # 创建一个FileHandler，用于写到本地
         self.logname = os.path.join(Config().getLog('path_log'), '%s.log'%time.strftime('LYZTest%Y_%m_%d'))

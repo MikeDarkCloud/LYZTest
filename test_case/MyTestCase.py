@@ -1,7 +1,5 @@
-from CreateTestDate import createTestdate
 from common.myunit import *
 from ddt import ddt, data, unpack
-
 from public.TestCaseAssembly import TestCaseAssembly
 from public.TestCaseAssert import MyAssert
 
@@ -13,12 +11,20 @@ class MyTestCase(StartEnd):
         pass
 
     # @ddt()
-    def test_normal_register(self):
+    def test_cj_normal_register(self):
         '''随机录入成教类型学员学员'''
         case =TestCaseAssembly().getRegisterTestCaseData('CrecruitAdd')
         response = YzApi().lapi(method=case[0], headers=case[1], urls=case[2], data=case[3])
         self.log.info(response.text)
         self.assertTrue(MyAssert().assertchar(response.text,['true','00']), True)
+
+    def test_gk_normal_register(self):
+        '''随机录入国开类型学员学员'''
+        case =TestCaseAssembly().getRegisterTestCaseData('GrecruitAdd')
+        response = YzApi().lapi(method=case[0], headers=case[1], urls=case[2], data=case[3])
+        self.log.info(response.text)
+        self.assertTrue(MyAssert().assertchar(response.text,['true','00']), True)
+
 
     def tearDown(self):
         pass

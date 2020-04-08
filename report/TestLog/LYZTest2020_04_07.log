@@ -1,0 +1,42 @@
+[2020-04-07 08:57:40,707] - Log.py] - INFO: post logining success!
+[2020-04-07 08:57:40,804] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-07 08:57:40,863] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sPfsnByOnScholarship.do:请求发送成功！
+[2020-04-07 08:57:40,898] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sTaNotStop.do:请求发送成功！
+[2020-04-07 08:57:41,043] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[2020-04-07 08:57:41,438] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[2020-04-07 08:57:41,444] - Log.py] - INFO: {"code":"00","body":null,"msg":"","ok":true}
+[2020-04-07 09:45:43,577] - Log.py] - INFO: post logining success!
+[2020-04-07 09:45:43,667] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-07 09:45:43,705] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sPfsnByOnScholarship.do:请求发送成功！
+[2020-04-07 09:45:43,746] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sTaNotStop.do:请求发送成功！
+[2020-04-07 09:45:43,921] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[2020-04-07 09:45:44,809] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[2020-04-07 09:45:44,812] - Log.py] - INFO: {"code":"00","body":null,"msg":"","ok":true}
+[2020-04-07 09:51:27,514] - Log.py] - INFO: post logining success!
+[2020-04-07 09:51:27,592] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-07 09:51:27,629] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sPfsnByOnScholarship.do:请求发送成功！
+[2020-04-07 09:51:27,666] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sTaNotStop.do:请求发送成功！
+[2020-04-07 09:51:27,811] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[2020-04-07 09:51:28,286] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[2020-04-07 09:51:28,291] - Log.py] - INFO: {"code":"00","body":null,"msg":"","ok":true}
+[2020-04-07 09:56:13,156] - Log.py] - INFO: post logining success!
+[2020-04-07 09:56:13,231] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-07 09:56:13,282] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sPfsnByOnScholarship.do:请求发送成功！
+[2020-04-07 09:56:13,316] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sTaNotStop.do:请求发送成功！
+[2020-04-07 09:56:13,446] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[2020-04-07 09:56:13,858] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[2020-04-07 09:56:13,860] - Log.py] - INFO: {"code":"00","body":null,"msg":"","ok":true}
+[2020-04-07 13:42:42,276] - Log.py] - INFO: post logining success!
+[2020-04-07 13:42:42,395] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-07 13:42:42,427] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sPfsnByOnScholarship.do:请求发送成功！
+[2020-04-07 13:42:42,474] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sTaNotStop.do:请求发送成功！
+[2020-04-07 13:42:42,613] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[2020-04-07 13:42:43,112] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[2020-04-07 13:42:43,114] - Log.py] - INFO: {"code":"00","body":null,"msg":"","ok":true}
+[2020-04-07 13:49:52,586] - Log.py] - INFO: post logining success!
+[2020-04-07 13:49:52,709] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-07 13:49:52,783] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sPfsnByOnScholarship.do:请求发送成功！
+[2020-04-07 13:49:52,850] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sTaNotStop.do:请求发送成功！
+[2020-04-07 13:49:53,019] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[2020-04-07 13:49:53,497] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[2020-04-07 13:49:53,499] - Log.py] - INFO: {"code":"00","body":null,"msg":"","ok":true}

@@ -1,4 +1,3 @@
-# -*-coding:utf-8-*-
 '''
 配置文件--配置公共参数
 '''
@@ -40,6 +39,7 @@ class Config:
             return p2
 
 if __name__ == '__main__':
+    '''调试'''
     print(os.listdir(os.path.dirname(os.path.abspath('.')) + "\\test_data"))
     pa = {}
     f = os.walk(os.path.dirname(os.path.abspath('.')) + "\\test_data",topdown=True,onerror=None,followlinks=False)

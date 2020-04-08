@@ -16,8 +16,6 @@ from common.conf import *
 # 第四步发送邮箱 （这一步不想执行的话，可以注释掉最后面那个函数就行）
 
 '''
-
-
 def add_case(case_path, rule):
     '''加载所有的测试用例'''
     testunit = unittest.TestSuite()
@@ -70,7 +68,7 @@ def send_mail(sender, psw, receiver, smtpserver, report_file):
         msg = MIMEMultipart()
         body = MIMEText(mail_body, _subtype='html', _charset='utf-8')
         msg["Subject"] = Header("接口自动化测试报告", 'utf-8').encode()
-        msg["From"] = "lanmingyong"
+        msg["From"] = "lanmingyong@126.com"
         # msg["From"] = sender
         msg["To"] = '975922642@qq.com'
         # msg["To"] = receiver
@@ -113,10 +111,8 @@ if __name__ == "__main__":
     sender = 'lanmingyong@126.com'
     psw = 'mike5788973'
     # psw = "zlongcnkoqlwdajj"
-    # 收件人多个时，中间用逗号隔开,如'a@xx.com,b@xx.com',
-    receiver = "lanmy@yzou.cn,975922642@qq.com"
-    # receiver = "lanmingyong@126.com"
+    # 收件人多个时如['a@xx.com','b@xx.com'],
+    receiver = ["975922642@qq.com","lanmingyong@126.com"]
     smtp_server = 'smtp.126.com'
     # smtp_server = 'smtp.qq.com'
-    # send_mail(sender, psw, receiver, smtp_server, report_file)
-    # 4最后一步发送报告，需要发邮件就取消注释
+    send_mail(sender, psw, receiver, smtp_server, report_file)

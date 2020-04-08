@@ -1,0 +1,18 @@
+method: post
+urls: http://bms-3.yzwill.cn/stdFee/pay.do
+hearders: ''
+data:
+  _web_token: ''
+  learnId: ''
+  grade: ''
+  years: ''
+  itemCodes: ''
+  accDeduction: ''
+  couponsStr: []
+  zmDeduction: ''
+  payableCount: ''
+  paymentType: ''
+  remark: ''
+  payData: ''
+
+regx: ''

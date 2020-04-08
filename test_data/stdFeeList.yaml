@@ -1,0 +1,22 @@
+method: post
+urls: http://bms-3.yzwill.cn/stdFee/list.do
+hearders: ''
+data:
+  stdName: ''
+  idCard: ''
+  mobile: ''
+  recruitType: ''
+  scholarship: ''
+  stdStage: ''
+  grade: ''
+  unvsId: ''
+  pfsnId: ''
+  pfsnLevel: ''
+  sg: ''
+  inclusionStatus: ''
+  taName: ''
+  year: ''
+  start: 0
+  length: 1
+
+regx: ''

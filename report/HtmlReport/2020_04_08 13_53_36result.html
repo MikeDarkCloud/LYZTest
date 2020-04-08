@@ -150,9 +150,9 @@ function showOutput(id, name) {
 <div class="container">
     <div class='heading'>
 <h1>远智教务系统接口自动化测试报告：</h1>
-<p><strong>Start Time:</strong> 2020-04-03 18:56:42</p>
-<p><strong>Duration:</strong> 0:00:00.406437</p>
-<p><strong>Status:</strong> <span class="text text-warning">Error <strong>1</strong></span></p>
+<p><strong>Start Time:</strong> 2020-04-08 13:53:36</p>
+<p><strong>Duration:</strong> 0:00:01.773654</p>
+<p><strong>Status:</strong> <span class="text text-success">Pass <strong>2</strong></span></p>
 
 <p class='description'>用例执行情况：</p>
 </div>
@@ -177,63 +177,79 @@ function showOutput(id, name) {
     </thead>
     <tbody>
         
-<tr class='text text-warning'>
+<tr class='text text-success'>
     <td>MyTestCase.MyTestCase</td>
-    <td>1</td>
+    <td>2</td>
+    <td>2</td>
     <td>0</td>
     <td>0</td>
-    <td>1</td>
-    <td><a class="btn btn-xs btn-primary"href="javascript:showClassDetail('c1',1)">Detail</a></td>
+    <td><a class="btn btn-xs btn-primary"href="javascript:showClassDetail('c1',2)">Detail</a></td>
 </tr>
 
-<tr id='ft1.1' class='text text-success'>
-    <td class='text text-warning'><div class='testcase'>test_normal_register: 随机录入成教类型学员学员</div></td>
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test_cj_normal_register: 随机录入成教类型学员学员</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
-        error</a>
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        pass</a>
 
-    <div id='div_ft1.1' class="popup_window">
+    <div id='div_pt1.1' class="popup_window">
         <div style='text-align: right;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft1.1: Traceback (most recent call last):
-  File "C:\YZeducation\PyProject\LYZTest\common\base.py", line 28, in lapi
-    Log().info(method+' '+urls + ":请求发送成功！")
-  File "C:\YZeducation\PyProject\LYZTest\common\Log.py", line 40, in info
-    self.__console('info', message)
-  File "C:\YZeducation\PyProject\LYZTest\common\Log.py", line 13, in __console
-    print(Config().getPath('path_log'))
-  File "C:\Program Files\Python 3.5\lib\BSTestRunner.py", line 131, in write
-    self.fp.write(to_unicode(s))
-  File "C:\Program Files\Python 3.5\lib\BSTestRunner.py", line 120, in to_unicode
-    return unicode(s)
-NameError: name 'unicode' is not defined
+pt1.1: [2020-04-08 13:53:37,024] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-08 13:53:37,065] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sPfsnByOnScholarship.do:请求发送成功！
+[2020-04-08 13:53:37,109] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sTaNotStop.do:请求发送成功！
+[2020-04-08 13:53:37,273] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[2020-04-08 13:53:37,348] - Log.py] - INFO: CrecruitAdd手机号：51342519810820483X
+[2020-04-08 13:53:37,424] - Log.py] - INFO: CrecruitAdd身份证：13082691039
+[2020-04-08 13:53:37,782] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[2020-04-08 13:53:37,784] - Log.py] - INFO: {"code":"00","body":null,"msg":"","ok":true}
 
-During handling of the above exception, another exception occurred:
 
-Traceback (most recent call last):
-  File "C:\YZeducation\PyProject\LYZTest\test_case\MyTestCase.py", line 18, in test_normal_register
-    case =TestCaseAssembly().getRegisterTestCaseData('CrecruitAdd')
-  File "C:\YZeducation\PyProject\LYZTest\public\TestCaseAssembly.py", line 125, in getRegisterTestCaseData
-    self.getBasedata(casefile)
-  File "C:\YZeducation\PyProject\LYZTest\public\TestCaseAssembly.py", line 113, in getBasedata
-    response2 = YzApi().lapi(method=F['method'], urls=F['urls'], data=F['data'], headers=H['Hearders0'])
-  File "C:\YZeducation\PyProject\LYZTest\common\base.py", line 31, in lapi
-    self.log.info(method+' '+urls + ":请求失败:" + str(e))
-  File "C:\YZeducation\PyProject\LYZTest\common\Log.py", line 40, in info
-    self.__console('info', message)
-  File "C:\YZeducation\PyProject\LYZTest\common\Log.py", line 13, in __console
-    print(Config().getPath('path_log'))
-  File "C:\Program Files\Python 3.5\lib\BSTestRunner.py", line 131, in write
-    self.fp.write(to_unicode(s))
-  File "C:\Program Files\Python 3.5\lib\BSTestRunner.py", line 120, in to_unicode
-    return str(s)
-NameError: name 'str' is not defined
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.2' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test_gk_normal_register: 随机录入成教类型学员学员</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
+        pass</a>
+
+    <div id='div_pt1.2' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.2: [2020-04-08 13:53:37,024] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-08 13:53:37,065] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sPfsnByOnScholarship.do:请求发送成功！
+[2020-04-08 13:53:37,109] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sTaNotStop.do:请求发送成功！
+[2020-04-08 13:53:37,273] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[2020-04-08 13:53:37,348] - Log.py] - INFO: CrecruitAdd手机号：51342519810820483X
+[2020-04-08 13:53:37,424] - Log.py] - INFO: CrecruitAdd身份证：13082691039
+[2020-04-08 13:53:37,782] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[2020-04-08 13:53:37,784] - Log.py] - INFO: {"code":"00","body":null,"msg":"","ok":true}
+[2020-04-08 13:53:37,882] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[2020-04-08 13:53:37,913] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[2020-04-08 13:53:37,946] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+[2020-04-08 13:53:37,980] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
+[2020-04-08 13:53:38,153] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[2020-04-08 13:53:38,217] - Log.py] - INFO: GrecruitAdd手机号：513425196006096218
+[2020-04-08 13:53:38,248] - Log.py] - INFO: GrecruitAdd身份证：15078200261
+[2020-04-08 13:53:38,585] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[2020-04-08 13:53:38,586] - Log.py] - INFO: {"code":"00","body":null,"msg":"","ok":true}
 
 
         </pre>
@@ -247,10 +263,10 @@ NameError: name 'str' is not defined
     <tfoot>
         <tr id='total_row'>
             <td>Total</td>
-            <td>1</td>
-            <td class="text text-success">0</td>
+            <td>2</td>
+            <td class="text text-success">2</td>
             <td class="text text-danger">0</td>
-            <td class="text text-warning">1</td>
+            <td class="text text-warning">0</td>
             <td>&nbsp;</td>
         </tr>
     </tfoot>

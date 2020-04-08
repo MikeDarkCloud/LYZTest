@@ -1,11 +1,11 @@
 Cookie:
-  SESSION: 9a6fbd3b-d066-4927-bb52-843e1f806e48
+  SESSION: 0c5f7415-6db8-4f6b-9921-fae82398e10d
 IDurl: http://bms-3.yzwill.cn/recruit/ifExistInfo.do
 MOurl: http://bms-3.yzwill.cn/recruit/getStudentInfoByMobile.do
 data:
   ImgValidCode: ''
   isOpenImage: ''
-  mobile: 18800000001
+  mobile: 18800000001        #设置登录
   validCode: 888888
 hearders:
   Accept: application/json, text/javascript, */*; q=0.01

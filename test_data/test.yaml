@@ -1,5 +1,5 @@
 method: post
-urls: /stdFee/pay.do
+urls: http://bms-3.yzwill.cn/stdFee/pay.do
 hearders: ''
 regx: ''
 data:

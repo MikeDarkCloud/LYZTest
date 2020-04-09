@@ -1,5 +1,5 @@
 method: post
-urls: http://bms-3.yzwill.cn/stdFee/list.do
+urls: /stdFee/list.do
 hearders: ''
 data:
   stdName: ''
@@ -19,4 +19,4 @@ data:
   start: 0
   length: 1
 
-regx: ''
+regx: '"learnId":"(.+?)"'

@@ -1,7 +1,7 @@
 method: get
-urls: http://bms-3.yzwill.cn/stdFee/toPay.do
+urls: /stdFee/toPay.do
 hearders: ''
 data:
   learnId: ''
 
-regx: ''
+regx: 'var row = (.+?);'

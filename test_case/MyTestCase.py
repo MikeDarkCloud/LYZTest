@@ -25,6 +25,10 @@ class MyTestCase(StartEnd):
         self.log.info(response.text)
         self.assertTrue(MyAssert().assertchar(response.text,['true','00']), True)
 
+    def test_cj_stdFee_list(self):
+        '''财务管理查询学员'''
+        case = TestCaseAssembly().getStdFeeList()
+        response = YzApi().lapi(method=case[0], headers=case[1], urls=case[2], data=case[3])
 
     def tearDown(self):
         pass

@@ -116,3 +116,6 @@ if __name__ == "__main__":
     smtp_server = 'smtp.126.com'
     # smtp_server = 'smtp.qq.com'
     send_mail(sender, psw, receiver, smtp_server, report_file)
+
+
+

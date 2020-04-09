@@ -13,28 +13,28 @@ class YzApi():
     def login(self):
         try:
             if self.y['urls'] != None:
-                r=requests.session().post(url=self.y['urls'], data=self.y['data'], headers=self.y['hearders'])
+                r=requests.session().post(url=self.y['baseUrl']+self.y['urls'], data=self.y['data'], headers=self.y['hearders'])
                 self.y['Cookie'] = requests.utils.dict_from_cookiejar(r.cookies)
                 self.w.Wyaml(self.y,'Logining')
                 self.log.info('post'+' '+'logining success!')
         except Exception as e:
-            self.log.info(self.y['urls'] + ":请求登录失败:" + str(e))
+            self.log.info(self.y['baseUrl']+self.y['urls'] + ":请求登录失败:" + str(e))
 
     def lapi(self, method, urls, data=None, headers=None):
         if method == "post" or method == "POST":
             try:
-                r = requests.post(url=urls, data=data, headers=headers,cookies = self.y['Cookie'])
+                r = requests.post(url=self.y['baseUrl']+urls, data=data, headers=headers,cookies = self.y['Cookie'])
                 r.encoding = 'utf-8'
-                self.log.info(method+' '+urls + ":请求发送成功！")
+                self.log.info(method+' '+self.y['baseUrl']+urls + ":请求发送成功！")
                 return r
             except Exception as e:
-                self.log.info(method+' '+urls + ":请求失败:" + str(e))
+                self.log.info(method+' '+self.y['baseUrl']+urls + ":请求失败:" + str(e))
 
         if method == "get" or method == "GET":
             try:
-                r = requests.get(url=urls, params=data, headers=headers,cookies = self.y['Cookie'])
+                r = requests.get(url=self.y['baseUrl']+urls, params=data, headers=headers,cookies = self.y['Cookie'])
                 r.encoding = 'utf-8'
-                self.log.info(method+' '+urls + ":请求发送成功！")
+                self.log.info(method+' '+self.y['baseUrl']+urls + ":请求发送成功！")
                 return r
             except Exception as e:
                 self.log.info(urls + ":请求失败:" + str(e))
@@ -49,13 +49,13 @@ class YzApi():
                 if type == 'mobile':
                     url = self.y['MOurl']
                     data = {'mobile': get_mobile()}
-                r = requests.post(url=url, data=data, headers=self.y['hearders'],cookies = self.y['Cookie'])
+                r = requests.post(url=self.y['baseUrl']+url, data=data, headers=self.y['hearders'],cookies = self.y['Cookie'])
                 r.encoding = 'utf-8'
                 if 'true' in r.text or 'E000034' in r.text:
                     i = False
             return data[type]
         except Exception as e:
-            self.log.info(":请求失败:" + str(e))
+            self.log.info(self.y['baseUrl']+":请求失败:" + str(e))
 
 
 if __name__ == '__main__':

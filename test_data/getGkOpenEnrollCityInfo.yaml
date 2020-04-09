@@ -1,6 +1,6 @@
 #获取院校信息接口模板
 method: get
-urls: http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do
+urls: /baseinfo/getGkOpenEnrollCityInfo.do
 hearders: ''
 data:
   page: 1

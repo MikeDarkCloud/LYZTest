@@ -1,11 +1,12 @@
+baseUrl: http://bms-3.yzwill.cn
 Cookie:
   SESSION: 0c5f7415-6db8-4f6b-9921-fae82398e10d
-IDurl: http://bms-3.yzwill.cn/recruit/ifExistInfo.do
-MOurl: http://bms-3.yzwill.cn/recruit/getStudentInfoByMobile.do
+IDurl: /recruit/ifExistInfo.do
+MOurl: /recruit/getStudentInfoByMobile.do
 data:
   ImgValidCode: ''
   isOpenImage: ''
-  mobile: 18800000001        #设置登录
+  mobile: 18800000011        #设置登录
   validCode: 888888
 hearders:
   Accept: application/json, text/javascript, */*; q=0.01
@@ -25,4 +26,4 @@ hearders:
   transferId: d8c87503c26547339209783d481a7f4b
   transferSeq: '1'
   uri: http://bms-3.yzwill.cn/toLogin.do
-urls: http://bms-3.yzwill.cn/loginByMobile.do
+urls: /loginByMobile.do

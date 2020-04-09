@@ -1,6 +1,6 @@
 #获取院校信息接口模板
 method: post
-urls: http://bms-3.yzwill.cn/recruit/showFeeList.do
+urls: /recruit/showFeeList.do
 hearders: ''
 data:
   pfsnId: 157067827435885468

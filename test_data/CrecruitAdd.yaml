@@ -114,4 +114,4 @@ hearders:
   transferSeq: '1'
   uri: http://bms-3.yzwill/recruit/toRecruitAdd.do?recruitType=1
 method: post
-urls: http://bms-3.yzwill.cn/recruit/recruitAdd.do
+urls: /recruit/recruitAdd.do

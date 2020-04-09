@@ -134,4 +134,4 @@ hearders:
   uri: http://bms-3.yzwill.cn/recruit/toRecruitAdd.do?recruitType=1
 method: post
 recruitType: '2'
-urls: http://bms-3.yzwill.cn/recruit/recruitAdd.do
+urls: /recruit/recruitAdd.do

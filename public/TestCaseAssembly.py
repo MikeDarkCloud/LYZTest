@@ -2,6 +2,7 @@ from requests_toolbelt import MultipartEncoder
 from tools.Regular import *
 from common.base import *
 from common.Log import *
+from tools.Rjson import *
 class TestCaseAssembly():
 
     def __init__(self):
@@ -134,7 +135,25 @@ class TestCaseAssembly():
         return method,headers,urls,data
 
 
+    def getStdFeeList(self):
+        '''财务管理搜索结果获取learn_id'''
+        H = Config().Rallyaml('Hearder')
+        R=Config().Rallyaml('stdFeeList')['data']['mobile'] = Config().Rallyaml('CrecruitAdd')['data']['mobile']
+        Config().Wyaml(R, 'stdFeeList')
+        response = YzApi().lapi(method=R['method'], urls=R['urls'], data=R['data'], headers=H['Hearders0'])
+        learn_id = regx(response.text, R['regx'])
+        return learn_id[0]
 
 
+    def getPayData(self):
+        H = Config().Rallyaml('Hearder')
+        R = Config().Rallyaml('toPay')['learnId'] = self.getStdFeeList()
+        Config().Wyaml(R, 'toPay')
+        response = YzApi().lapi(method=R['method'], urls=R['urls'], data=R['data'], headers=H['Hearders0'])
+        response_text = regx(response.text, R['regx'])
+        response_text = regx(response.text, R['regx'])
+        value = getJsonParm(response_text[0],'payInfos')
+        P = Config().Rallyaml('pay')
+        P['data']['payData']['items'][0]['orderNo'] = value[0]['subOrderNo']
 
 

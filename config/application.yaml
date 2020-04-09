@@ -1,4 +1,11 @@
 #path_log: LYZTest\report\TestLog
-path_log: C:\YZeducation\PyProject\LYZTest\report\TestLog\
+logPath: C:\YZeducation\PyProject\LYZTest\report\TestLog\
 casePath: test_case
 reportPath:  report\HtmlReport
+
+#测试环境配置
+baseUrl: http://bms-3.yzwill.cn
+
+#会话cookies
+Cookie:
+  SESSION: 0c5f7415-6db8-4f6b-9921-fae82398e10d

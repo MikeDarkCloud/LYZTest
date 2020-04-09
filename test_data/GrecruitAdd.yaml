@@ -63,14 +63,14 @@ data:
   graduateTime: ''
   headPic: ''
   headPortrait: ''
-  idCard: '360602196803211755'
+  idCard: '450600196903197937'
   idType: '1'
   isPhotoChange: ''
   jobStatus: ''
   jobTitle: ''
   maritalStatus: ''
   materialCode: ''
-  mobile: '18764160507'
+  mobile: '15718822696'
   nation: ''
   nowCityCode: ''
   nowCityName: "\u8BF7\u9009\u62E9"
@@ -83,10 +83,10 @@ data:
   oldEducationName: ''
   oldEducationNum: ''
   oldProvinceCode: ''
-  pfsnCode: '100101'
-  pfsnId: '153836535253022863'
+  pfsnCode: '100103'
+  pfsnId: '153836544109862031'
   pfsnLevel: '5'
-  pfsnName: "\u822A\u7A7A\u822A\u5929"
+  pfsnName: "\u592A\u7A7A\u63A2\u7D22"
   politicalStatus: ''
   profession: ''
   qq: ''
@@ -101,10 +101,10 @@ data:
   sex: '1'
   stdId: ''
   stdName: AUTOTEST
-  taId: '165'
-  taName: "\u5E7F\u5DDE\u767D\u4E91"
+  taId: '172'
+  taName: "\u5E7F\u5DDE\u4ECE\u5316"
   telephone: ''
-  unvsId: '155306738249706507'
+  unvsId: '46'
   unvsName: ''
   wechat: ''
   workPlace: ''
@@ -114,24 +114,7 @@ data:
   wpTelephone: ''
   wpTime: ''
   zipCode: '350000'
-hearders:
-  Accept: application/json, text/javascript, */*; q=0.01
-  Accept-Encoding: gzip, deflate
-  Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
-  Connection: keep-alive
-  Content-Length: '8418'
-  Content-Type: multipart/form-data; boundary=ee1b6a4855e24d68ad006d1959a51cfd
-  Host: bms.yzwill.cn
-  Origin: http://bms-3.yzwill.cn
-  Referer: http://bms-3.yzwill.cn/recruit/toRecruitAdd.do?recruitType=1
-  User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-    Gecko) Chrome/73.0.3683.86 Safari/537.36
-  X-Requested-With: XMLHttpRequest
-  sendTime: '1585529418689'
-  title: '%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF'
-  transferId: 21e84e771d3549aa85f90b5300186cd0
-  transferSeq: '1'
-  uri: http://bms-3.yzwill.cn/recruit/toRecruitAdd.do?recruitType=1
+hearders: ''
 method: post
 recruitType: '2'
 urls: /recruit/recruitAdd.do

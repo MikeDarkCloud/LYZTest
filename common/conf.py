@@ -7,8 +7,8 @@ import yaml
 class Config:
     def __init__(self):
         self.dirdict={}
-        self.path1 = os.getcwd()
-        self.path2 = os.path.dirname(os.path.abspath('.'))
+        self.path1 = os.getcwd()     #正式用
+        self.path2 = os.path.dirname(os.path.abspath('.'))  #调试用
         self.app = self.path1 + "\\config\\application.yaml"
         # self.f = os.walk(os.path.dirname(os.path.abspath('.')) + "\\test_data", topdown=True, onerror=None, followlinks=False)
         # self.f = os.walk(os.getcwd() + "\\test_data", topdown=True, onerror=None, followlinks=False)
@@ -33,7 +33,7 @@ class Config:
             path = os.path.join(self.path1, p2)
             return path
 
-    def getLog(self,K):
+    def getApplication(self,K):
         with open(self.app,'r',encoding='utf-8') as f:
             p2=yaml.load(f)[K]
             return p2

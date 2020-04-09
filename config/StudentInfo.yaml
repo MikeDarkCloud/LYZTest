@@ -1,4 +1,5 @@
-Student0:
+#成教学员
+CStudent:
   mobile: None
   id_card: None
   grade: None
@@ -10,8 +11,8 @@ Student0:
   learn_id: None
   std_id: None
 
-
-Student1:
+#国开学员
+GStudent:
   mobile: None
   id_card: None
   grade: None

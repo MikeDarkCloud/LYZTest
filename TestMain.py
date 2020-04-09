@@ -115,7 +115,7 @@ if __name__ == "__main__":
     receiver = ["975922642@qq.com","lanmingyong@126.com"]
     smtp_server = 'smtp.126.com'
     # smtp_server = 'smtp.qq.com'
-    send_mail(sender, psw, receiver, smtp_server, report_file)
+    # send_mail(sender, psw, receiver, smtp_server, report_file)
 
 
 

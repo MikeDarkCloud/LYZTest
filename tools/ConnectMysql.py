@@ -1,6 +1,5 @@
 import pymysql
 import datetime
-from common.conf import *
 
 # from Log import *
 # 打开数据库连接

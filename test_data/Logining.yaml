@@ -1,29 +1,12 @@
-baseUrl: http://bms-3.yzwill.cn
 Cookie:
-  SESSION: 0c5f7415-6db8-4f6b-9921-fae82398e10d
+  SESSION: 29030036-58d6-46fb-81ae-c4b3d1b3c950
 IDurl: /recruit/ifExistInfo.do
 MOurl: /recruit/getStudentInfoByMobile.do
+baseUrl: http://bms-3.yzwill.cn
 data:
   ImgValidCode: ''
   isOpenImage: ''
-  mobile: 18800000011        #设置登录
+  mobile: 18800000011
   validCode: 888888
-hearders:
-  Accept: application/json, text/javascript, */*; q=0.01
-  Accept-Encoding: gzip, deflate
-  Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
-  Content-Length: '62'
-  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
-  Host: bms-3.yzwill.cn
-  Origin: http://bms-3.yzwill.cn
-  Proxy-Connection: keep-alive
-  Referer: http://bms-3.yzwill.cn/toLogin.do
-  User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-    Gecko) Chrome/73.0.3683.86 Safari/537.36
-  X-Requested-With: XMLHttpRequest
-  sendTime: '1585555520700'
-  title: ''
-  transferId: d8c87503c26547339209783d481a7f4b
-  transferSeq: '1'
-  uri: http://bms-3.yzwill.cn/toLogin.do
+hearders: ''
 urls: /loginByMobile.do

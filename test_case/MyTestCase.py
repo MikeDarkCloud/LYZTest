@@ -25,6 +25,7 @@ class MyTestCase(StartEnd):
         self.log.info(response.text)
         self.assertTrue(MyAssert().assertchar(response.text,['true','00']), True)
 
+    @unittest.skip("skipping")
     def test_cj_stdFee_list(self):
         '''财务管理查询学员'''
         case = TestCaseAssembly().getStdFeeList()

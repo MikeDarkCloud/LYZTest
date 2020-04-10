@@ -151,26 +151,23 @@ class TestCaseAssembly():
     def getPayData(self):
         '''财务管理搜索结果获取learn_id'''
         Hearder = YamlParser('Hearder')
-        # HYaml = self.Yaml.getRallyaml('Hearder')
-        # CYaml = self.Yaml.getRallyaml('CrecruitAdd')
-        CYaml = self.Yaml.getRallyaml('CrecruitAdd')
-        R=self.Yaml.getRallyaml('stdFeeList')
-        R['data']['mobile'] = CYaml['data']['mobile']
+        CYaml = YamlParser('CrecruitAdd')
+        R=YamlParser('stdFeeList')
+        R.setYaml(CYaml.getYamlParms('data','mobile'),'data','mobile')
         self.Yaml.setYaml(R, 'stdFeeList')
-        # response = YzApi().lapi(method=R['method'], urls=R['urls'], data=R['data'], headers=HYaml.get('Hearders0'))
-        response = YzApi().lapi(method=R['method'], urls=R['urls'], data=R['data'], headers=Hearder.getYamlParms('Hearders0'))
+        response = YzApi().lapi(method=R.getYamlParms('method'), urls=R.getYamlParms('urls'), data=R.getYamlParms('data'), headers=Hearder.getYamlParms('Hearders0'))
         ldict = getJsonParm(response.text,'body')
-        FYaml = self.Yaml.getRallyaml('toPay')
-        FYaml['data']['learnId']=str(ldict['data'][0]['learnId'])
+        FYaml = YamlParser('toPay')
+        FYaml.setYaml(str(ldict['data'][0]['learnId']),'data','learnId')
         self.Yaml.setYaml(FYaml,'toPay')
         self.Yaml.setLearnInfo('CStudent','learnId',str(ldict['data'][0]['learnId']))
-        toPay = YzApi().lapi(method=FYaml.get('method'), urls=FYaml.get('urls'), data=FYaml.get('data'), headers=HYaml.get('Hearders0'))
-        Order = regx(toPay.text, FYaml.get('regx0'))
-        webtoken = regx(toPay.text, FYaml.get('regx1'))
-        PYaml = self.Yaml.getRallyaml('pay')
+        toPay = YzApi().lapi(method=FYaml.getYamlParms('method'), urls=FYaml.getYamlParms('urls'), data=FYaml.getYamlParms('data'), headers=Hearder.getYamlParms('Hearders0'))
+        Order = regx(toPay.text, FYaml.getYamlParms('regx0'))
+        webtoken = regx(toPay.text, FYaml.getYamlParms('regx1'))
+        PYaml = YamlParser('pay')
         Ldict = getJsonParm(Order[0],'tutorPayInfos')[0]
-        PYaml['data']['_web_token'] = webtoken[0]
-        PYaml['data']['grade'] = self.Yaml.getRallyaml('StudentInfo')['CJ']['grade']
+        PYaml.setYaml(webtoken[0],'data','_web_token')
+        PYaml.setYaml(self.Yaml.getRallyaml('StudentInfo')['CJ']['grade'],'data','grade')
         PYaml['data']['payableCount'] = Ldict['payable']
         PYaml['data']['payData']['payAmount']=Ldict['payable']
         PYaml['data']['payData']['items'][0]['amount']=Ldict['payable']

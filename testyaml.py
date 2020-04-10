@@ -10,4 +10,8 @@ def wyaml(content):
         yaml.dump(content, f, default_flow_style=False, encoding='utf-8', allow_unicode=True)
 
 
-print(ryaml())
+def rr(*dd):
+    print(dd[0])
+    print(dd[1])
+
+rr('2222',3333)

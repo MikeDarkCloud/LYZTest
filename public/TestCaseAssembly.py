@@ -4,6 +4,8 @@ from common.base import *
 from common.Log import *
 from tools.Rjson import *
 from common.DataSource import *
+from public.YamlParser import *
+
 class TestCaseAssembly():
 
     def __init__(self):
@@ -35,15 +37,15 @@ class TestCaseAssembly():
             '''获取城市getGkOpenEnrollCityInfo'''
             C['data']['ext1'] = y['GK']['level']
             C['data']['ext2'] = y['GK']['grade']
-            res = YzApi().lapi(method=C['method'], urls=C['urls'], data=C['data'], headers=H.get('Hearders0'))
-            Code = regx(res.text, C['regx'])
+            res = YzApi().lapi(method=C.get('method'), urls=C.get('urls'), data=C.get('data'), headers=self.Yaml.getHearder())
+            Code = regx(res.text, C.get('regx'))
             cityCode = Code[random.randint(0, len(Code) - 1)]
             self.log.info('国开城市ID:' + cityCode)
             R['data']['city'] = str(cityCode)
             '''获取院校sUnvs'''
             S['data']['ext1'] = y['GK']['recruitType']
-            sUnvs = YzApi().lapi(method=S['method'], urls=S['urls'], data=S['data'], headers=H.get('Hearders0'))
-            sid = regx(sUnvs.text, S['regx'])
+            sUnvs = YzApi().lapi(method=S.get('method'), urls=S.get('urls'), data=S.get('data'), headers=self.Yaml.getHearder())
+            sid = regx(sUnvs.text, S.get('regx'))
             unvsid = sid[random.randint(0, len(sid) - 1)]
             self.log.info('国开院校ID:' + unvsid)
             R['data']['unvsId'] = str(unvsid)
@@ -52,8 +54,8 @@ class TestCaseAssembly():
             Q['data']['ext1'] = str(cityCode)
             Q['data']['ext2'] = y['GK']['level']
             Q['data']['ext3'] = y['GK']['grade']
-            Area = YzApi().lapi(method=Q['method'], urls=Q['urls'], data=Q['data'], headers=H.get('Hearders0'))
-            CityArea = regx(Area.text, Q['regx'])
+            Area = YzApi().lapi(method=Q.get('method'), urls=Q.get('urls'), data=Q.get('data'), headers=self.Yaml.getHearder())
+            CityArea = regx(Area.text, Q.get('regx'))
             Area_s = CityArea[random.randint(0, len(CityArea) - 1)]
             self.log.info('国开考区ID:' + str(Area_s[1])+str(Area_s[0]))
             R['data']['taId'] = str(Area_s[0])
@@ -62,8 +64,8 @@ class TestCaseAssembly():
             D['data']['ext1'] = str(Area_s[0])
             D['data']['ext2'] = str(y['GK']['level'])
             D['data']['ext3'] = str(y['GK']['grade'])
-            Tid = YzApi().lapi(method=D['method'], urls=D['urls'], data=D['data'], headers=H.get('Hearders0'))
-            Pfsn = regx(Tid.text, D['regx'])
+            Tid = YzApi().lapi(method=D.get('method'), urls=D.get('urls'), data=D.get('data'), headers=self.Yaml.getHearder())
+            Pfsn = regx(Tid.text, D.get('regx'))
             Pfsn_s = Pfsn[random.randint(0, len(Pfsn) - 1)]
             self.log.info('国开专业ID:' + str(Pfsn_s[1])+str(Pfsn_s[0]))
             R['data']['pfsnId'] = str(Pfsn_s[0])
@@ -75,8 +77,8 @@ class TestCaseAssembly():
             F['data']['taId'] = Area_s[0]
             F['data']['scholarship'] = y['GK']['scholarships']
             F['data']['recruitType'] = y['GK']['recruitType']
-            Free = YzApi().lapi(method=F['method'], urls=F['urls'], data=F['data'], headers=H.get('Hearders0'))
-            feeList = regx(Free.text, F['regx'])
+            Free = YzApi().lapi(method=F.get('method'), urls=F.get('urls'), data=F.get('data'), headers=self.Yaml.getHearder())
+            feeList = regx(Free.text, F.get('regx'))
             self.log.info('国开收费标准:' + str(feeList[0]))
             R['data']['feeList'] = str(feeList[0])
 
@@ -86,8 +88,8 @@ class TestCaseAssembly():
             S['data']['ext1'] = y['CJ']['recruitType']
             P['data']['ext1']=y['CJ']['level']
             P['data']['ext2']=y['CJ']['grade']
-            sUnvs = YzApi().lapi(method = S['method'],urls =S['urls'],data =S['data'],headers =H.get('Hearders0'))
-            sid = regx(sUnvs.text, S['regx'])
+            sUnvs = YzApi().lapi(method = S.get('method'),urls =S.get('urls'),data =S.get('data'),headers =self.Yaml.getHearder())
+            sid = regx(sUnvs.text, S.get('regx'))
             unvsid=sid[random.randint(0, len(sid)-1)]
             self.log.info('成教院校ID:' + unvsid)
             '''组装参数'''
@@ -101,8 +103,8 @@ class TestCaseAssembly():
             F['data']['scholarship'] = y['CJ']['scholarships']
 
             '''获取专业'''
-            response = YzApi().lapi(method = P['method'],urls =P['urls'],data =P['data'],headers =H.get('Hearders0'))
-            pid = regx(response.text, P['regx'])
+            response = YzApi().lapi(method = P.get('method'),urls =P.get('urls'),data =P.get('data'),headers =self.Yaml.getHearder())
+            pid = regx(response.text, P.get('regx'))
             pfsnid = pid[random.randint(0, len(pid)-1)]
             self.log.info('成教专业ID:' + pfsnid)
             R['data']['pfsnId'] =str(pfsnid)
@@ -110,15 +112,15 @@ class TestCaseAssembly():
             T['data']['sId'] = pfsnid
 
             '''获取考区'''
-            response1 = YzApi().lapi(method=T['method'], urls=T['urls'], data=T['data'], headers=H.get('Hearders0'))
-            tid = regx(response1.text, T['regx'])
+            response1 = YzApi().lapi(method=T.get('method'), urls=T.get('urls'), data=T.get('data'), headers=self.Yaml.getHearder())
+            tid = regx(response1.text, T.get('regx'))
             taId = tid[random.randint(0, len(tid)-1)]
             self.log.info('成教考区ID:' + taId)
             R['data']['taId'] = str(taId)
             F['data']['taId'] = taId
             '''获取收费标准'''
-            response2 = YzApi().lapi(method=F['method'], urls=F['urls'], data=F['data'], headers=H.get('Hearders0'))
-            feeList = regx(response2.text, F['regx'])
+            response2 = YzApi().lapi(method=F.get('method'), urls=F.get('urls'), data=F.get('data'), headers=self.Yaml.getHearder())
+            feeList = regx(response2.text, F.get('regx'))
             self.log.info('成教收费标准:' + str(feeList[0]))
             R['data']['feeList'] = str(feeList[0])
             '''写回到yaml文件'''
@@ -134,9 +136,9 @@ class TestCaseAssembly():
         Yaml = self.Yaml.getRallyaml(casefile)
         HYaml = self.Yaml.getRallyaml('Hearder')
         Yaml['data']['idCard'] = YzApi().getBaseinfo('idCard')
-        self.log.info(casefile+'手机号：'+Yaml['data']['idCard'])
+        self.log.info(casefile+'身份证：'+Yaml['data']['idCard'])
         Yaml['data']['mobile'] = YzApi().getBaseinfo('mobile')
-        self.log.info(casefile+'身份证：' + Yaml['data']['mobile'])
+        self.log.info(casefile+'手机号：' + Yaml['data']['mobile'])
         data = MultipartEncoder(fields=Yaml['data'])
         HYaml['RHearders']['Content-Type'] = data.content_type
         headers = HYaml['RHearders']
@@ -146,25 +148,46 @@ class TestCaseAssembly():
         return method,headers,urls,data
 
 
-    def getStdFeeList(self):
-        '''财务管理搜索结果获取learn_id'''
-        H = Config().Rallyaml('Hearder')
-        R=Config().Rallyaml('stdFeeList')['data']['mobile'] = Config().Rallyaml('CrecruitAdd')['data']['mobile']
-        Config().Wyaml(R, 'stdFeeList')
-        response = YzApi().lapi(method=R['method'], urls=R['urls'], data=R['data'], headers=H['Hearders0'])
-        learn_id = regx(response.text, R['regx'])
-        return learn_id[0]
-
-
     def getPayData(self):
-        H = Config().Rallyaml('Hearder')
-        R = Config().Rallyaml('toPay')['learnId'] = self.getStdFeeList()
-        Config().Wyaml(R, 'toPay')
-        response = YzApi().lapi(method=R['method'], urls=R['urls'], data=R['data'], headers=H['Hearders0'])
-        response_text = regx(response.text, R['regx'])
-        response_text = regx(response.text, R['regx'])
-        value = getJsonParm(response_text[0],'payInfos')
-        P = Config().Rallyaml('pay')
-        P['data']['payData']['items'][0]['orderNo'] = value[0]['subOrderNo']
+        '''财务管理搜索结果获取learn_id'''
+        Hearder = YamlParser('Hearder')
+        # HYaml = self.Yaml.getRallyaml('Hearder')
+        # CYaml = self.Yaml.getRallyaml('CrecruitAdd')
+        CYaml = self.Yaml.getRallyaml('CrecruitAdd')
+        R=self.Yaml.getRallyaml('stdFeeList')
+        R['data']['mobile'] = CYaml['data']['mobile']
+        self.Yaml.setYaml(R, 'stdFeeList')
+        # response = YzApi().lapi(method=R['method'], urls=R['urls'], data=R['data'], headers=HYaml.get('Hearders0'))
+        response = YzApi().lapi(method=R['method'], urls=R['urls'], data=R['data'], headers=Hearder.getYamlParms('Hearders0'))
+        ldict = getJsonParm(response.text,'body')
+        FYaml = self.Yaml.getRallyaml('toPay')
+        FYaml['data']['learnId']=str(ldict['data'][0]['learnId'])
+        self.Yaml.setYaml(FYaml,'toPay')
+        self.Yaml.setLearnInfo('CStudent','learnId',str(ldict['data'][0]['learnId']))
+        toPay = YzApi().lapi(method=FYaml.get('method'), urls=FYaml.get('urls'), data=FYaml.get('data'), headers=HYaml.get('Hearders0'))
+        Order = regx(toPay.text, FYaml.get('regx0'))
+        webtoken = regx(toPay.text, FYaml.get('regx1'))
+        PYaml = self.Yaml.getRallyaml('pay')
+        Ldict = getJsonParm(Order[0],'tutorPayInfos')[0]
+        PYaml['data']['_web_token'] = webtoken[0]
+        PYaml['data']['grade'] = self.Yaml.getRallyaml('StudentInfo')['CJ']['grade']
+        PYaml['data']['payableCount'] = Ldict['payable']
+        PYaml['data']['payData']['payAmount']=Ldict['payable']
+        PYaml['data']['payData']['items'][0]['amount']=Ldict['payable']
+        PYaml['data']['payData']['learnId'] = self.Yaml.getLearnInfo('CStudent','learnId')
+        PYaml['data']['payData']['items'][0]['payAmount']=Ldict['payable']
+        PYaml['data']['learnId'] = self.Yaml.getLearnInfo('CStudent','learnId')
+        PYaml['data']['payData']['items'][0]['orderNo']=Ldict['subOrderNo']
+        self.Yaml.setYaml(PYaml,'pay')
+        PPYaml = self.Yaml.getRallyaml('pay')
+        items =PYaml['data']['payData']['items']
+        PPYaml['data']['payData']['items'] = str(items)
+        PPYaml['data']['payData'] = str(getJson(PYaml['data']['payData']))
+        data = PPYaml['data']
+        method = PYaml['method']
+        headers = Hearder.getYamlParms('PHearder')
+        urls = PYaml['urls']
+        return method, headers, urls, data
+
 
 

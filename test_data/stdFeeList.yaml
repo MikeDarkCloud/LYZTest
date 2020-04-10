@@ -1,1 +1,21 @@
-'15844372231'
+data:
+  grade: ''
+  idCard: ''
+  inclusionStatus: ''
+  length: 1
+  mobile: '13505935829'
+  pfsnId: ''
+  pfsnLevel: ''
+  recruitType: ''
+  scholarship: ''
+  sg: ''
+  start: 0
+  stdName: ''
+  stdStage: ''
+  taName: ''
+  unvsId: ''
+  year: ''
+hearders: ''
+method: post
+regx: ''
+urls: /stdFee/list.do

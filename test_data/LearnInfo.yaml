@@ -1,0 +1,22 @@
+CStudent:
+  grade: None
+  id_card: None
+  learnId: '158649555907683707'
+  mobile: None
+  pfsn_name: None
+  recruit_type: None
+  schoolarship_name: None
+  std_id: None
+  ta_name: None
+  unvs_name: None
+GStudent:
+  grade: None
+  id_card: None
+  learn_id: None
+  mobile: None
+  pfsn_name: None
+  recruit_type: None
+  schoolarship_name: None
+  std_id: None
+  ta_name: None
+  unvs_name: None

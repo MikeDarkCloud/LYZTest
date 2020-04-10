@@ -41,7 +41,6 @@ class DataSource():
         return self.f.Rallyaml('Logining').get('Cookie')
 
 
-
     def getRallyaml(self,Yaml):
         '''获取文件实例'''
         return self.f.Rallyaml(Yaml)
@@ -56,8 +55,15 @@ class DataSource():
         '''获取手机号'''
         return get_mobile()
 
+    def setLearnInfo(self,key0,key1,value):
+        '''保存学员信息'''
+        Rallyaml=self.getRallyaml('LearnInfo')
+        Rallyaml[key0][key1]=value
+        self.setYaml(Rallyaml,'LearnInfo')
 
-
+    def getLearnInfo(self,key0,key1):
+        '''获取学员信息'''
+        return self.getRallyaml('LearnInfo')[key0][key1]
 
 
 if __name__ == '__main__':

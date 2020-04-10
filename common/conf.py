@@ -18,9 +18,9 @@ class Config:
                 self.dirdict[str(filename).split(".")[0]] = os.path.join(dirpath, filename)
 
     '''写入yaml文件'''
-    def Wyaml(self,content,K):
-        with open(self.dirdict[K],'w',encoding='utf-8') as f:
-            yaml.dump(content,f)
+    def Wyaml(self,content,YamlFile):
+        with open(self.dirdict[YamlFile],'w',encoding='utf-8') as f:
+            yaml.dump(content,f,default_flow_style=False,encoding='utf-8',allow_unicode=True)
 
     '''读取yaml文件'''
     def Rallyaml(self,K):

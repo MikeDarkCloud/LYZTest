@@ -1,7 +1,7 @@
-method: get
-urls: /stdFee/toPay.do
-hearders: ''
 data:
-  learnId: ''
-
-regx: 'var row = (.+?);'
+  learnId: '158649555907683707'
+hearders: ''
+method: get
+regx0: var row = (.+?);
+regx1: value="(.+?)" name="_web_token"
+urls: /stdFee/toPay.do

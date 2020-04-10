@@ -72,3 +72,23 @@ RHearders:
   transferId: 21e84e771d3549aa85f90b5300186cd0
   transferSeq: '1'
   uri: http://bms-3.yzwill/recruit/toRecruitAdd.do?recruitType=1
+
+
+#支付头
+PHearder:
+  Accept: application/json, text/javascript, */*; q=0.01
+  Accept-Encoding: gzip, deflate
+  Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+  Content-Length: '927'
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  Host: bms-3.yzwill.cn
+  Origin: http://bms-3.yzwill.cn
+  Proxy-Connection: keep-alive
+  Referer: http://bms-3.yzwill.cn/stdFee/toPay.do?learnId=158647768923132827
+  sendTime: '1586478055431'
+  title: '%E7%BC%B4%E8%B4%B9'
+  transferId: 'b6f4385f29aa45798d8d20f5ff2bcbb9'
+  transferSeq: '1'
+  uri: http://bms-3.yzwill.cn/stdFee/toPay.do?learnId=158647768923132827
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+  X-Requested-With: XMLHttpRequest

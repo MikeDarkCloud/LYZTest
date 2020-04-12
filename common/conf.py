@@ -38,6 +38,8 @@ class Config:
             p2=yaml.load(f)[K]
             return p2
 
+
+
 if __name__ == '__main__':
     '''调试'''
     print(os.listdir(os.path.dirname(os.path.abspath('.')) + "\\test_data"))

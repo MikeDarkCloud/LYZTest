@@ -10,6 +10,7 @@ class MyTestCase(StartEnd):
     def setUp(self):
         pass
 
+
     # @ddt()
     def test_0_cj_normal_register(self):
         '''随机录入成教类型学员学员'''

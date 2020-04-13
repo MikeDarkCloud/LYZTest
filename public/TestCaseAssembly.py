@@ -5,6 +5,7 @@ from common.Log import *
 from tools.Rjson import *
 from common.DataSource import *
 from public.YamlParser import *
+from public.BeParamCom import *
 
 
 class TestCaseAssembly():
@@ -13,18 +14,14 @@ class TestCaseAssembly():
         self.log = Log()
         self.Yaml = DataSource()
 
-    def setBaseStd(self):
-        pass
-
-    def getAipParam(self, casefile):
-        '''获取城市getGkOpenEnrollCityInfo'''
-
-        Param = YamlParser('getGkOpenEnrollCityInfo')
-        method = Param.getYamlParms('method')
-        urls = Param.getYamlParms('urls')
-        data = Param.getYamlParms('data')
+    def setAipParam(self, AipFile,dataDict:dict):
+        '''接口参数组装'''
+        intFile = YamlParser(AipFile)
         headers = self.Yaml.getHearder()
-        return method,urls,data,headers
+        method = intFile.getYamlParms(('method',))
+        urls = intFile.getYamlParms(('urls',))
+        data = BeParamCom().setAipData(AipFile, dataDict)
+        return method,headers,urls,data
 
 
 

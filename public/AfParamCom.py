@@ -6,8 +6,12 @@ class AfParamCom(DataExtraction):
     def __init__(self):
         self.Yaml = 'LearnInfo'
 
-    def saveParam(self,response,YamlFile,Ptupe):
+    def saveParam(self,response,YamlFile,Ptuple):
         Result=DataExtraction().extRegxParam(response,YamlFile)
+        #param是一个tuple
         param = Result[random.randint(0, len(Result) - 1)]
-        YamlParser(self.Yaml).setYaml(str(param),Ptupe)
+        if isinstance(param,(tuple)):
+            for i in Ptuple:
+                YamlParser(self.Yaml).setYaml(str(param[i]), Ptuple[i])
+        YamlParser(self.Yaml).setYaml(str(param),Ptuple)
 

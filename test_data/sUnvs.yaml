@@ -6,5 +6,4 @@ data:
   page: 1
   rows: 100
   ext1: 1
-
 regx: '"unvsId":"(.+?)",'

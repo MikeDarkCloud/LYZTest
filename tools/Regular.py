@@ -14,7 +14,7 @@ def regx(context,patt):
 # # patt = r'"cityCode":"(.+?)"'
 # patt = r'var row = (.+?);'
 # patt = r'"pfsnId":"(.+?)","pfsnName":"(.+?)","pfsnCode":"(.+?)"'
-# print(regx(text,patt))
+# print(type(regx(text,patt)[0]))
 # print(regx(text,patt)[0])
 # print(regx(text,patt)[1])
 # print(regx(text,patt)[2])

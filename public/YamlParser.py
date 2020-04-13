@@ -2,17 +2,17 @@ from common.conf import *
 class YamlParser():
     def __init__(self,YFile):
         self.Ya = YFile
-        # self.con = Config()
+        self.con = Config()
         self.Yaml = Config().Rallyaml(YFile)
 
 
 
     def getYamlParms(self,tupe):
-        # if len(tupe) == 0 or len(tupe)>=6:
-        #     raise Exception("参数不能为空或参数超过5个！")
-        # if len(tupe) == 1:
-        #     self.Yaml.keys()
-        #     return self.Yaml.get(tupe[0])
+        if len(tupe) == 0 or len(tupe)>=6:
+            raise Exception("参数不能为空或参数超过5个！")
+        if len(tupe) == 1:
+            self.Yaml.keys()
+            return self.Yaml.get(tupe[0])
 
         if len(tupe) == 2:
             ee='GK'

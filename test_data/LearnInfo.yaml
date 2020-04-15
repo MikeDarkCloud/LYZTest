@@ -10,7 +10,7 @@ CStudent:
   ta_name: None
   unvs_name: None
 GStudent:
-  city: ''
-  taId: ''
-  taName: ''
-  unvsId: ''
+  city: '440100'
+  taId: '179'
+  taName: 深圳盐田
+  unvsId: '3'

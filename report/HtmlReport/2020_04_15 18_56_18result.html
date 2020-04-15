@@ -150,9 +150,9 @@ function showOutput(id, name) {
 <div class="container">
     <div class='heading'>
 <h1>远智教务系统接口自动化测试报告：</h1>
-<p><strong>Start Time:</strong> 2020-04-15 12:48:00</p>
-<p><strong>Duration:</strong> 0:00:00.378986</p>
-<p><strong>Status:</strong> <span class="text text-warning">Error <strong>1</strong></span></p>
+<p><strong>Start Time:</strong> 2020-04-15 18:56:18</p>
+<p><strong>Duration:</strong> 0:00:00.468731</p>
+<p><strong>Status:</strong> <span class="text text-success">Pass <strong>3</strong></span></p>
 
 <p class='description'>用例执行情况：</p>
 </div>
@@ -177,41 +177,84 @@ function showOutput(id, name) {
     </thead>
     <tbody>
         
-<tr class='text text-warning'>
+<tr class='text text-success'>
     <td>MyTestCase.MyTestCase</td>
-    <td>1</td>
+    <td>3</td>
+    <td>3</td>
     <td>0</td>
     <td>0</td>
-    <td>1</td>
-    <td><a class="btn btn-xs btn-primary"href="javascript:showClassDetail('c1',1)">Detail</a></td>
+    <td><a class="btn btn-xs btn-primary"href="javascript:showClassDetail('c1',3)">Detail</a></td>
 </tr>
 
-<tr id='ft1.1' class='text text-success'>
-    <td class='text text-warning'><div class='testcase'>test_0_getGkOpenEnrollCityInfo: 随机获取国开报读城市</div></td>
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test_0_getGkOpenEnrollCityInfo: 随机获取国开报读城市</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
-        error</a>
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        pass</a>
 
-    <div id='div_ft1.1' class="popup_window">
+    <div id='div_pt1.1' class="popup_window">
         <div style='text-align: right;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft1.1: [processID-13080]-[threadName-MainThread]-[2020-04-15 12:48:00,490] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
-Traceback (most recent call last):
-  File "C:\YZeducation\PyProject\LYZTest\test_case\MyTestCase.py", line 23, in test_0_getGkOpenEnrollCityInfo
-    AfParamCom().saveParam(response.text,'getGkOpenEnrollCityInfo',('GStudent','city'))
-  File "C:\YZeducation\PyProject\LYZTest\public\AfParamCom.py", line 12, in saveParam
-    param = Result[random.randint(0, len(Result) - 1)]
-  File "C:\Program Files\Python 3.5\lib\random.py", line 218, in randint
-    return self.randrange(a, b+1)
-  File "C:\Program Files\Python 3.5\lib\random.py", line 196, in randrange
-    raise ValueError("empty range for randrange() (%d,%d, %d)" % (istart, istop, width))
-ValueError: empty range for randrange() (0,0, 0)
+pt1.1: [processID-26036]-[threadName-MainThread]-[2020-04-15 18:56:19,185] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.2' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test_1_sUnvs: 随机获取国开院校ID</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
+        pass</a>
+
+    <div id='div_pt1.2' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.2: [processID-26036]-[threadName-MainThread]-[2020-04-15 18:56:19,185] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-26036]-[threadName-MainThread]-[2020-04-15 18:56:19,273] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.3' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test_2_getOpenTestAreaByCity: 随机获取国开报读考区</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.3')" >
+        pass</a>
+
+    <div id='div_pt1.3' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.3: [processID-26036]-[threadName-MainThread]-[2020-04-15 18:56:19,185] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-26036]-[threadName-MainThread]-[2020-04-15 18:56:19,273] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-26036]-[threadName-MainThread]-[2020-04-15 18:56:19,366] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
 
 
         </pre>
@@ -225,10 +268,10 @@ ValueError: empty range for randrange() (0,0, 0)
     <tfoot>
         <tr id='total_row'>
             <td>Total</td>
-            <td>1</td>
-            <td class="text text-success">0</td>
+            <td>3</td>
+            <td class="text text-success">3</td>
             <td class="text text-danger">0</td>
-            <td class="text text-warning">1</td>
+            <td class="text text-warning">0</td>
             <td>&nbsp;</td>
         </tr>
     </tfoot>

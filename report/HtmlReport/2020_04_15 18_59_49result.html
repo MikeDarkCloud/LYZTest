@@ -150,9 +150,9 @@ function showOutput(id, name) {
 <div class="container">
     <div class='heading'>
 <h1>远智教务系统接口自动化测试报告：</h1>
-<p><strong>Start Time:</strong> 2020-04-15 13:55:10</p>
-<p><strong>Duration:</strong> 0:00:45.931197</p>
-<p><strong>Status:</strong> <span class="text text-danger">Failure <strong>1</strong></span></p>
+<p><strong>Start Time:</strong> 2020-04-15 18:59:49</p>
+<p><strong>Duration:</strong> 0:00:37.653683</p>
+<p><strong>Status:</strong> <span class="text text-success">Pass <strong>3</strong></span></p>
 
 <p class='description'>用例执行情况：</p>
 </div>
@@ -177,35 +177,84 @@ function showOutput(id, name) {
     </thead>
     <tbody>
         
-<tr class='text text-danger'>
+<tr class='text text-success'>
     <td>MyTestCase.MyTestCase</td>
-    <td>1</td>
+    <td>3</td>
+    <td>3</td>
     <td>0</td>
-    <td>1</td>
     <td>0</td>
-    <td><a class="btn btn-xs btn-primary"href="javascript:showClassDetail('c1',1)">Detail</a></td>
+    <td><a class="btn btn-xs btn-primary"href="javascript:showClassDetail('c1',3)">Detail</a></td>
 </tr>
 
-<tr id='ft1.1' class='text text-success'>
-    <td class='text text-danger'><div class='testcase'>test_0_getGkOpenEnrollCityInfo: 随机获取国开报读城市</div></td>
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test_0_getGkOpenEnrollCityInfo: 随机获取国开报读城市</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
-        fail</a>
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        pass</a>
 
-    <div id='div_ft1.1' class="popup_window">
+    <div id='div_pt1.1' class="popup_window">
         <div style='text-align: right;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft1.1: [processID-9444]-[threadName-MainThread]-[2020-04-15 13:55:56,878] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
-Traceback (most recent call last):
-  File "C:\YZeducation\PyProject\LYZTest\test_case\MyTestCase.py", line 21, in test_0_getGkOpenEnrollCityInfo
-    self.assertTrue(MyAssert().assertchar(response.text,['true','00']), True)
-AssertionError: False is not true : True
+pt1.1: [processID-596]-[threadName-MainThread]-[2020-04-15 18:59:49,930] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.2' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test_1_sUnvs: 随机获取国开院校ID</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
+        pass</a>
+
+    <div id='div_pt1.2' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.2: [processID-596]-[threadName-MainThread]-[2020-04-15 18:59:49,930] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-596]-[threadName-MainThread]-[2020-04-15 18:59:56,456] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.3' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test_2_getOpenTestAreaByCity: 随机获取国开报读考区</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.3')" >
+        pass</a>
+
+    <div id='div_pt1.3' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.3: [processID-596]-[threadName-MainThread]-[2020-04-15 18:59:49,930] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-596]-[threadName-MainThread]-[2020-04-15 18:59:56,456] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-596]-[threadName-MainThread]-[2020-04-15 18:59:58,861] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
 
 
         </pre>
@@ -219,9 +268,9 @@ AssertionError: False is not true : True
     <tfoot>
         <tr id='total_row'>
             <td>Total</td>
-            <td>1</td>
-            <td class="text text-success">0</td>
-            <td class="text text-danger">1</td>
+            <td>3</td>
+            <td class="text text-success">3</td>
+            <td class="text text-danger">0</td>
             <td class="text text-warning">0</td>
             <td>&nbsp;</td>
         </tr>

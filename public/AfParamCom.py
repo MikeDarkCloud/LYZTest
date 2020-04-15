@@ -13,7 +13,9 @@ class AfParamCom(DataExtraction):
         param = Result[random.randint(0, len(Result) - 1)]
         if isinstance(param,tuple):
             for i in Ptuple:
-                YamlParser(self.Yaml).setYaml(param[i], Ptuple[i])
+                t = i
+                p =param[Ptuple.index(i)]
+                YamlParser(self.Yaml).setYaml(param[Ptuple.index(i)], (i,))
         else:
-            YamlParser(self.Yaml).setYaml(param,Ptuple)
+            YamlParser(self.Yaml).setYaml(param,(Ptuple,))
 

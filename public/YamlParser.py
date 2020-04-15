@@ -29,7 +29,7 @@ class YamlParser():
         if isinstance(Key, str):  # ('aa','bb')
             self.Yaml[Key] = value
             Config().Wyaml(self.Yaml, self.Ya)
-        if  len(Key)>1:
+        if  len(Key)>=2:
             if isinstance(Key[0], tuple):  # (('aa','bb','cc'),('dd','ee','ff'),('jj','hh','ii'))
                 for i in Key:
                     # 取出一个d[0][0]('aa','bb','cc')
@@ -55,22 +55,21 @@ class YamlParser():
                             Config().Wyaml(self.Yaml, self.Ya)
                     K = K + 1
         if  len(Key)==1:
-            if isinstance(Key, tuple):  # (('aa','bb','cc'),('dd','ee','ff'),('jj','hh','ii'))
-                if isinstance(Key, tuple):  # ('aa','bb','cc')
-                    if len(Key) == 1:
-                        self.Yaml[Key[0]] = value
-                        Config().Wyaml(self.Yaml,self.Ya)
-                    if len(Key) == 2:
-                        self.Yaml[Key[0]][Key[1]] = value
-                        Config().Wyaml(self.Yaml, self.Ya)
-                    if len(Key) == 3:
-                        self.Yaml[Key[0]][Key[1]] [Key[2]] = value
-                        Config().Wyaml(self.Yaml, self.Ya)
-                    if len(Key) == 4:
-                        self.Yaml[Key[0]][Key[1]][Key[2]][Key[3]] = value
-                        Config().Wyaml(self.Yaml, self.Ya)
-                    if len(Key) == 5:
-                        self.Yaml[Key[K][0]][Key[1]][Key[2]][Key[3]][Key[4]] = value
-                        Config().Wyaml(self.Yaml, self.Ya)
+            if isinstance(Key[0], tuple):  # ('aa','bb','cc')
+                if len(Key[0]) == 1:
+                    self.Yaml[Key[0][0]] = value
+                    Config().Wyaml(self.Yaml,self.Ya)
+                if len(Key[0]) == 2:
+                    self.Yaml[Key[0][0]][Key[0][1]] = value
+                    Config().Wyaml(self.Yaml, self.Ya)
+                if len(Key[0]) == 3:
+                    self.Yaml[Key[0][0]][Key[0][1]][Key[0][2]] = value
+                    Config().Wyaml(self.Yaml, self.Ya)
+                if len(Key[0]) == 4:
+                    self.Yaml[Key[0][0]][Key[0][1]][Key[0][2]][Key[0][3]] = value
+                    Config().Wyaml(self.Yaml, self.Ya)
+                if len(Key[0]) == 5:
+                    self.Yaml[Key[K][0][0]][Key[0][1]][Key[0][2]][Key[0][3]][Key[0][4]] = value
+                    Config().Wyaml(self.Yaml, self.Ya)
     def saveYaml(self,dictV):
         Config().Wyaml(dictV,self.Ya)

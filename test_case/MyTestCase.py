@@ -17,35 +17,30 @@ class MyTestCase(StartEnd):
         intFile  = YamlParser('StudentInfo')
         case =TestCaseAssembly().setAipParam('getGkOpenEnrollCityInfo',(intFile.getYamlParms(('GK','grade')),intFile.getYamlParms(('GK','level'))),(('data','ext2'),('data','ext1')))
         response = YzApi().lapi(method=case[0], headers=case[1], urls=case[2], data=case[3])
-        rr= response.text
         self.assertTrue(MyAssert().assertchar(response.text,['true','00']), True)
         '''提取参数'''
         AfParamCom().saveParam(response.text,'getGkOpenEnrollCityInfo',('GStudent','city'))
 
-    @unittest.skip("skipping")
+    # @unittest.skip("skipping")
     def test_1_sUnvs(self):
         '''随机获取国开院校ID'''
         intFile  = YamlParser('StudentInfo')
-        Para = {intFile.getYamlParms(('Gk','recruitType')):('data','ext1')}
-        case =TestCaseAssembly().setAipParam('sUnvs',Para)
+        case =TestCaseAssembly().setAipParam('sUnvs',intFile.getYamlParms(('GK','recruitType')),('data','ext1'))
         response = YzApi().lapi(method=case[0], headers=case[1], urls=case[2], data=case[3])
         self.assertTrue(MyAssert().assertchar(response.text,['true','00']), True)
         '''提取参数'''
-        AfParamCom().saveParam(response,'sUnvs',('GStudent','unvsId'))
+        AfParamCom().saveParam(response.text,'sUnvs',('GStudent','unvsId'))
 
-    @unittest.skip("skipping")
+    # @unittest.skip("skipping")
     def test_2_getOpenTestAreaByCity(self):
         '''随机获取国开报读考区'''
         intFile  = YamlParser('StudentInfo')
         extFile  = YamlParser('LearnInfo')
-        Para = {intFile.getYamlParms(('Gk','level')):('data','ext2')}
-        Para.update({intFile.getYamlParms(('Gk', 'grade')): ('data', 'ext3')})
-        Para.update({extFile.getYamlParms(('GStudent', 'city')): ('data', 'ext1')})
-        case =TestCaseAssembly().setAipParam('getOpenTestAreaByCity',Para)
+        case =TestCaseAssembly().setAipParam('getOpenTestAreaByCity',(intFile.getYamlParms(('GK','level')),intFile.getYamlParms(('GK', 'grade')),extFile.getYamlParms(('GStudent', 'city'))),(('data','ext2'),('data', 'ext3'),('data', 'ext1')))
         response = YzApi().lapi(method=case[0], headers=case[1], urls=case[2], data=case[3])
         self.assertTrue(MyAssert().assertchar(response.text,['true','00']), True)
         '''提取参数'''
-        # AfParamCom().saveParam(response,'getOpenTestAreaByCity',(('GStudent','taId'),('GStudent','taName')))
+        AfParamCom().saveParam(response.text,'getOpenTestAreaByCity',(('GStudent','taId'),('GStudent','taName')))
 
 
 

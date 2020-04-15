@@ -150,8 +150,8 @@ function showOutput(id, name) {
 <div class="container">
     <div class='heading'>
 <h1>远智教务系统接口自动化测试报告：</h1>
-<p><strong>Start Time:</strong> 2020-04-13 18:54:26</p>
-<p><strong>Duration:</strong> 0:00:56.838334</p>
+<p><strong>Start Time:</strong> 2020-04-15 11:50:59</p>
+<p><strong>Duration:</strong> 0:01:16.561093</p>
 <p><strong>Status:</strong> <span class="text text-warning">Error <strong>1</strong></span></p>
 
 <p class='description'>用例执行情况：</p>
@@ -201,12 +201,21 @@ function showOutput(id, name) {
         </div>
         <pre>
         
-ft1.1: Traceback (most recent call last):
-  File "C:\YZeducation\PyProject\LYZTest\test_case\MyTestCase.py", line 18, in test_0_getGkOpenEnrollCityInfo
-    Para = {intFile.getYamlParms(('Gk','grade')):('data','ext2')}
-  File "C:\YZeducation\PyProject\LYZTest\public\YamlParser.py", line 26, in getYamlParms
-    ttt=self.Yaml[Eee]
-KeyError: 'Gk'
+ft1.1: [processID-18916]-[threadName-MainThread]-[2020-04-15 11:52:05,594] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+Traceback (most recent call last):
+  File "C:\YZeducation\PyProject\LYZTest\test_case\MyTestCase.py", line 25, in test_0_getGkOpenEnrollCityInfo
+    AfParamCom().saveParam(response.text,'getGkOpenEnrollCityInfo',('GStudent','city'))
+  File "C:\YZeducation\PyProject\LYZTest\public\AfParamCom.py", line 10, in saveParam
+    Result=DataExtraction().extRegxParam(response,YamlFile)
+  File "C:\YZeducation\PyProject\LYZTest\public\DataExtraction.py", line 16, in extRegxParam
+    return regx(response, YamlParser(YamlFile).getYamlParms(('regx',)))
+  File "C:\YZeducation\PyProject\LYZTest\tools\Regular.py", line 3, in regx
+    pattern = re.compile(patt)
+  File "C:\Program Files\Python 3.5\lib\re.py", line 224, in compile
+    return _compile(pattern, flags)
+  File "C:\Program Files\Python 3.5\lib\re.py", line 292, in _compile
+    raise TypeError("first argument must be string or compiled pattern")
+TypeError: first argument must be string or compiled pattern
 
 
         </pre>

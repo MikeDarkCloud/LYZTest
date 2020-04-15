@@ -11,6 +11,6 @@ CStudent:
   unvs_name: None
 GStudent:
   city: ''
-  unvsId: ''
   taId: ''
   taName: ''
+  unvsId: ''

@@ -150,9 +150,9 @@ function showOutput(id, name) {
 <div class="container">
     <div class='heading'>
 <h1>远智教务系统接口自动化测试报告：</h1>
-<p><strong>Start Time:</strong> 2020-04-13 19:18:49</p>
-<p><strong>Duration:</strong> 0:00:00.078820</p>
-<p><strong>Status:</strong> <span class="text text-warning">Error <strong>1</strong></span></p>
+<p><strong>Start Time:</strong> 2020-04-15 12:45:00</p>
+<p><strong>Duration:</strong> 0:02:18.713651</p>
+<p><strong>Status:</strong> <span class="text text-success">Pass <strong>1</strong></span></p>
 
 <p class='description'>用例执行情况：</p>
 </div>
@@ -177,36 +177,31 @@ function showOutput(id, name) {
     </thead>
     <tbody>
         
-<tr class='text text-warning'>
+<tr class='text text-success'>
     <td>MyTestCase.MyTestCase</td>
     <td>1</td>
-    <td>0</td>
-    <td>0</td>
     <td>1</td>
+    <td>0</td>
+    <td>0</td>
     <td><a class="btn btn-xs btn-primary"href="javascript:showClassDetail('c1',1)">Detail</a></td>
 </tr>
 
-<tr id='ft1.1' class='text text-success'>
-    <td class='text text-warning'><div class='testcase'>test_0_getGkOpenEnrollCityInfo: 随机获取国开报读城市</div></td>
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test_0_getGkOpenEnrollCityInfo: 随机获取国开报读城市</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
-        error</a>
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        pass</a>
 
-    <div id='div_ft1.1' class="popup_window">
+    <div id='div_pt1.1' class="popup_window">
         <div style='text-align: right;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft1.1: Traceback (most recent call last):
-  File "C:\YZeducation\PyProject\LYZTest\test_case\MyTestCase.py", line 18, in test_0_getGkOpenEnrollCityInfo
-    Para = {intFile.getYamlParms(('Gk','grade')):('data','ext2')}
-  File "C:\YZeducation\PyProject\LYZTest\public\YamlParser.py", line 22, in getYamlParms
-    tr=self.Yaml[str(tupe[0])][str(tupe[1])]
-KeyError: 'Gk'
+pt1.1: [processID-22228]-[threadName-MainThread]-[2020-04-15 12:46:58,868] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
 
 
         </pre>
@@ -221,9 +216,9 @@ KeyError: 'Gk'
         <tr id='total_row'>
             <td>Total</td>
             <td>1</td>
-            <td class="text text-success">0</td>
+            <td class="text text-success">1</td>
             <td class="text text-danger">0</td>
-            <td class="text text-warning">1</td>
+            <td class="text text-warning">0</td>
             <td>&nbsp;</td>
         </tr>
     </tfoot>

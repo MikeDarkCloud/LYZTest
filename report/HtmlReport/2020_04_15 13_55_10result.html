@@ -150,9 +150,9 @@ function showOutput(id, name) {
 <div class="container">
     <div class='heading'>
 <h1>远智教务系统接口自动化测试报告：</h1>
-<p><strong>Start Time:</strong> 2020-04-13 19:24:35</p>
-<p><strong>Duration:</strong> 0:01:23.461877</p>
-<p><strong>Status:</strong> <span class="text text-warning">Error <strong>1</strong></span></p>
+<p><strong>Start Time:</strong> 2020-04-15 13:55:10</p>
+<p><strong>Duration:</strong> 0:00:45.931197</p>
+<p><strong>Status:</strong> <span class="text text-danger">Failure <strong>1</strong></span></p>
 
 <p class='description'>用例执行情况：</p>
 </div>
@@ -177,22 +177,22 @@ function showOutput(id, name) {
     </thead>
     <tbody>
         
-<tr class='text text-warning'>
+<tr class='text text-danger'>
     <td>MyTestCase.MyTestCase</td>
     <td>1</td>
     <td>0</td>
-    <td>0</td>
     <td>1</td>
+    <td>0</td>
     <td><a class="btn btn-xs btn-primary"href="javascript:showClassDetail('c1',1)">Detail</a></td>
 </tr>
 
 <tr id='ft1.1' class='text text-success'>
-    <td class='text text-warning'><div class='testcase'>test_0_getGkOpenEnrollCityInfo: 随机获取国开报读城市</div></td>
+    <td class='text text-danger'><div class='testcase'>test_0_getGkOpenEnrollCityInfo: 随机获取国开报读城市</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
     <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
-        error</a>
+        fail</a>
 
     <div id='div_ft1.1' class="popup_window">
         <div style='text-align: right;cursor:pointer'>
@@ -201,12 +201,11 @@ function showOutput(id, name) {
         </div>
         <pre>
         
-ft1.1: Traceback (most recent call last):
-  File "C:\YZeducation\PyProject\LYZTest\test_case\MyTestCase.py", line 18, in test_0_getGkOpenEnrollCityInfo
-    Para = {intFile.getYamlParms('Gk','grade'):('data','ext2')}
-  File "C:\YZeducation\PyProject\LYZTest\public\YamlParser.py", line 22, in getYamlParms
-    tr=self.Yaml[str(tupe[0])][str(tupe[1])]
-KeyError: 'Gk'
+ft1.1: [processID-9444]-[threadName-MainThread]-[2020-04-15 13:55:56,878] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+Traceback (most recent call last):
+  File "C:\YZeducation\PyProject\LYZTest\test_case\MyTestCase.py", line 21, in test_0_getGkOpenEnrollCityInfo
+    self.assertTrue(MyAssert().assertchar(response.text,['true','00']), True)
+AssertionError: False is not true : True
 
 
         </pre>
@@ -222,8 +221,8 @@ KeyError: 'Gk'
             <td>Total</td>
             <td>1</td>
             <td class="text text-success">0</td>
-            <td class="text text-danger">0</td>
-            <td class="text text-warning">1</td>
+            <td class="text text-danger">1</td>
+            <td class="text text-warning">0</td>
             <td>&nbsp;</td>
         </tr>
     </tfoot>

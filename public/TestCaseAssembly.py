@@ -14,13 +14,14 @@ class TestCaseAssembly():
         self.log = Log()
         self.Yaml = DataSource()
 
-    def setAipParam(self, AipFile,dataDict:dict):
+    def setAipParam(self, AipFile,Value,Dtuple:tuple):
         '''接口参数组装'''
         intFile = YamlParser(AipFile)
         headers = self.Yaml.getHearder()
         method = intFile.getYamlParms(('method',))
         urls = intFile.getYamlParms(('urls',))
-        data = BeParamCom().setAipData(AipFile, dataDict)
+        YamlParser(AipFile).setYaml(Value,Dtuple)
+        data = intFile.getYamlParms(('data',))
         return method,headers,urls,data
 
 

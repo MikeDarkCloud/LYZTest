@@ -24,6 +24,7 @@ class YzApi():
             try:
                 r = requests.post(url=self.DataSource.getBaseUrl() + urls, json=json, data=data, headers=headers,
                                   cookies=self.DataSource.getCookie())
+                p = r
                 r.encoding = 'utf-8'
                 self.log.info(method + ' ' + self.DataSource.getBaseUrl() + urls + ":请求发送成功！")
                 return r

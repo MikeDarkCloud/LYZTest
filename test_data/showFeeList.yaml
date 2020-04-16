@@ -1,11 +1,9 @@
-#获取院校信息接口模板
-method: post
-urls: /recruit/showFeeList.do
-hearders: ''
 data:
-  pfsnId: 157067827435885468
-  taId: 161
-  scholarship: 71
-  recruitType: 1
-
+  pfsnId: '153836539871974180'
+  recruitType: 2
+  scholarship: 1
+  taId: '166'
+hearders: ''
+method: post
 regx: '"feeList":(.+?)},"msg"'
+urls: /recruit/showFeeList.do

@@ -1,12 +1,10 @@
-#获取院校信息接口模板
-method: get
-urls: /baseinfo/getOpenPfsnByTaId.do
-hearders: ''
 data:
-  page: 1
-  rows: 100
-  ext1: 161
+  ext1: '166'
   ext2: 5
   ext3: 202009
-
+  page: 1
+  rows: 100
+hearders: ''
+method: get
 regx: '"pfsnId":"(.+?)","pfsnName":"(.+?)","pfsnCode":"(.+?)"'
+urls: /baseinfo/getOpenPfsnByTaId.do

@@ -1,5 +1,5 @@
 import random
-
+from tools.Rjson import *
 from public.DataExtraction import *
 class AfParamCom(DataExtraction):
     '''处理接口请求返回参数提取并保存'''
@@ -9,13 +9,16 @@ class AfParamCom(DataExtraction):
 
     def saveParam(self,response,YamlFile,Ptuple:tuple):
         Result=DataExtraction().extRegxParam(response,YamlFile)
-        #param是一个tuple
         param = Result[random.randint(0, len(Result) - 1)]
         if isinstance(param,tuple):
             for i in Ptuple:
-                t = i
-                p =param[Ptuple.index(i)]
                 YamlParser(self.Yaml).setYaml(param[Ptuple.index(i)], (i,))
         else:
             YamlParser(self.Yaml).setYaml(param,(Ptuple,))
 
+
+    def saveJson(self,response,key:tuple,Ptuple:tuple):
+        jsonp = getJsonParm(response)
+        for i in key:
+            value = readDict(jsonp,i)
+            YamlParser(self.Yaml).setYaml(value, (Ptuple[key.index(i)],))

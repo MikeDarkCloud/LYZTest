@@ -11,6 +11,54 @@ CStudent:
   unvs_name: None
 GStudent:
   city: '440100'
-  taId: '179'
-  taName: 深圳盐田
-  unvsId: '3'
+  feeId: '153836681959757626'
+  feeList: '[{''orderNum'': ''2'', ''feeId'': None, ''odId'': None, ''itemYear'':
+    ''1'', ''itemName'': ''代收第一年学费'', ''itemSeq'': None, ''discount'': ''0.00'', ''fdId'':
+    None, ''itemType'': ''2'', ''itemCode'': ''Y1'', ''discountType'': None, ''payable'':
+    ''1000.00'', ''amount'': ''1000.00''}, {''orderNum'': ''3'', ''feeId'': None,
+    ''odId'': None, ''itemYear'': ''1'', ''itemName'': ''代收第一年书费'', ''itemSeq'': None,
+    ''discount'': ''0.00'', ''fdId'': None, ''itemType'': ''4'', ''itemCode'': ''S1'',
+    ''discountType'': None, ''payable'': ''250.00'', ''amount'': ''250.00''}, {''orderNum'':
+    ''4'', ''feeId'': None, ''odId'': None, ''itemYear'': ''1'', ''itemName'': ''代收第一年网络费'',
+    ''itemSeq'': None, ''discount'': ''0.00'', ''fdId'': None, ''itemType'': ''5'',
+    ''itemCode'': ''W1'', ''discountType'': None, ''payable'': ''150.00'', ''amount'':
+    ''150.00''}, {''orderNum'': ''5'', ''feeId'': None, ''odId'': None, ''itemYear'':
+    ''2'', ''itemName'': ''代收第二年学费'', ''itemSeq'': None, ''discount'': ''0.00'', ''fdId'':
+    None, ''itemType'': ''2'', ''itemCode'': ''Y2'', ''discountType'': None, ''payable'':
+    ''1000.00'', ''amount'': ''1000.00''}, {''orderNum'': ''6'', ''feeId'': None,
+    ''odId'': None, ''itemYear'': ''2'', ''itemName'': ''代收第二年书费'', ''itemSeq'': None,
+    ''discount'': ''0.00'', ''fdId'': None, ''itemType'': ''4'', ''itemCode'': ''S2'',
+    ''discountType'': None, ''payable'': ''250.00'', ''amount'': ''250.00''}, {''orderNum'':
+    ''7'', ''feeId'': None, ''odId'': None, ''itemYear'': ''2'', ''itemName'': ''代收第二年网络费'',
+    ''itemSeq'': None, ''discount'': ''0.00'', ''fdId'': None, ''itemType'': ''5'',
+    ''itemCode'': ''W2'', ''discountType'': None, ''payable'': ''150.00'', ''amount'':
+    ''150.00''}, {''orderNum'': ''8'', ''feeId'': None, ''odId'': None, ''itemYear'':
+    ''3'', ''itemName'': ''代收第三年学费'', ''itemSeq'': None, ''discount'': ''0.00'', ''fdId'':
+    None, ''itemType'': ''2'', ''itemCode'': ''Y3'', ''discountType'': None, ''payable'':
+    ''1000.00'', ''amount'': ''1000.00''}, {''orderNum'': ''9'', ''feeId'': None,
+    ''odId'': None, ''itemYear'': ''3'', ''itemName'': ''代收第三年书费'', ''itemSeq'': None,
+    ''discount'': ''0.00'', ''fdId'': None, ''itemType'': ''4'', ''itemCode'': ''S3'',
+    ''discountType'': None, ''payable'': ''250.00'', ''amount'': ''250.00''}, {''orderNum'':
+    ''10'', ''feeId'': None, ''odId'': None, ''itemYear'': ''3'', ''itemName'': ''代收第三年网络费'',
+    ''itemSeq'': None, ''discount'': ''0.00'', ''fdId'': None, ''itemType'': ''5'',
+    ''itemCode'': ''W3'', ''discountType'': None, ''payable'': ''150.00'', ''amount'':
+    ''150.00''}, {''orderNum'': ''11'', ''feeId'': None, ''odId'': None, ''itemYear'':
+    ''4'', ''itemName'': ''代收第四年学费'', ''itemSeq'': None, ''discount'': ''0.00'', ''fdId'':
+    None, ''itemType'': ''2'', ''itemCode'': ''Y4'', ''discountType'': None, ''payable'':
+    ''1000.00'', ''amount'': ''1000.00''}, {''orderNum'': ''12'', ''feeId'': None,
+    ''odId'': None, ''itemYear'': ''4'', ''itemName'': ''代收第四年书费'', ''itemSeq'': None,
+    ''discount'': ''0.00'', ''fdId'': None, ''itemType'': ''4'', ''itemCode'': ''S4'',
+    ''discountType'': None, ''payable'': ''250.00'', ''amount'': ''250.00''}, {''orderNum'':
+    ''13'', ''feeId'': None, ''odId'': None, ''itemYear'': ''4'', ''itemName'': ''代收第四年网络费'',
+    ''itemSeq'': None, ''discount'': ''0.00'', ''fdId'': None, ''itemType'': ''5'',
+    ''itemCode'': ''W4'', ''discountType'': None, ''payable'': ''150.00'', ''amount'':
+    ''150.00''}, {''orderNum'': ''100'', ''feeId'': None, ''odId'': None, ''itemYear'':
+    '''', ''itemName'': ''代收艺术加考费'', ''itemSeq'': None, ''discount'': ''0.00'', ''fdId'':
+    None, ''itemType'': ''3'', ''itemCode'': ''YS'', ''discountType'': None, ''payable'':
+    ''0.00'', ''amount'': ''0.00''}]'
+  pfsnCode: '100102'
+  pfsnId: '153836539871974180'
+  pfsnName: 软件开发
+  taId: '166'
+  taName: 广州黄埔
+  unvsId: '152989436245450072'

@@ -1,0 +1,132 @@
+[processID-14760]-[threadName-MainThread]-[2020-04-16 08:27:59,160] - Log.py] - INFO: post logining success!
+[processID-14760]-[threadName-MainThread]-[2020-04-16 08:27:59,250] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-14760]-[threadName-MainThread]-[2020-04-16 08:27:59,330] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-14760]-[threadName-MainThread]-[2020-04-16 08:27:59,430] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+[processID-14760]-[threadName-MainThread]-[2020-04-16 08:27:59,534] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
+[processID-20528]-[threadName-MainThread]-[2020-04-16 08:39:20,029] - Log.py] - INFO: post logining success!
+[processID-20528]-[threadName-MainThread]-[2020-04-16 08:39:20,109] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-20528]-[threadName-MainThread]-[2020-04-16 08:39:20,189] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-20528]-[threadName-MainThread]-[2020-04-16 08:39:20,264] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+[processID-20528]-[threadName-MainThread]-[2020-04-16 08:39:20,352] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
+[processID-20528]-[threadName-MainThread]-[2020-04-16 08:39:20,451] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[processID-24660]-[threadName-MainThread]-[2020-04-16 08:43:15,612] - Log.py] - INFO: post logining success!
+[processID-24660]-[threadName-MainThread]-[2020-04-16 08:43:18,020] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-24660]-[threadName-MainThread]-[2020-04-16 08:43:20,149] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-24660]-[threadName-MainThread]-[2020-04-16 08:43:22,532] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+[processID-24660]-[threadName-MainThread]-[2020-04-16 08:43:24,319] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
+[processID-24660]-[threadName-MainThread]-[2020-04-16 08:43:26,067] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[processID-15796]-[threadName-MainThread]-[2020-04-16 08:48:07,051] - Log.py] - INFO: post logining success!
+[processID-15796]-[threadName-MainThread]-[2020-04-16 08:48:07,205] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-15796]-[threadName-MainThread]-[2020-04-16 08:48:09,208] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-15796]-[threadName-MainThread]-[2020-04-16 08:48:10,646] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+[processID-15796]-[threadName-MainThread]-[2020-04-16 08:48:11,751] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
+[processID-15796]-[threadName-MainThread]-[2020-04-16 08:48:12,889] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[processID-27484]-[threadName-MainThread]-[2020-04-16 11:29:23,920] - Log.py] - INFO: post logining success!
+[processID-27484]-[threadName-MainThread]-[2020-04-16 11:29:24,009] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-27484]-[threadName-MainThread]-[2020-04-16 11:29:24,093] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-27484]-[threadName-MainThread]-[2020-04-16 11:29:24,201] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+[processID-27484]-[threadName-MainThread]-[2020-04-16 11:29:24,304] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
+[processID-27484]-[threadName-MainThread]-[2020-04-16 11:29:24,444] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[processID-25932]-[threadName-MainThread]-[2020-04-16 11:35:00,759] - Log.py] - INFO: post logining success!
+[processID-25932]-[threadName-MainThread]-[2020-04-16 11:35:00,832] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-25932]-[threadName-MainThread]-[2020-04-16 11:35:00,914] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-25932]-[threadName-MainThread]-[2020-04-16 11:35:01,018] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+[processID-25932]-[threadName-MainThread]-[2020-04-16 11:35:01,127] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
+[processID-25932]-[threadName-MainThread]-[2020-04-16 11:35:01,434] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[processID-20848]-[threadName-MainThread]-[2020-04-16 11:38:33,504] - Log.py] - INFO: post logining success!
+[processID-20848]-[threadName-MainThread]-[2020-04-16 11:38:50,539] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-20848]-[threadName-MainThread]-[2020-04-16 11:39:03,818] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-20848]-[threadName-MainThread]-[2020-04-16 11:39:16,101] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+[processID-20848]-[threadName-MainThread]-[2020-04-16 11:39:30,242] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
+[processID-20848]-[threadName-MainThread]-[2020-04-16 11:39:45,179] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[processID-26704]-[threadName-MainThread]-[2020-04-16 11:42:51,684] - Log.py] - INFO: post logining success!
+[processID-26704]-[threadName-MainThread]-[2020-04-16 11:42:51,845] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-26704]-[threadName-MainThread]-[2020-04-16 11:42:59,780] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-26704]-[threadName-MainThread]-[2020-04-16 11:43:07,278] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+[processID-26704]-[threadName-MainThread]-[2020-04-16 11:43:09,878] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
+[processID-26704]-[threadName-MainThread]-[2020-04-16 11:43:13,511] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[processID-11428]-[threadName-MainThread]-[2020-04-16 11:43:46,255] - Log.py] - INFO: post logining success!
+[processID-11428]-[threadName-MainThread]-[2020-04-16 11:43:46,392] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-11428]-[threadName-MainThread]-[2020-04-16 11:43:49,402] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-11428]-[threadName-MainThread]-[2020-04-16 11:43:50,572] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+[processID-11428]-[threadName-MainThread]-[2020-04-16 11:43:51,859] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
+[processID-11428]-[threadName-MainThread]-[2020-04-16 11:43:54,290] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[processID-25360]-[threadName-MainThread]-[2020-04-16 11:45:44,251] - Log.py] - INFO: post logining success!
+[processID-25360]-[threadName-MainThread]-[2020-04-16 11:45:44,343] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-25360]-[threadName-MainThread]-[2020-04-16 11:45:44,448] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-25360]-[threadName-MainThread]-[2020-04-16 11:45:44,562] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+[processID-25360]-[threadName-MainThread]-[2020-04-16 11:45:44,657] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
+[processID-25360]-[threadName-MainThread]-[2020-04-16 11:45:44,950] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[processID-26304]-[threadName-MainThread]-[2020-04-16 13:35:07,753] - Log.py] - INFO: post logining success!
+[processID-26304]-[threadName-MainThread]-[2020-04-16 13:35:07,842] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-26304]-[threadName-MainThread]-[2020-04-16 13:35:07,943] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-26304]-[threadName-MainThread]-[2020-04-16 13:35:08,055] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+[processID-26304]-[threadName-MainThread]-[2020-04-16 13:35:08,194] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
+[processID-26304]-[threadName-MainThread]-[2020-04-16 13:35:08,542] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[processID-26304]-[threadName-MainThread]-[2020-04-16 13:35:08,825] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[processID-872]-[threadName-MainThread]-[2020-04-16 13:37:20,439] - Log.py] - INFO: post logining success!
+[processID-872]-[threadName-MainThread]-[2020-04-16 13:37:20,595] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-872]-[threadName-MainThread]-[2020-04-16 13:37:20,774] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-872]-[threadName-MainThread]-[2020-04-16 13:37:20,973] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+[processID-872]-[threadName-MainThread]-[2020-04-16 13:37:21,179] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
+[processID-872]-[threadName-MainThread]-[2020-04-16 13:37:21,429] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[processID-9884]-[threadName-MainThread]-[2020-04-16 13:39:13,372] - Log.py] - INFO: post logining success!
+[processID-9884]-[threadName-MainThread]-[2020-04-16 13:39:13,511] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-9884]-[threadName-MainThread]-[2020-04-16 13:39:13,691] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-9884]-[threadName-MainThread]-[2020-04-16 13:39:13,894] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+[processID-9884]-[threadName-MainThread]-[2020-04-16 13:39:14,111] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
+[processID-9884]-[threadName-MainThread]-[2020-04-16 13:39:14,535] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[processID-13088]-[threadName-MainThread]-[2020-04-16 13:42:14,080] - Log.py] - INFO: post logining success!
+[processID-13088]-[threadName-MainThread]-[2020-04-16 13:42:14,232] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-13088]-[threadName-MainThread]-[2020-04-16 13:42:14,401] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-13088]-[threadName-MainThread]-[2020-04-16 13:42:14,606] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+[processID-13088]-[threadName-MainThread]-[2020-04-16 13:42:14,816] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
+[processID-13088]-[threadName-MainThread]-[2020-04-16 13:42:15,248] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[processID-21444]-[threadName-MainThread]-[2020-04-16 13:46:08,966] - Log.py] - INFO: post logining success!
+[processID-21444]-[threadName-MainThread]-[2020-04-16 13:46:09,128] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-21444]-[threadName-MainThread]-[2020-04-16 13:46:09,304] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-21444]-[threadName-MainThread]-[2020-04-16 13:46:09,498] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+[processID-21444]-[threadName-MainThread]-[2020-04-16 13:46:09,716] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
+[processID-21444]-[threadName-MainThread]-[2020-04-16 13:46:10,130] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[processID-652]-[threadName-MainThread]-[2020-04-16 13:47:46,343] - Log.py] - INFO: post logining success!
+[processID-652]-[threadName-MainThread]-[2020-04-16 13:47:46,498] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-652]-[threadName-MainThread]-[2020-04-16 13:47:46,677] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-652]-[threadName-MainThread]-[2020-04-16 13:47:46,881] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+[processID-652]-[threadName-MainThread]-[2020-04-16 13:47:47,137] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
+[processID-652]-[threadName-MainThread]-[2020-04-16 13:47:47,620] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[processID-24392]-[threadName-MainThread]-[2020-04-16 13:50:32,987] - Log.py] - INFO: post logining success!
+[processID-24392]-[threadName-MainThread]-[2020-04-16 13:50:33,145] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-24392]-[threadName-MainThread]-[2020-04-16 13:50:33,298] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-24392]-[threadName-MainThread]-[2020-04-16 13:50:33,495] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+[processID-24392]-[threadName-MainThread]-[2020-04-16 13:50:33,711] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
+[processID-24392]-[threadName-MainThread]-[2020-04-16 13:50:34,101] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[processID-26816]-[threadName-MainThread]-[2020-04-16 13:54:47,586] - Log.py] - INFO: post logining success!
+[processID-26816]-[threadName-MainThread]-[2020-04-16 13:54:47,743] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-26816]-[threadName-MainThread]-[2020-04-16 13:54:47,918] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-26816]-[threadName-MainThread]-[2020-04-16 13:54:48,112] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+[processID-26816]-[threadName-MainThread]-[2020-04-16 13:54:48,314] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
+[processID-26816]-[threadName-MainThread]-[2020-04-16 13:54:48,721] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[processID-10396]-[threadName-MainThread]-[2020-04-16 13:55:20,007] - Log.py] - INFO: post logining success!
+[processID-10396]-[threadName-MainThread]-[2020-04-16 13:55:20,161] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-10396]-[threadName-MainThread]-[2020-04-16 13:55:20,325] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-10396]-[threadName-MainThread]-[2020-04-16 13:55:20,528] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+[processID-10396]-[threadName-MainThread]-[2020-04-16 13:55:20,746] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
+[processID-10396]-[threadName-MainThread]-[2020-04-16 13:55:21,156] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[processID-15920]-[threadName-MainThread]-[2020-04-16 13:58:16,315] - Log.py] - INFO: post logining success!
+[processID-15920]-[threadName-MainThread]-[2020-04-16 13:58:16,400] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-15920]-[threadName-MainThread]-[2020-04-16 13:58:16,476] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-15920]-[threadName-MainThread]-[2020-04-16 13:58:16,577] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+[processID-15920]-[threadName-MainThread]-[2020-04-16 13:58:16,686] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
+[processID-15920]-[threadName-MainThread]-[2020-04-16 13:58:16,979] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[processID-16536]-[threadName-MainThread]-[2020-04-16 14:01:44,525] - Log.py] - INFO: post logining success!
+[processID-16536]-[threadName-MainThread]-[2020-04-16 14:01:44,681] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-16536]-[threadName-MainThread]-[2020-04-16 14:01:44,847] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-16536]-[threadName-MainThread]-[2020-04-16 14:01:45,041] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+[processID-16536]-[threadName-MainThread]-[2020-04-16 14:01:45,260] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
+[processID-16536]-[threadName-MainThread]-[2020-04-16 14:01:45,663] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[processID-24096]-[threadName-MainThread]-[2020-04-16 14:03:19,682] - Log.py] - INFO: post logining success!
+[processID-24096]-[threadName-MainThread]-[2020-04-16 14:03:19,758] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-24096]-[threadName-MainThread]-[2020-04-16 14:03:19,850] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-24096]-[threadName-MainThread]-[2020-04-16 14:03:19,947] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+[processID-24096]-[threadName-MainThread]-[2020-04-16 14:03:20,051] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
+[processID-24096]-[threadName-MainThread]-[2020-04-16 14:03:20,344] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！

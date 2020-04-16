@@ -150,9 +150,9 @@ function showOutput(id, name) {
 <div class="container">
     <div class='heading'>
 <h1>远智教务系统接口自动化测试报告：</h1>
-<p><strong>Start Time:</strong> 2020-04-15 19:01:37</p>
-<p><strong>Duration:</strong> 0:00:00.418883</p>
-<p><strong>Status:</strong> <span class="text text-success">Pass <strong>3</strong></span></p>
+<p><strong>Start Time:</strong> 2020-04-16 13:37:20</p>
+<p><strong>Duration:</strong> 0:00:01.259140</p>
+<p><strong>Status:</strong> <span class="text text-success">Pass <strong>4</strong></span> <span class="text text-warning">Error <strong>1</strong></span></p>
 
 <p class='description'>用例执行情况：</p>
 </div>
@@ -177,13 +177,13 @@ function showOutput(id, name) {
     </thead>
     <tbody>
         
-<tr class='text text-success'>
+<tr class='text text-warning'>
     <td>MyTestCase.MyTestCase</td>
-    <td>3</td>
-    <td>3</td>
+    <td>5</td>
+    <td>4</td>
     <td>0</td>
-    <td>0</td>
-    <td><a class="btn btn-xs btn-primary"href="javascript:showClassDetail('c1',3)">Detail</a></td>
+    <td>1</td>
+    <td><a class="btn btn-xs btn-primary"href="javascript:showClassDetail('c1',5)">Detail</a></td>
 </tr>
 
 <tr id='pt1.1' class='hiddenRow'>
@@ -201,7 +201,7 @@ function showOutput(id, name) {
         </div>
         <pre>
         
-pt1.1: [processID-17908]-[threadName-MainThread]-[2020-04-15 19:01:37,918] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+pt1.1: [processID-872]-[threadName-MainThread]-[2020-04-16 13:37:20,595] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
 
 
         </pre>
@@ -226,8 +226,8 @@ pt1.1: [processID-17908]-[threadName-MainThread]-[2020-04-15 19:01:37,918] - Log
         </div>
         <pre>
         
-pt1.2: [processID-17908]-[threadName-MainThread]-[2020-04-15 19:01:37,918] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
-[processID-17908]-[threadName-MainThread]-[2020-04-15 19:01:37,988] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+pt1.2: [processID-872]-[threadName-MainThread]-[2020-04-16 13:37:20,595] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-872]-[threadName-MainThread]-[2020-04-16 13:37:20,774] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
 
 
         </pre>
@@ -238,7 +238,7 @@ pt1.2: [processID-17908]-[threadName-MainThread]-[2020-04-15 19:01:37,918] - Log
 </tr>
 
 <tr id='pt1.3' class='hiddenRow'>
-    <td class='text text-success'><div class='testcase'>test_2_getOpenTestAreaByCity: 随机获取国开报读考区</div></td>
+    <td class='text text-success'><div class='testcase'>test_2_getOpenTestAreaByCity: 随机获取国开报读考区ID+考区名称</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
@@ -252,9 +252,74 @@ pt1.2: [processID-17908]-[threadName-MainThread]-[2020-04-15 19:01:37,918] - Log
         </div>
         <pre>
         
-pt1.3: [processID-17908]-[threadName-MainThread]-[2020-04-15 19:01:37,918] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
-[processID-17908]-[threadName-MainThread]-[2020-04-15 19:01:37,988] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
-[processID-17908]-[threadName-MainThread]-[2020-04-15 19:01:38,087] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+pt1.3: [processID-872]-[threadName-MainThread]-[2020-04-16 13:37:20,595] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-872]-[threadName-MainThread]-[2020-04-16 13:37:20,774] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-872]-[threadName-MainThread]-[2020-04-16 13:37:20,973] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.4' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test_3_getOpenPfsnByTaId: 随机获取国开报读专业pfsnId+专业名称pfsnName+专业编号pfsnCode</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.4')" >
+        pass</a>
+
+    <div id='div_pt1.4' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.4: [processID-872]-[threadName-MainThread]-[2020-04-16 13:37:20,595] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-872]-[threadName-MainThread]-[2020-04-16 13:37:20,774] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-872]-[threadName-MainThread]-[2020-04-16 13:37:20,973] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+[processID-872]-[threadName-MainThread]-[2020-04-16 13:37:21,179] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.5' class='text text-success'>
+    <td class='text text-warning'><div class='testcase'>test_4_showFeeList: 获取国开报读收费标准信息</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.5')" >
+        error</a>
+
+    <div id='div_ft1.5' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.5: [processID-872]-[threadName-MainThread]-[2020-04-16 13:37:20,595] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-872]-[threadName-MainThread]-[2020-04-16 13:37:20,774] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-872]-[threadName-MainThread]-[2020-04-16 13:37:20,973] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+[processID-872]-[threadName-MainThread]-[2020-04-16 13:37:21,179] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
+[processID-872]-[threadName-MainThread]-[2020-04-16 13:37:21,429] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+Traceback (most recent call last):
+  File "C:\YZeducation\PyProject\LYZTest\test_case\MyTestCase.py", line 71, in test_4_showFeeList
+    AfParamCom().saveJson(response.text, (('body','feeInfo','feeId'),('body','feeInfo','feeList')), (('GStudent', 'feeId'),('GStudent', 'feeList')))
+  File "C:\YZeducation\PyProject\LYZTest\public\AfParamCom.py", line 23, in saveJson
+    value = readDict(jsonp,i)
+  File "C:\YZeducation\PyProject\LYZTest\tools\Rjson.py", line 27, in readDict
+    return ldict[key[0]][key[1]][key[2]]
+TypeError: 'NoneType' object is not subscriptable
 
 
         </pre>
@@ -268,10 +333,10 @@ pt1.3: [processID-17908]-[threadName-MainThread]-[2020-04-15 19:01:37,918] - Log
     <tfoot>
         <tr id='total_row'>
             <td>Total</td>
-            <td>3</td>
-            <td class="text text-success">3</td>
+            <td>5</td>
+            <td class="text text-success">4</td>
             <td class="text text-danger">0</td>
-            <td class="text text-warning">0</td>
+            <td class="text text-warning">1</td>
             <td>&nbsp;</td>
         </tr>
     </tfoot>

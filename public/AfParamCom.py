@@ -21,4 +21,4 @@ class AfParamCom(DataExtraction):
         jsonp = getJsonParm(response)
         for i in key:
             value = readDict(jsonp,i)
-            YamlParser(self.Yaml).setYaml(value, (Ptuple[key.index(i)],))
+            YamlParser(self.Yaml).setYaml(str(value), (Ptuple[key.index(i)],))

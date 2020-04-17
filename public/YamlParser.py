@@ -55,11 +55,9 @@ class YamlParser():
         if  len(Key)==1:
             if isinstance(Key[0], tuple):  # ('aa','bb','cc')
                 if len(Key[0]) == 1:
-                    i = len(Key[0])
                     self.Yaml[Key[0][0]] = value
                     Config().Wyaml(self.Yaml,self.Ya)
                 if len(Key[0]) == 2:
-                    k = len(Key[0])
                     self.Yaml[Key[0][0]][Key[0][1]] = value
                     Config().Wyaml(self.Yaml, self.Ya)
                 if len(Key[0]) == 3:

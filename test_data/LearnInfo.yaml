@@ -10,55 +10,12 @@ CStudent:
   ta_name: None
   unvs_name: None
 GStudent:
-  city: '440100'
+  city: '440300'
   feeId: '153836681959757626'
-  feeList: '[{''orderNum'': ''2'', ''feeId'': None, ''odId'': None, ''itemYear'':
-    ''1'', ''itemName'': ''代收第一年学费'', ''itemSeq'': None, ''discount'': ''0.00'', ''fdId'':
-    None, ''itemType'': ''2'', ''itemCode'': ''Y1'', ''discountType'': None, ''payable'':
-    ''1000.00'', ''amount'': ''1000.00''}, {''orderNum'': ''3'', ''feeId'': None,
-    ''odId'': None, ''itemYear'': ''1'', ''itemName'': ''代收第一年书费'', ''itemSeq'': None,
-    ''discount'': ''0.00'', ''fdId'': None, ''itemType'': ''4'', ''itemCode'': ''S1'',
-    ''discountType'': None, ''payable'': ''250.00'', ''amount'': ''250.00''}, {''orderNum'':
-    ''4'', ''feeId'': None, ''odId'': None, ''itemYear'': ''1'', ''itemName'': ''代收第一年网络费'',
-    ''itemSeq'': None, ''discount'': ''0.00'', ''fdId'': None, ''itemType'': ''5'',
-    ''itemCode'': ''W1'', ''discountType'': None, ''payable'': ''150.00'', ''amount'':
-    ''150.00''}, {''orderNum'': ''5'', ''feeId'': None, ''odId'': None, ''itemYear'':
-    ''2'', ''itemName'': ''代收第二年学费'', ''itemSeq'': None, ''discount'': ''0.00'', ''fdId'':
-    None, ''itemType'': ''2'', ''itemCode'': ''Y2'', ''discountType'': None, ''payable'':
-    ''1000.00'', ''amount'': ''1000.00''}, {''orderNum'': ''6'', ''feeId'': None,
-    ''odId'': None, ''itemYear'': ''2'', ''itemName'': ''代收第二年书费'', ''itemSeq'': None,
-    ''discount'': ''0.00'', ''fdId'': None, ''itemType'': ''4'', ''itemCode'': ''S2'',
-    ''discountType'': None, ''payable'': ''250.00'', ''amount'': ''250.00''}, {''orderNum'':
-    ''7'', ''feeId'': None, ''odId'': None, ''itemYear'': ''2'', ''itemName'': ''代收第二年网络费'',
-    ''itemSeq'': None, ''discount'': ''0.00'', ''fdId'': None, ''itemType'': ''5'',
-    ''itemCode'': ''W2'', ''discountType'': None, ''payable'': ''150.00'', ''amount'':
-    ''150.00''}, {''orderNum'': ''8'', ''feeId'': None, ''odId'': None, ''itemYear'':
-    ''3'', ''itemName'': ''代收第三年学费'', ''itemSeq'': None, ''discount'': ''0.00'', ''fdId'':
-    None, ''itemType'': ''2'', ''itemCode'': ''Y3'', ''discountType'': None, ''payable'':
-    ''1000.00'', ''amount'': ''1000.00''}, {''orderNum'': ''9'', ''feeId'': None,
-    ''odId'': None, ''itemYear'': ''3'', ''itemName'': ''代收第三年书费'', ''itemSeq'': None,
-    ''discount'': ''0.00'', ''fdId'': None, ''itemType'': ''4'', ''itemCode'': ''S3'',
-    ''discountType'': None, ''payable'': ''250.00'', ''amount'': ''250.00''}, {''orderNum'':
-    ''10'', ''feeId'': None, ''odId'': None, ''itemYear'': ''3'', ''itemName'': ''代收第三年网络费'',
-    ''itemSeq'': None, ''discount'': ''0.00'', ''fdId'': None, ''itemType'': ''5'',
-    ''itemCode'': ''W3'', ''discountType'': None, ''payable'': ''150.00'', ''amount'':
-    ''150.00''}, {''orderNum'': ''11'', ''feeId'': None, ''odId'': None, ''itemYear'':
-    ''4'', ''itemName'': ''代收第四年学费'', ''itemSeq'': None, ''discount'': ''0.00'', ''fdId'':
-    None, ''itemType'': ''2'', ''itemCode'': ''Y4'', ''discountType'': None, ''payable'':
-    ''1000.00'', ''amount'': ''1000.00''}, {''orderNum'': ''12'', ''feeId'': None,
-    ''odId'': None, ''itemYear'': ''4'', ''itemName'': ''代收第四年书费'', ''itemSeq'': None,
-    ''discount'': ''0.00'', ''fdId'': None, ''itemType'': ''4'', ''itemCode'': ''S4'',
-    ''discountType'': None, ''payable'': ''250.00'', ''amount'': ''250.00''}, {''orderNum'':
-    ''13'', ''feeId'': None, ''odId'': None, ''itemYear'': ''4'', ''itemName'': ''代收第四年网络费'',
-    ''itemSeq'': None, ''discount'': ''0.00'', ''fdId'': None, ''itemType'': ''5'',
-    ''itemCode'': ''W4'', ''discountType'': None, ''payable'': ''150.00'', ''amount'':
-    ''150.00''}, {''orderNum'': ''100'', ''feeId'': None, ''odId'': None, ''itemYear'':
-    '''', ''itemName'': ''代收艺术加考费'', ''itemSeq'': None, ''discount'': ''0.00'', ''fdId'':
-    None, ''itemType'': ''3'', ''itemCode'': ''YS'', ''discountType'': None, ''payable'':
-    ''0.00'', ''amount'': ''0.00''}]'
-  pfsnCode: '100102'
-  pfsnId: '153836539871974180'
-  pfsnName: 软件开发
-  taId: '166'
-  taName: 广州黄埔
+  feeList: '[{"itemCode":"Y1","itemName":"代收第一年学费","amount":"1000.00","discount":"0.00","fdId":null,"odId":null,"payable":"1000.00","discountType":null,"orderNum":"2","itemYear":"1","itemType":"2","feeId":null,"itemSeq":null},{"itemCode":"S1","itemName":"代收第一年书费","amount":"250.00","discount":"0.00","fdId":null,"odId":null,"payable":"250.00","discountType":null,"orderNum":"3","itemYear":"1","itemType":"4","feeId":null,"itemSeq":null},{"itemCode":"W1","itemName":"代收第一年网络费","amount":"150.00","discount":"0.00","fdId":null,"odId":null,"payable":"150.00","discountType":null,"orderNum":"4","itemYear":"1","itemType":"5","feeId":null,"itemSeq":null},{"itemCode":"Y2","itemName":"代收第二年学费","amount":"1000.00","discount":"0.00","fdId":null,"odId":null,"payable":"1000.00","discountType":null,"orderNum":"5","itemYear":"2","itemType":"2","feeId":null,"itemSeq":null},{"itemCode":"S2","itemName":"代收第二年书费","amount":"250.00","discount":"0.00","fdId":null,"odId":null,"payable":"250.00","discountType":null,"orderNum":"6","itemYear":"2","itemType":"4","feeId":null,"itemSeq":null},{"itemCode":"W2","itemName":"代收第二年网络费","amount":"150.00","discount":"0.00","fdId":null,"odId":null,"payable":"150.00","discountType":null,"orderNum":"7","itemYear":"2","itemType":"5","feeId":null,"itemSeq":null},{"itemCode":"Y3","itemName":"代收第三年学费","amount":"1000.00","discount":"0.00","fdId":null,"odId":null,"payable":"1000.00","discountType":null,"orderNum":"8","itemYear":"3","itemType":"2","feeId":null,"itemSeq":null},{"itemCode":"S3","itemName":"代收第三年书费","amount":"250.00","discount":"0.00","fdId":null,"odId":null,"payable":"250.00","discountType":null,"orderNum":"9","itemYear":"3","itemType":"4","feeId":null,"itemSeq":null},{"itemCode":"W3","itemName":"代收第三年网络费","amount":"150.00","discount":"0.00","fdId":null,"odId":null,"payable":"150.00","discountType":null,"orderNum":"10","itemYear":"3","itemType":"5","feeId":null,"itemSeq":null},{"itemCode":"Y4","itemName":"代收第四年学费","amount":"1000.00","discount":"0.00","fdId":null,"odId":null,"payable":"1000.00","discountType":null,"orderNum":"11","itemYear":"4","itemType":"2","feeId":null,"itemSeq":null},{"itemCode":"S4","itemName":"代收第四年书费","amount":"250.00","discount":"0.00","fdId":null,"odId":null,"payable":"250.00","discountType":null,"orderNum":"12","itemYear":"4","itemType":"4","feeId":null,"itemSeq":null},{"itemCode":"W4","itemName":"代收第四年网络费","amount":"150.00","discount":"0.00","fdId":null,"odId":null,"payable":"150.00","discountType":null,"orderNum":"13","itemYear":"4","itemType":"5","feeId":null,"itemSeq":null},{"itemCode":"YS","itemName":"代收艺术加考费","amount":"0.00","discount":"0.00","fdId":null,"odId":null,"payable":"0.00","discountType":null,"orderNum":"100","itemYear":"","itemType":"3","feeId":null,"itemSeq":null}]'
+  pfsnCode: '100103'
+  pfsnId: '153836544109862031'
+  pfsnName: 太空探索
+  taId: '179'
+  taName: 深圳盐田
   unvsId: '152989436245450072'

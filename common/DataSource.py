@@ -25,6 +25,12 @@ class DataSource():
         if type == 'regiester':
             return self.f.Rallyaml('Hearder').get('RHearders')
 
+    def setHearder(self,V):
+        H=self.f.Rallyaml('Hearder')
+        H['RHearders']['Content-Type']=V
+        self.f.Wyaml(H, 'Hearder')
+
+
     def setCookie(self,value):
         '''获取cookie'''
         load = self.f.Rallyaml('Logining')

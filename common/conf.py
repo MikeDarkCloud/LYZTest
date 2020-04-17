@@ -20,7 +20,7 @@ class Config:
     '''写入yaml文件'''
     def Wyaml(self,content,YamlFile):
         with open(self.dirdict[YamlFile],'w',encoding='utf-8') as f:
-            yaml.dump(content,f,default_flow_style=False,encoding='utf-8',allow_unicode=True)
+            yaml.dump(content,f,default_flow_style=False,encoding='utf-8',allow_unicode=True)   #,allow_unicode=True
 
     '''读取yaml文件'''
     def Rallyaml(self,K):

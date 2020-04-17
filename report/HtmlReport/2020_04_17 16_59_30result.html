@@ -150,9 +150,9 @@ function showOutput(id, name) {
 <div class="container">
     <div class='heading'>
 <h1>远智教务系统接口自动化测试报告：</h1>
-<p><strong>Start Time:</strong> 2020-04-16 13:50:32</p>
-<p><strong>Duration:</strong> 0:00:29.717376</p>
-<p><strong>Status:</strong> <span class="text text-success">Pass <strong>4</strong></span> <span class="text text-warning">Error <strong>1</strong></span></p>
+<p><strong>Start Time:</strong> 2020-04-17 16:59:30</p>
+<p><strong>Duration:</strong> 0:00:01.523009</p>
+<p><strong>Status:</strong> <span class="text text-success">Pass <strong>4</strong></span> <span class="text text-danger">Failure <strong>1</strong></span> <span class="text text-warning">Error <strong>1</strong></span></p>
 
 <p class='description'>用例执行情况：</p>
 </div>
@@ -179,11 +179,11 @@ function showOutput(id, name) {
         
 <tr class='text text-warning'>
     <td>MyTestCase.MyTestCase</td>
-    <td>5</td>
+    <td>6</td>
     <td>4</td>
-    <td>0</td>
     <td>1</td>
-    <td><a class="btn btn-xs btn-primary"href="javascript:showClassDetail('c1',5)">Detail</a></td>
+    <td>1</td>
+    <td><a class="btn btn-xs btn-primary"href="javascript:showClassDetail('c1',6)">Detail</a></td>
 </tr>
 
 <tr id='pt1.1' class='hiddenRow'>
@@ -201,7 +201,7 @@ function showOutput(id, name) {
         </div>
         <pre>
         
-pt1.1: [processID-24392]-[threadName-MainThread]-[2020-04-16 13:50:33,145] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+pt1.1: [processID-15848]-[threadName-MainThread]-[2020-04-17 16:59:30,426] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
 
 
         </pre>
@@ -211,23 +211,28 @@ pt1.1: [processID-24392]-[threadName-MainThread]-[2020-04-16 13:50:33,145] - Log
     </td>
 </tr>
 
-<tr id='pt1.2' class='hiddenRow'>
-    <td class='text text-success'><div class='testcase'>test_1_sUnvs: 随机获取国开院校ID</div></td>
+<tr id='ft1.2' class='text text-success'>
+    <td class='text text-warning'><div class='testcase'>test_1_sUnvs: 随机获取国开院校ID</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
-        pass</a>
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.2')" >
+        error</a>
 
-    <div id='div_pt1.2' class="popup_window">
+    <div id='div_ft1.2' class="popup_window">
         <div style='text-align: right;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.2').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt1.2: [processID-24392]-[threadName-MainThread]-[2020-04-16 13:50:33,145] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
-[processID-24392]-[threadName-MainThread]-[2020-04-16 13:50:33,298] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+ft1.2: [processID-15848]-[threadName-MainThread]-[2020-04-17 16:59:30,426] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+Traceback (most recent call last):
+  File "C:\YZeducation\PyProject\LYZTest\test_case\MyTestCase.py", line 30, in test_1_sUnvs
+    case = TestCaseAssembly().setAipParam('sUnvs', intFile.getYamlParms(('GK', 'recruitType')), ('data', 'ext1'))
+  File "C:\YZeducation\PyProject\LYZTest\public\TestCaseAssembly.py", line 25, in setAipParam
+    intFile.setYaml(Value[i:i+5], Dtuple[i:i+5])
+TypeError: 'int' object is not subscriptable
 
 
         </pre>
@@ -252,9 +257,8 @@ pt1.2: [processID-24392]-[threadName-MainThread]-[2020-04-16 13:50:33,145] - Log
         </div>
         <pre>
         
-pt1.3: [processID-24392]-[threadName-MainThread]-[2020-04-16 13:50:33,145] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
-[processID-24392]-[threadName-MainThread]-[2020-04-16 13:50:33,298] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
-[processID-24392]-[threadName-MainThread]-[2020-04-16 13:50:33,495] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+pt1.3: [processID-15848]-[threadName-MainThread]-[2020-04-17 16:59:30,426] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-15848]-[threadName-MainThread]-[2020-04-17 16:59:30,573] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
 
 
         </pre>
@@ -279,10 +283,9 @@ pt1.3: [processID-24392]-[threadName-MainThread]-[2020-04-16 13:50:33,145] - Log
         </div>
         <pre>
         
-pt1.4: [processID-24392]-[threadName-MainThread]-[2020-04-16 13:50:33,145] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
-[processID-24392]-[threadName-MainThread]-[2020-04-16 13:50:33,298] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
-[processID-24392]-[threadName-MainThread]-[2020-04-16 13:50:33,495] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
-[processID-24392]-[threadName-MainThread]-[2020-04-16 13:50:33,711] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
+pt1.4: [processID-15848]-[threadName-MainThread]-[2020-04-17 16:59:30,426] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-15848]-[threadName-MainThread]-[2020-04-17 16:59:30,573] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+[processID-15848]-[threadName-MainThread]-[2020-04-17 16:59:30,794] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
 
 
         </pre>
@@ -292,34 +295,58 @@ pt1.4: [processID-24392]-[threadName-MainThread]-[2020-04-16 13:50:33,145] - Log
     </td>
 </tr>
 
-<tr id='ft1.5' class='text text-success'>
-    <td class='text text-warning'><div class='testcase'>test_4_showFeeList: 获取国开报读收费标准信息</div></td>
+<tr id='pt1.5' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test_4_showFeeList: 获取国开报读收费标准信息</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.5')" >
-        error</a>
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.5')" >
+        pass</a>
 
-    <div id='div_ft1.5' class="popup_window">
+    <div id='div_pt1.5' class="popup_window">
         <div style='text-align: right;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.5').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.5').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft1.5: [processID-24392]-[threadName-MainThread]-[2020-04-16 13:50:33,145] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
-[processID-24392]-[threadName-MainThread]-[2020-04-16 13:50:33,298] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
-[processID-24392]-[threadName-MainThread]-[2020-04-16 13:50:33,495] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
-[processID-24392]-[threadName-MainThread]-[2020-04-16 13:50:33,711] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
-[processID-24392]-[threadName-MainThread]-[2020-04-16 13:50:34,101] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+pt1.5: [processID-15848]-[threadName-MainThread]-[2020-04-17 16:59:30,426] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-15848]-[threadName-MainThread]-[2020-04-17 16:59:30,573] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+[processID-15848]-[threadName-MainThread]-[2020-04-17 16:59:30,794] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
+[processID-15848]-[threadName-MainThread]-[2020-04-17 16:59:31,143] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.6' class='text text-success'>
+    <td class='text text-danger'><div class='testcase'>test_5_gk_normal_register: 随机录入国开类型学员学员</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.6')" >
+        fail</a>
+
+    <div id='div_ft1.6' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.6').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.6: [processID-15848]-[threadName-MainThread]-[2020-04-17 16:59:30,426] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-15848]-[threadName-MainThread]-[2020-04-17 16:59:30,573] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+[processID-15848]-[threadName-MainThread]-[2020-04-17 16:59:30,794] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
+[processID-15848]-[threadName-MainThread]-[2020-04-17 16:59:31,143] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[processID-15848]-[threadName-MainThread]-[2020-04-17 16:59:31,644] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
 Traceback (most recent call last):
-  File "C:\YZeducation\PyProject\LYZTest\test_case\MyTestCase.py", line 71, in test_4_showFeeList
-    AfParamCom().saveJson(response.text, (('body','feeInfo','feeId'),('body','feeInfo','feeList')), (('GStudent', 'feeId'),('GStudent', 'feeList')))
-  File "C:\YZeducation\PyProject\LYZTest\public\AfParamCom.py", line 23, in saveJson
-    value = readDict(jsonp,i)
-  File "C:\YZeducation\PyProject\LYZTest\tools\Rjson.py", line 27, in readDict
-    p = ldict[key[0]][key[1]][key[2]]
-KeyError: 'feeList'
+  File "C:\YZeducation\PyProject\LYZTest\test_case\MyTestCase.py", line 111, in test_5_gk_normal_register
+    self.assertTrue(MyAssert().assertchar(response.text, ['true', '00']), True)
+AssertionError: False is not true : True
 
 
         </pre>
@@ -333,9 +360,9 @@ KeyError: 'feeList'
     <tfoot>
         <tr id='total_row'>
             <td>Total</td>
-            <td>5</td>
+            <td>6</td>
             <td class="text text-success">4</td>
-            <td class="text text-danger">0</td>
+            <td class="text text-danger">1</td>
             <td class="text text-warning">1</td>
             <td>&nbsp;</td>
         </tr>

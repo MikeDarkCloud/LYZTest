@@ -19,18 +19,16 @@ class YzApi():
         except Exception as e:
             self.log.info(self.DataSource.getBaseUrl() + self.Yaml.get('urls') + ":请求登录失败:" + str(e))
 
-    def lapi(self, method, urls, data=None, headers=None, json=None):
+    def lapi(self, method, urls, data=None, headers=None):
         if method == "post" or method == "POST":
             try:
-                r = requests.post(url=self.DataSource.getBaseUrl() + urls, json=json, data=data, headers=headers,
+                r = requests.post(url=self.DataSource.getBaseUrl() + urls,  data=data, headers=headers,
                                   cookies=self.DataSource.getCookie())
-                p = r
                 r.encoding = 'utf-8'
                 self.log.info(method + ' ' + self.DataSource.getBaseUrl() + urls + ":请求发送成功！")
                 return r
             except Exception as e:
                 self.log.info(method + ' ' + self.DataSource.getBaseUrl() + urls + ":请求失败:" + str(e))
-
         if method == "get" or method == "GET":
             try:
                 r = requests.get(url=self.DataSource.getBaseUrl() + urls, params=data, headers=headers,

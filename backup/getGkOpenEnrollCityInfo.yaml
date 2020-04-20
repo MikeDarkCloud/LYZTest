@@ -1,0 +1,9 @@
+data:
+  ext1: 5
+  ext2: 202009
+  page: 1
+  rows: 200
+hearders: ''
+method: get
+regx: '"cityCode":"(.+?)"'
+urls: /baseinfo/getGkOpenEnrollCityInfo.do

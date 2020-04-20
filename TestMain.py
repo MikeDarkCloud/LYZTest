@@ -99,6 +99,7 @@ if __name__ == "__main__":
     # 测试用例的路径、匹配规则
     case_path = Config().getPath('casePath')
     rule = "MyTest*.py"
+    # rule = "MyTestCase02.py"
     all_case = add_case(case_path, rule)  # 1加载用例
     # 生成测试报告的路径
     report_path = Config().getPath('reportPath')

@@ -18,3 +18,7 @@ class BeParamCom():
 
   def getCard(self):
     return YzApi().getBaseinfo('idCard')
+
+  def setLearn(self,key:tuple,value):
+    '''保存信息到LearnInfo文件'''
+    YamlParser('LearnInfo').setYaml(value,key)

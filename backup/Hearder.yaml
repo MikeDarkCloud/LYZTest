@@ -55,7 +55,7 @@ RHearders:
   Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
   Connection: keep-alive
   Content-Length: '8418'
-  Content-Type: multipart/form-data; boundary=3d13e3aad58e4964bfb42b3923a46b53
+  Content-Type: multipart/form-data; boundary=7342cd4bc4c941559d67b72f770db63d
   Host: bms.yzwill.cn
   Origin: http://bms-3.yzwill.cn
   Referer: http://bms-3.yzwill.cn/recruit/toRecruitAdd.do?recruitType=1

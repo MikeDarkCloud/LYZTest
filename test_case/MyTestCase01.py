@@ -84,7 +84,6 @@ class MyTestCase(StartEnd):
         '''从参数文件获取参数'''
         city = extFile.getYamlParms(('GStudent', 'city'))
         unvsId = extFile.getYamlParms(('GStudent', 'unvsId'))
-        # feeList = extFile.getYamlParms(('GStudent', 'feeList'))
         feeId = extFile.getYamlParms(('GStudent', 'feeId'))
         feeList = extFile.getYamlParms(('GStudent', 'feeList'))
         pfsnCode = extFile.getYamlParms(('GStudent', 'pfsnCode'))
@@ -94,6 +93,9 @@ class MyTestCase(StartEnd):
         taName = extFile.getYamlParms(('GStudent', 'taName'))
         mobile =BeParamCom().getPhone()
         idCard =BeParamCom().getCard()
+        BeParamCom().setLearn((('GK','mobile'),),mobile)
+        BeParamCom().setLearn((('GK','idCard'),),idCard)
+
         pfsnLevel = intFile.getYamlParms(('GK', 'pfsnLevel'))
 
         '''将参数组合到接口文件'''
@@ -104,40 +106,10 @@ class MyTestCase(StartEnd):
                 ('data', 'taName'),('data', 'mobile'),('data', 'idCard'),('data', 'pfsnLevel'),('data', 'feeId'))
         case = TestCaseAssembly().setAipParam('GrecruitAdd',values,keys,'regiester')
         data = MultipartEncoder(fields=case[3])
-        # data = MultipartEncoderMonitor.from_fields(fields=case[3])
         DataSource().setHearder(data.content_type)
-
-        response = YzApi().lapi(method=case[0], headers=case[1], urls=case[2],data=data)
+        response = YzApi().lapi(method=case[0], headers=DataSource().getHearder("regiester"), urls=case[2],data=data)
         self.assertTrue(MyAssert().assertchar(response.text, ['true', '00']), True)
 
-
-
-    # @ddt()
-    # def test_0_cj_normal_register(self):
-    #     '''随机录入成教类型学员学员'''
-    #     case =TestCaseAssembly().getAipParam('CrecruitAdd')
-    #     response = YzApi().lapi(method=case[0], headers=case[1], urls=case[2], data=case[3])
-    #     self.log.info(response.text)
-    #     self.assertTrue(MyAssert().assertchar(response.text,['true','00']), True)
-
-    # # @unittest.skip("skipping")
-    # def test_1_gk_normal_register(self):
-    #     '''随机录入国开类型学员学员'''
-    #     case =TestCaseAssembly().getRegisterTestCaseData('GrecruitAdd')
-    #     response = YzApi().lapi(method=case[0], headers=case[1], urls=case[2], data=case[3])
-    #     self.log.info(response.text)
-    #     self.assertTrue(MyAssert().assertchar(response.text,['true','00']), True)
-    #
-    # # @unittest.skip("skipping")
-    # def test_2_cj_fd_pay(self):
-    #     '''成教学员支付辅导费'''
-    #     case = TestCaseAssembly().getPayData()
-    #     response0 = YzApi().lapi(method=case[0], headers=case[1], urls=case[2], data=case[3])
-    #     self.log.info(response0.text)
-    #     self.assertTrue(MyAssert().assertchar(response0.text,['true','00']), True)
-    #
-    # def test_3_gk_xk_pay(self):
-    #     pass
 
     def tearDown(self):
         pass

@@ -1,0 +1,10 @@
+#获取院校信息接口模板
+method: get
+urls: /baseinfo/sTaNotStop.do
+hearders: ''
+data:
+  page: 1
+  rows: 200
+  sId: 1
+
+regx: 'taId":"(.+?)",'

@@ -2,91 +2,44 @@ data:
   address: ''
   adminssionTime: ''
   birthday: '1990-10-07'
-  city: '440100'
+  city: '440300'
   diploma: ''
   edcsSystem: ''
   edcsType: ''
   email: ''
   emergencyContact: ''
   enrollType: '1'
-  enrollUnvsName: "\u56FD\u5BB6\u5F00\u653E\u5927\u5B66"
+  enrollUnvsName: 国家开放大学
   feeId: '153836681959757626'
-  feeList: "[{\"itemCode\":\"Y1\",\"itemName\":\"\u4EE3\u6536\u7B2C\u4E00\u5E74\u5B66\
-    \u8D39\",\"amount\":\"1000.00\",\"discount\":\"0.00\",\"fdId\":null,\"odId\":null,\"\
-    payable\":\"1000.00\",\"discountType\":null,\"orderNum\":\"2\",\"itemYear\":\"\
-    1\",\"itemType\":\"2\",\"feeId\":null,\"itemSeq\":null},{\"itemCode\":\"S1\",\"\
-    itemName\":\"\u4EE3\u6536\u7B2C\u4E00\u5E74\u4E66\u8D39\",\"amount\":\"250.00\"\
-    ,\"discount\":\"0.00\",\"fdId\":null,\"odId\":null,\"payable\":\"250.00\",\"discountType\"\
-    :null,\"orderNum\":\"3\",\"itemYear\":\"1\",\"itemType\":\"4\",\"feeId\":null,\"\
-    itemSeq\":null},{\"itemCode\":\"W1\",\"itemName\":\"\u4EE3\u6536\u7B2C\u4E00\u5E74\
-    \u7F51\u7EDC\u8D39\",\"amount\":\"150.00\",\"discount\":\"0.00\",\"fdId\":null,\"\
-    odId\":null,\"payable\":\"150.00\",\"discountType\":null,\"orderNum\":\"4\",\"\
-    itemYear\":\"1\",\"itemType\":\"5\",\"feeId\":null,\"itemSeq\":null},{\"itemCode\"\
-    :\"Y2\",\"itemName\":\"\u4EE3\u6536\u7B2C\u4E8C\u5E74\u5B66\u8D39\",\"amount\"\
-    :\"1000.00\",\"discount\":\"0.00\",\"fdId\":null,\"odId\":null,\"payable\":\"\
-    1000.00\",\"discountType\":null,\"orderNum\":\"5\",\"itemYear\":\"2\",\"itemType\"\
-    :\"2\",\"feeId\":null,\"itemSeq\":null},{\"itemCode\":\"S2\",\"itemName\":\"\u4EE3\
-    \u6536\u7B2C\u4E8C\u5E74\u4E66\u8D39\",\"amount\":\"250.00\",\"discount\":\"0.00\"\
-    ,\"fdId\":null,\"odId\":null,\"payable\":\"250.00\",\"discountType\":null,\"orderNum\"\
-    :\"6\",\"itemYear\":\"2\",\"itemType\":\"4\",\"feeId\":null,\"itemSeq\":null},{\"\
-    itemCode\":\"W2\",\"itemName\":\"\u4EE3\u6536\u7B2C\u4E8C\u5E74\u7F51\u7EDC\u8D39\
-    \",\"amount\":\"150.00\",\"discount\":\"0.00\",\"fdId\":null,\"odId\":null,\"\
-    payable\":\"150.00\",\"discountType\":null,\"orderNum\":\"7\",\"itemYear\":\"\
-    2\",\"itemType\":\"5\",\"feeId\":null,\"itemSeq\":null},{\"itemCode\":\"Y3\",\"\
-    itemName\":\"\u4EE3\u6536\u7B2C\u4E09\u5E74\u5B66\u8D39\",\"amount\":\"1000.00\"\
-    ,\"discount\":\"0.00\",\"fdId\":null,\"odId\":null,\"payable\":\"1000.00\",\"\
-    discountType\":null,\"orderNum\":\"8\",\"itemYear\":\"3\",\"itemType\":\"2\",\"\
-    feeId\":null,\"itemSeq\":null},{\"itemCode\":\"S3\",\"itemName\":\"\u4EE3\u6536\
-    \u7B2C\u4E09\u5E74\u4E66\u8D39\",\"amount\":\"250.00\",\"discount\":\"0.00\",\"\
-    fdId\":null,\"odId\":null,\"payable\":\"250.00\",\"discountType\":null,\"orderNum\"\
-    :\"9\",\"itemYear\":\"3\",\"itemType\":\"4\",\"feeId\":null,\"itemSeq\":null},{\"\
-    itemCode\":\"W3\",\"itemName\":\"\u4EE3\u6536\u7B2C\u4E09\u5E74\u7F51\u7EDC\u8D39\
-    \",\"amount\":\"150.00\",\"discount\":\"0.00\",\"fdId\":null,\"odId\":null,\"\
-    payable\":\"150.00\",\"discountType\":null,\"orderNum\":\"10\",\"itemYear\":\"\
-    3\",\"itemType\":\"5\",\"feeId\":null,\"itemSeq\":null},{\"itemCode\":\"Y4\",\"\
-    itemName\":\"\u4EE3\u6536\u7B2C\u56DB\u5E74\u5B66\u8D39\",\"amount\":\"1000.00\"\
-    ,\"discount\":\"0.00\",\"fdId\":null,\"odId\":null,\"payable\":\"1000.00\",\"\
-    discountType\":null,\"orderNum\":\"11\",\"itemYear\":\"4\",\"itemType\":\"2\"\
-    ,\"feeId\":null,\"itemSeq\":null},{\"itemCode\":\"S4\",\"itemName\":\"\u4EE3\u6536\
-    \u7B2C\u56DB\u5E74\u4E66\u8D39\",\"amount\":\"250.00\",\"discount\":\"0.00\",\"\
-    fdId\":null,\"odId\":null,\"payable\":\"250.00\",\"discountType\":null,\"orderNum\"\
-    :\"12\",\"itemYear\":\"4\",\"itemType\":\"4\",\"feeId\":null,\"itemSeq\":null},{\"\
-    itemCode\":\"W4\",\"itemName\":\"\u4EE3\u6536\u7B2C\u56DB\u5E74\u7F51\u7EDC\u8D39\
-    \",\"amount\":\"150.00\",\"discount\":\"0.00\",\"fdId\":null,\"odId\":null,\"\
-    payable\":\"150.00\",\"discountType\":null,\"orderNum\":\"13\",\"itemYear\":\"\
-    4\",\"itemType\":\"5\",\"feeId\":null,\"itemSeq\":null},{\"itemCode\":\"YS\",\"\
-    itemName\":\"\u4EE3\u6536\u827A\u672F\u52A0\u8003\u8D39\",\"amount\":\"0.00\"\
-    ,\"discount\":\"0.00\",\"fdId\":null,\"odId\":null,\"payable\":\"0.00\",\"discountType\"\
-    :null,\"orderNum\":\"100\",\"itemYear\":\"\",\"itemType\":\"3\",\"feeId\":null,\"\
-    itemSeq\":null}]"
+  feeList: '[{"itemCode":"Y1","itemName":"代收第一年学费","amount":"1000.00","discount":"0.00","fdId":null,"odId":null,"payable":"1000.00","discountType":null,"orderNum":"2","itemYear":"1","itemType":"2","feeId":null,"itemSeq":null},{"itemCode":"S1","itemName":"代收第一年书费","amount":"250.00","discount":"0.00","fdId":null,"odId":null,"payable":"250.00","discountType":null,"orderNum":"3","itemYear":"1","itemType":"4","feeId":null,"itemSeq":null},{"itemCode":"W1","itemName":"代收第一年网络费","amount":"150.00","discount":"0.00","fdId":null,"odId":null,"payable":"150.00","discountType":null,"orderNum":"4","itemYear":"1","itemType":"5","feeId":null,"itemSeq":null},{"itemCode":"Y2","itemName":"代收第二年学费","amount":"1000.00","discount":"0.00","fdId":null,"odId":null,"payable":"1000.00","discountType":null,"orderNum":"5","itemYear":"2","itemType":"2","feeId":null,"itemSeq":null},{"itemCode":"S2","itemName":"代收第二年书费","amount":"250.00","discount":"0.00","fdId":null,"odId":null,"payable":"250.00","discountType":null,"orderNum":"6","itemYear":"2","itemType":"4","feeId":null,"itemSeq":null},{"itemCode":"W2","itemName":"代收第二年网络费","amount":"150.00","discount":"0.00","fdId":null,"odId":null,"payable":"150.00","discountType":null,"orderNum":"7","itemYear":"2","itemType":"5","feeId":null,"itemSeq":null},{"itemCode":"Y3","itemName":"代收第三年学费","amount":"1000.00","discount":"0.00","fdId":null,"odId":null,"payable":"1000.00","discountType":null,"orderNum":"8","itemYear":"3","itemType":"2","feeId":null,"itemSeq":null},{"itemCode":"S3","itemName":"代收第三年书费","amount":"250.00","discount":"0.00","fdId":null,"odId":null,"payable":"250.00","discountType":null,"orderNum":"9","itemYear":"3","itemType":"4","feeId":null,"itemSeq":null},{"itemCode":"W3","itemName":"代收第三年网络费","amount":"150.00","discount":"0.00","fdId":null,"odId":null,"payable":"150.00","discountType":null,"orderNum":"10","itemYear":"3","itemType":"5","feeId":null,"itemSeq":null},{"itemCode":"Y4","itemName":"代收第四年学费","amount":"1000.00","discount":"0.00","fdId":null,"odId":null,"payable":"1000.00","discountType":null,"orderNum":"11","itemYear":"4","itemType":"2","feeId":null,"itemSeq":null},{"itemCode":"S4","itemName":"代收第四年书费","amount":"250.00","discount":"0.00","fdId":null,"odId":null,"payable":"250.00","discountType":null,"orderNum":"12","itemYear":"4","itemType":"4","feeId":null,"itemSeq":null},{"itemCode":"W4","itemName":"代收第四年网络费","amount":"150.00","discount":"0.00","fdId":null,"odId":null,"payable":"150.00","discountType":null,"orderNum":"13","itemYear":"4","itemType":"5","feeId":null,"itemSeq":null},{"itemCode":"YS","itemName":"代收艺术加考费","amount":"0.00","discount":"0.00","fdId":null,"odId":null,"payable":"0.00","discountType":null,"orderNum":"100","itemYear":"","itemType":"3","feeId":null,"itemSeq":null}]'
   grade: '202009'
   graduateTime: ''
   headPic: ''
   headPortrait: ''
-  idCard: '450600196903197937'
+  idCard: '500234197812169990'
   idType: '1'
   isPhotoChange: ''
   jobStatus: ''
   jobTitle: ''
   maritalStatus: ''
   materialCode: ''
-  mobile: '15718822696'
+  mobile: '13285186087'
   nation: ''
   nowCityCode: ''
-  nowCityName: "\u8BF7\u9009\u62E9"
+  nowCityName: 请选择
   nowDistrictName: ''
   nowProvinceCode: ''
-  nowProvinceName: "\u8BF7\u9009\u62E9"
+  nowProvinceName: 请选择
   nowStreetName: ''
   offerId: ''
   oldCityCode: ''
   oldEducationName: ''
   oldEducationNum: ''
   oldProvinceCode: ''
-  pfsnCode: '100103'
-  pfsnId: '153836544109862031'
+  pfsnCode: '100102'
+  pfsnId: '153836539871974180'
   pfsnLevel: '5'
-  pfsnName: "\u592A\u7A7A\u63A2\u7D22"
+  pfsnName: 软件开发
   politicalStatus: ''
   profession: ''
   qq: ''
@@ -101,10 +54,10 @@ data:
   sex: '1'
   stdId: ''
   stdName: AUTOTEST
-  taId: '172'
-  taName: "\u5E7F\u5DDE\u4ECE\u5316"
+  taId: '174'
+  taName: 深圳罗湖
   telephone: ''
-  unvsId: '46'
+  unvsId: '3'
   unvsName: ''
   wechat: ''
   workPlace: ''

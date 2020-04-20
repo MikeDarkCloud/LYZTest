@@ -1,0 +1,13 @@
+#成教学员
+CJ:
+  grade: 2021
+  recruitType: 1
+  level: 5
+  scholarships: 79
+#国开学员
+GK:
+  grade: 202009
+  recruitType: 2
+  level: 5
+  scholarships: 1
+  pfsnLevel: 5

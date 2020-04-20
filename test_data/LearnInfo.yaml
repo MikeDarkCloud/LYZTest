@@ -6,6 +6,7 @@ CStudent:
   unvsId: '5'
   mobile: ''
   idCard: ''
+  _web_token: ''
 GStudent:
   city: '440100'
   feeId: '153836681959757626'
@@ -19,3 +20,4 @@ GStudent:
   mobile: ''
   idCard: ''
   learnId: ''
+  _web_token: ''

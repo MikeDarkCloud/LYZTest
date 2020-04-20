@@ -2,6 +2,7 @@ data:
   learnId: '158649555907683707'
 hearders: ''
 method: get
-regx0: var row = (.+?);
-regx1: value="(.+?)" name="_web_token"
+regx0:
+  - 'var row = (.+?);'
+  - 'value="(.+?)" name="_web_token"'
 urls: /stdFee/toPay.do

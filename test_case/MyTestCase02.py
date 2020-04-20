@@ -110,9 +110,30 @@ class MyTestCase(StartEnd):
         BeParamCom().setLearn((('CJ', 'learnId'),), learnId)
 
 
+    @unittest.skip("skipping")
+    def test_6_toPay(self):
+        '''获取支付订单及web_token'''
+        extFile = YamlParser('LearnInfo')
+        learnId = extFile.getYamlParms(('CJ','learnId'))
+        values = (learnId,)
+        keys = (('data', 'learnId'),)
+        case = TestCaseAssembly().setAipParam('toPay',values,keys)
+        response = YzApi().lapi(method=case[0], headers=case[1], urls=case[2], data=case[3])
 
-    # @unittest.skip("skipping")
-    def test_6_cj_fd_pay(self):
+
+        '''提取参数learnId'''
+        AfParamCom().moreParam(response.text, 'toPay', (('CStudent', 'feeList'),('CStudent', 'feeList')))
+
+
+
+        resJosn = getJsonParm(response.text, 'body')
+        learnId = str(resJosn['data'][0]['learnId']), ('data', 'learnId')
+        BeParamCom().setLearn((('CJ', 'learnId'),), learnId)
+
+
+
+    @unittest.skip("skipping")
+    def test_7_cj_fd_pay(self):
         '''成教学员支付辅导费'''
         extFile = YamlParser('LearnInfo')
         intFile = YamlParser('StudentInfo')

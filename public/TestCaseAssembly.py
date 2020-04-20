@@ -35,6 +35,8 @@ class TestCaseAssembly():
         FYaml = YamlParser('toPay')
         FYaml.setYaml(str(ldict['data'][0]['learnId']), ('data', 'learnId'))
         self.Yaml.setLearnInfo('CStudent', 'learnId', str(ldict['data'][0]['learnId']))
+        
+        
         toPay = YzApi().lapi(method=FYaml.getYamlParms('method'), urls=FYaml.getYamlParms('urls'),
                              data=FYaml.getYamlParms('data'), headers=Hearder.getYamlParms('Hearders0'))
         Order = regx(toPay.text, FYaml.getYamlParms('regx0'))

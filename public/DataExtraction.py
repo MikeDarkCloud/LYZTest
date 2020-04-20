@@ -13,7 +13,14 @@ class DataExtraction():
         :YamlFile 接口文件
         :return tuple 
         '''
-        return regx(response, YamlParser(YamlFile).getYamlParms(('regx',)))
+        re =YamlParser(YamlFile).getYamlParms(('regx',))
+        TX = []
+        if isinstance(re,list):
+            for i in re:
+                TX.append(regx(response, i))
+            return TX
+        else:
+            return regx(response, re)
 
 
     def extJsonParam(self,response,YamlFile):

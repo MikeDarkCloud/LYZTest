@@ -22,3 +22,10 @@ class AfParamCom(DataExtraction):
         for i in key:
             value = readDict(jsonp,i)
             YamlParser(self.Yaml).setYaml(str(value), (Ptuple[key.index(i)],))
+
+
+    def moreParam(self,response,YamlFile,Ptuple:tuple):
+        Result = DataExtraction().extRegxParam(response, YamlFile)
+        if isinstance(Result,list):
+            for i in Result:
+                YamlParser(self.Yaml).setYaml(i, (Ptuple[Result.index(i)],))

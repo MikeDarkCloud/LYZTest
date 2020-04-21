@@ -93,8 +93,8 @@ class MyTestCase(StartEnd):
         taName = extFile.getYamlParms(('GStudent', 'taName'))
         mobile =BeParamCom().getPhone()
         idCard =BeParamCom().getCard()
-        BeParamCom().setLearn((('GK','mobile'),),mobile)
-        BeParamCom().setLearn((('GK','idCard'),),idCard)
+        BeParamCom().setLearn((('GStudent','mobile'),),mobile)
+        BeParamCom().setLearn((('GStudent','idCard'),),idCard)
 
         pfsnLevel = intFile.getYamlParms(('GK', 'pfsnLevel'))
 

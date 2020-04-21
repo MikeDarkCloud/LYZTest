@@ -2,7 +2,7 @@ data:
   address: ''
   adminssionTime: ''
   birthday: '1990-10-07'
-  city: '440100'
+  city: '440300'
   diploma: ''
   edcsSystem: ''
   edcsType: ''
@@ -16,14 +16,14 @@ data:
   graduateTime: ''
   headPic: ''
   headPortrait: ''
-  idCard: 41092619610217771X
+  idCard: 42060619721017529X
   idType: '1'
   isPhotoChange: ''
   jobStatus: ''
   jobTitle: ''
   maritalStatus: ''
   materialCode: ''
-  mobile: '15701130878'
+  mobile: '13255906092'
   nation: ''
   nowCityCode: ''
   nowCityName: 请选择
@@ -36,10 +36,10 @@ data:
   oldEducationName: ''
   oldEducationNum: ''
   oldProvinceCode: ''
-  pfsnCode: '100102'
-  pfsnId: '153836539871974180'
+  pfsnCode: '100103'
+  pfsnId: '153836544109862031'
   pfsnLevel: '5'
-  pfsnName: 软件开发
+  pfsnName: 太空探索
   politicalStatus: ''
   profession: ''
   qq: ''
@@ -54,10 +54,10 @@ data:
   sex: '1'
   stdId: ''
   stdName: AUTOTEST
-  taId: '169'
-  taName: 广州南沙
+  taId: '182'
+  taName: 深圳龙华
   telephone: ''
-  unvsId: '158674881863381415'
+  unvsId: '50'
   unvsName: ''
   wechat: ''
   workPlace: ''

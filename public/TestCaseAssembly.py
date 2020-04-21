@@ -15,8 +15,14 @@ class TestCaseAssembly():
         method = intFile.getYamlParms(('method',))
         urls = intFile.getYamlParms(('urls',))
         i = 0
+
         while (i < len(Dtuple)):
-            intFile.setYaml(Value[i:i+5], Dtuple[i:i+5])
+            V = Value[i:i + 5]
+            if len(Value[i:i+5]) == 1 and isinstance(Value[i:i+5],tuple):
+                V = Value[i:i + 5][0]
+                intFile.setYaml(V, Dtuple[i:i+5])
+            else:
+                intFile.setYaml(V, Dtuple[i:i + 5])
             i = i + 5
 
         data = intFile.Yaml['data']

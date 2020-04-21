@@ -28,4 +28,4 @@ class AfParamCom(DataExtraction):
         Result = DataExtraction().extRegxParam(response, YamlFile)
         if isinstance(Result,list):
             for i in Result:
-                YamlParser(self.Yaml).setYaml(i, (Ptuple[Result.index(i)],))
+                YamlParser(self.Yaml).setYaml(str(i), (Ptuple[Result.index(i)],))

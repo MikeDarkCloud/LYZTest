@@ -17,7 +17,7 @@ class DataExtraction():
         TX = []
         if isinstance(re,list):
             for i in re:
-                TX.append(regx(response, i))
+                TX.append(regx(response, i)[0])
             return TX
         else:
             return regx(response, re)

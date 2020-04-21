@@ -1,8 +1,8 @@
 data:
-  learnId: '158649555907683707'
+  learnId: '158744906567151127'
 hearders: ''
 method: get
-regx0:
-  - 'var row = (.+?);'
-  - 'value="(.+?)" name="_web_token"'
+regx:
+- var row = (.+?);
+- value="(.+?)" name="_web_token"
 urls: /stdFee/toPay.do

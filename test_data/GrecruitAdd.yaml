@@ -16,14 +16,14 @@ data:
   graduateTime: ''
   headPic: ''
   headPortrait: ''
-  idCard: 42060619721017529X
+  idCard: '530328198707156715'
   idType: '1'
   isPhotoChange: ''
   jobStatus: ''
   jobTitle: ''
   maritalStatus: ''
   materialCode: ''
-  mobile: '13255906092'
+  mobile: '13178669073'
   nation: ''
   nowCityCode: ''
   nowCityName: 请选择
@@ -54,10 +54,10 @@ data:
   sex: '1'
   stdId: ''
   stdName: AUTOTEST
-  taId: '182'
-  taName: 深圳龙华
+  taId: '180'
+  taName: 深圳光明
   telephone: ''
-  unvsId: '50'
+  unvsId: '5'
   unvsName: ''
   wechat: ''
   workPlace: ''

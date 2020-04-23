@@ -1,0 +1,10 @@
+data:
+  idCard: '360102196805120550'
+  learnId: '158763077413804257'
+  length: -1
+  recruitType: 1
+  start: 0
+hearders: ''
+method: post
+regx: ''
+urls: /recruit/getAnnexList.do

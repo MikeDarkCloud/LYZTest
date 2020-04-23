@@ -675,3 +675,13 @@
 [processID-24152]-[threadName-MainThread]-[2020-04-21 14:04:25,861] - Log.py] - INFO: post http://bms-3.yzwill.cn/stdFee/list.do:请求发送成功！
 [processID-24152]-[threadName-MainThread]-[2020-04-21 14:04:25,988] - Log.py] - INFO: get http://bms-3.yzwill.cn/stdFee/toPay.do:请求发送成功！
 [processID-24152]-[threadName-MainThread]-[2020-04-21 14:04:26,236] - Log.py] - INFO: post http://bms-3.yzwill.cn/stdFee/pay.do:请求发送成功！
+[processID-13912]-[threadName-MainThread]-[2020-04-21 20:03:47,754] - Log.py] - INFO: post logining success!
+[processID-13912]-[threadName-MainThread]-[2020-04-21 20:03:47,821] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-13912]-[threadName-MainThread]-[2020-04-21 20:03:47,944] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sPfsnByOnScholarship.do:请求发送成功！
+[processID-13912]-[threadName-MainThread]-[2020-04-21 20:03:48,070] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sTaNotStop.do:请求发送成功！
+[processID-13912]-[threadName-MainThread]-[2020-04-21 20:03:48,309] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[processID-13912]-[threadName-MainThread]-[2020-04-21 20:03:48,901] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[processID-13912]-[threadName-MainThread]-[2020-04-21 20:03:49,531] - Log.py] - INFO: post http://bms-3.yzwill.cn/stdFee/list.do:请求发送成功！
+[processID-13912]-[threadName-MainThread]-[2020-04-21 20:03:49,703] - Log.py] - INFO: get http://bms-3.yzwill.cn/stdFee/toPay.do:请求发送成功！
+[processID-13912]-[threadName-MainThread]-[2020-04-21 20:03:49,973] - Log.py] - INFO: post http://bms-3.yzwill.cn/stdFee/pay.do:请求发送成功！
+[processID-13912]-[threadName-MainThread]-[2020-04-21 20:03:50,100] - Log.py] - INFO: post http://bms-3.yzwill.cn/feeReview/reviewFee.do:请求发送成功！

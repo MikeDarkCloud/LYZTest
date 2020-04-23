@@ -1,0 +1,13 @@
+data:
+  _web_token: ''
+  campusIds: null
+  fenshu: 243
+  grade: 2021
+  learnId: '158763077413804257'
+  level: 5
+  pfsnId: '157838226101386625'
+  unvsId: '35'
+hearders: ''
+method: post
+regx: ''
+urls: /stdEnroll/enroll.do

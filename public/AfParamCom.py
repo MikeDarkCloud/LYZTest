@@ -1,5 +1,4 @@
 import random
-from tools.Rjson import *
 from public.DataExtraction import *
 class AfParamCom(DataExtraction):
     '''处理接口请求返回参数提取并保存'''
@@ -29,3 +28,4 @@ class AfParamCom(DataExtraction):
         if isinstance(Result,list):
             for i in Result:
                 YamlParser(self.Yaml).setYaml(str(i), (Ptuple[Result.index(i)],))
+

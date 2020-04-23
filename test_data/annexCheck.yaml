@@ -1,0 +1,10 @@
+data:
+  crId: '156569927987725297'
+  isDataCheck: 1
+  jtId: null
+  learnId: '158763077413804257'
+  recruitType: 1
+hearders: ''
+method: post
+regx: ''
+urls: /annexCheck/check.do

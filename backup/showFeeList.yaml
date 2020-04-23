@@ -1,9 +1,0 @@
-data:
-  pfsnId: '153836539871974180'
-  recruitType: 2
-  scholarship: 1
-  taId: '174'
-hearders: ''
-method: post
-regx: '"feeList":(.+?)},"msg"'
-urls: /recruit/showFeeList.do

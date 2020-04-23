@@ -1,0 +1,16 @@
+data:
+  _web_token: '13562434162497711'
+  learnId: '158763077413804257'
+  scores[0].courseId: 0009
+  scores[0].courseName: 数学
+  scores[0].score: 80
+  scores[1].courseId: '0010'
+  scores[1].courseName: 语文
+  scores[1].score: 81
+  scores[2].courseId: '0014'
+  scores[2].courseName: 专科外语
+  scores[2].score: 82
+hearders: ''
+method: post
+regx: ''
+urls: /studentScore/updateStudentScore.do

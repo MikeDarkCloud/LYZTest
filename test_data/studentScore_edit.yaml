@@ -1,0 +1,10 @@
+data:
+  idCard: '530328199502162956'
+  learnId: '158763077413804257'
+  stdName: AUTOTEST
+hearders: ''
+method: get
+regx:
+- value="(.+?)" name="_web_token"
+- courses = (.+?);
+urls: /studentScore/edit.do

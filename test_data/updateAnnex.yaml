@@ -1,0 +1,12 @@
+data:
+  annexFile: ''
+  annexId: '374345'
+  annexName: 相片
+  annexType: 4
+  annexUrl: ''
+  isRequire: 1
+  learnId: '158763077413804257'
+hearders: ''
+method: post
+regx: ''
+urls: /recruit/updateAnnex.do

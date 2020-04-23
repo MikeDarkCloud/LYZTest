@@ -58,9 +58,12 @@
 #
 #
 # print(d[0:19])
+# import os
+#
+# print(os.getcwd()+'\\test_data\\image\\1.jpg')
 
+i = ['qq','ww','ee']
+c=['aa','ss','ff']
 
-
-
-
-
+for j in i:
+    print(c[i.index(j)])

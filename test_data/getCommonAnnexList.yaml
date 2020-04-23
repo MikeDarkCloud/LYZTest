@@ -1,0 +1,25 @@
+data:
+  campusId: ''
+  dpId: ''
+  grade: ''
+  idCard: '530328199502162956'
+  inclusionStatus: ''
+  length: 10
+  mobile: ''
+  myAnnexStatus: ''
+  pfsnId: ''
+  pfsnLevel: ''
+  queryType: 1
+  recruitName: ''
+  scholarship: ''
+  sg: ''
+  start: 0
+  stdName: ''
+  stdStage: ''
+  taName: ''
+  thisYsession: ''
+  unvsId: ''
+hearders: ''
+method: post
+regx: '"crId":"(.+?)",'
+urls: /annexCheck/getCommonAnnexList.do

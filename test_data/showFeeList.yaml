@@ -1,8 +1,8 @@
 data:
-  pfsnId: '157838084502072582'
-  recruitType: 1
-  scholarship: 79
-  taId: '178'
+  pfsnId: '153836544109862031'
+  recruitType: 2
+  scholarship: 1
+  taId: '180'
 hearders: ''
 method: post
 regx: '"feeList":(.+?)},"msg"'

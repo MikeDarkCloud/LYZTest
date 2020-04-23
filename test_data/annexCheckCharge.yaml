@@ -1,0 +1,8 @@
+data:
+  annexId: '374345'
+  annexStatus: 3
+  learnId: '158763077413804257'
+hearders: ''
+method: post
+regx: ''
+urls: /annexCheck/charge.do

@@ -1,0 +1,7 @@
+data:
+  exType: UPDATE
+  learnId: '158763077413804257'
+hearders: ''
+method: post
+regx: ''
+urls: /testConfirm/okConfirm.do

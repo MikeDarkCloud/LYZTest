@@ -1,8 +1,10 @@
 '''
-配置文件--配置公共参数
+@description:YAML操作方法封装
+@author:lanmingyong
 '''
 import os
 import yaml
+
 
 class Config:
     def __init__(self):
@@ -10,9 +12,12 @@ class Config:
         self.path1 = os.getcwd()     #正式用
         self.path2 = os.path.dirname(os.path.abspath('.'))  #调试用
         self.app = self.path1 + "\\config\\application.yaml"
-        # self.f = os.walk(os.path.dirname(os.path.abspath('.')) + "\\test_data", topdown=True, onerror=None, followlinks=False)
-        # self.f = os.walk(os.getcwd() + "\\test_data", topdown=True, onerror=None, followlinks=False)
+        # LINUX系统下使用
+        #self.app = self.path1 + "/config/application.yaml"
         self.f = os.walk(self.path1 + "\\test_data", topdown=True, onerror=None, followlinks=False)
+        # LINUX系统下使用
+        # self.f = os.walk(self.path1 + "/test_data", topdown=True, onerror=None, followlinks=False)
+
         for (dirpath, dirnames, filenames) in self.f:
             for filename in filenames:
                 self.dirdict[str(filename).split(".")[0]] = os.path.join(dirpath, filename)
@@ -34,6 +39,7 @@ class Config:
             return path
 
     def getApplication(self,K):
+        '''获取配置文件'''
         with open(self.app,'r',encoding='utf-8') as f:
             p2=yaml.load(f)[K]
             return p2
@@ -41,12 +47,13 @@ class Config:
 
 
 if __name__ == '__main__':
-    '''调试'''
-    print(os.listdir(os.path.dirname(os.path.abspath('.')) + "\\test_data"))
-    pa = {}
-    f = os.walk(os.path.dirname(os.path.abspath('.')) + "\\test_data",topdown=True,onerror=None,followlinks=False)
-    for (dirpath,dirnames,filenames) in f:
-        for filename in filenames:
-            pa[str(filename).split(".")[0]] = os.path.join(dirpath,filename)
-
-    print(pa)
+    pass
+    # '''调试'''
+    # print(os.listdir(os.path.dirname(os.path.abspath('.')) + "\\test_data"))
+    # pa = {}
+    # f = os.walk(os.path.dirname(os.path.abspath('.')) + "\\test_data",topdown=True,onerror=None,followlinks=False)
+    # for (dirpath,dirnames,filenames) in f:
+    #     for filename in filenames:
+    #         pa[str(filename).split(".")[0]] = os.path.join(dirpath,filename)
+    #
+    # print(pa)

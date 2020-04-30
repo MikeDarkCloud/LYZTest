@@ -1,7 +1,15 @@
 #path_log: LYZTest\report\TestLog
+#windows下使用
 logPath: C:\YZeducation\PyProject\LYZTest\report\TestLog\
+#linux下使用
+#logPath: /home/autoTest/LYZTest/report/TestLog
+
 casePath: test_case
+
+#windows下使用
 reportPath:  report\HtmlReport
+#linux下使用
+#reportPath:  report/HtmlReport
 
 #测试环境配置
 baseUrl: http://bms-3.yzwill.cn

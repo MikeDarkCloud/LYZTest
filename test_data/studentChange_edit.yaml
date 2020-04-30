@@ -1,0 +1,9 @@
+data:
+  exType: ADD
+  learnId: '158805150152222412'
+  mobile: '158805150152222412'
+  stdName: AUTOTEST
+hearders: ''
+method: get
+regx: value="(.+?)" name="_web_token"
+urls: /studentChange/edit.do

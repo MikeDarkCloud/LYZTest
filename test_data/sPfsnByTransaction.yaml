@@ -1,0 +1,12 @@
+data:
+  ext1: 5
+  ext2: 2021
+  ext3: 79
+  isAllow: '1'
+  page: '1'
+  rows: '100'
+  sId: '55'
+hearders: ''
+method: post
+regx: '"pfsnId":"(.+?)",'
+urls: /baseinfo/sPfsnByTransaction.do

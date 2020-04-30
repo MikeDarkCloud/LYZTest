@@ -1,0 +1,10 @@
+data:
+  newPfsnId: '157838193004883264'
+  page: 1
+  pfsnId: 157838193004624008
+  rows: 10
+  scholarship: 79
+hearders: ''
+method: post
+regx: '"taId":"(.+?)",'
+urls: /testArea/findBdTestAreaNotStop.do

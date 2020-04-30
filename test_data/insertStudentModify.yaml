@@ -1,0 +1,30 @@
+data:
+  flag: '1'
+  grade: '2021'
+  idCard: '632624199108148693'
+  inclusionStatus: ''
+  learnId: '158772623142420457'
+  nation: '01'
+  newPfsnId: '157838193004883264'
+  newScholarship: '79'
+  newTaId: '55'
+  newUnvsId: '3'
+  npfsnLevel: 5
+  pfsnCode: '100101'
+  pfsnId: '157076102897516763'
+  pfsnLevel: '5'
+  pfsnName: 生物技术
+  recruitType: '1'
+  scholarship: '79'
+  score: ''
+  sex: '1'
+  stdId: '158772623141455574'
+  stdName: AUTOTEST
+  stdStage: '2'
+  taId: '165'
+  taName: 广州白云
+  unvsId: '35'
+  unvsName: 华南农业大学
+hearders: ''
+method: post
+urls: /studentModify/insertStudentModify.do

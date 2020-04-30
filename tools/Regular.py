@@ -1,3 +1,7 @@
+'''
+@description:正则匹配
+@author:lanmingyong
+'''
 import re
 def regx(context,patt):
     pattern = re.compile(patt)

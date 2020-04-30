@@ -1,9 +1,9 @@
 from common.myunit import *
 from ddt import ddt, data, unpack
-from public.TestCaseAssembly import TestCaseAssembly, BeParamCom
+from public.TestCaseAssembly import TestCaseAssembly, BeforeParamCom
 from public.TestCaseAssert import MyAssert
 from public.YamlParser import *
-from public.AfParamCom import *
+from public.AfterParamCom import *
 from requests_toolbelt import MultipartEncoder
 
 
@@ -20,7 +20,7 @@ class MyTestCase(StartEnd):
         response = YzApi().lapi(method=case[0], headers=case[1], urls=case[2], data=case[3])
         self.assertTrue(MyAssert().assertchar(response.text, ['true', '00']), True)
         '''提取参数'''
-        AfParamCom().saveParam(response.text, 'sUnvs', ('CStudent', 'unvsId'))
+        AfterParamCom().saveParam(response.text, 'sUnvs', ('CStudent', 'unvsId'))
 
     # @unittest.skip("skipping")
     def test_1_sPfsnByOnScholarship(self):
@@ -34,9 +34,9 @@ class MyTestCase(StartEnd):
         keys = (('data', 'ext2'), ('data', 'ext1'), ('data', 'sId'))
         case = TestCaseAssembly().setAipParam('sPfsnByOnScholarship', values, keys)
         response = YzApi().lapi(method=case[0], headers=case[1], urls=case[2], data=case[3])
-        self.assertTrue(MyAssert().assertchar(response.text, ['true', '00']), True)
+        self.assertTrue(MyAssert().assertchar(response.text, ['true', '00']), True,)
         '''提取参数'''
-        AfParamCom().saveParam(response.text, 'sPfsnByOnScholarship', ('CStudent', 'pfsnId'))
+        AfterParamCom().saveParam(response.text, 'sPfsnByOnScholarship', ('CStudent', 'pfsnId'))
 
     # @unittest.skip("skipping")
     def test_2_getOpenTestAreaByCity(self):
@@ -49,7 +49,7 @@ class MyTestCase(StartEnd):
         response = YzApi().lapi(method=case[0], headers=case[1], urls=case[2], data=case[3])
         self.assertTrue(MyAssert().assertchar(response.text, ['true', '00']), True)
         '''提取参数'''
-        AfParamCom().saveParam(response.text, 'sTaNotStop', ('CStudent', 'taId'))
+        AfterParamCom().saveParam(response.text, 'sTaNotStop', ('CStudent', 'taId'))
 
     # @unittest.skip("skipping")
     def test_3_showFeeList(self):
@@ -66,7 +66,7 @@ class MyTestCase(StartEnd):
         response = YzApi().lapi(method=case[0], headers=case[1], urls=case[2], data=case[3])
         self.assertTrue(MyAssert().assertchar(response.text, ['true', '00']), True)
         '''提取参数'''
-        AfParamCom().saveParam(response.text, 'showFeeList', ('CStudent', 'feeList'))
+        AfterParamCom().saveParam(response.text, 'showFeeList', ('CStudent', 'feeList'))
 
     def test_4_CrecruitAdd(self):
         '''随机注册成教学员'''
@@ -82,10 +82,12 @@ class MyTestCase(StartEnd):
         recruitType = intFile.getYamlParms(('CJ', 'recruitType'))
         grade = intFile.getYamlParms(('CJ', 'grade'))
         pfsnLevel = intFile.getYamlParms(('CJ', 'level'))
-        mobile = BeParamCom().getPhone()
-        idCard = BeParamCom().getCard()
-        BeParamCom().setLearn((('CStudent','mobile'),),mobile)
-        BeParamCom().setLearn((('CStudent','idCard'),),idCard)
+        mobile = BeforeParamCom().getPhone()
+        idCard = BeforeParamCom().getCard()
+        self.log.info('学员手机号：'+mobile)
+        self.log.info('学员身份证号：'+idCard)
+        BeforeParamCom().setLearn((('CStudent', 'mobile'),), mobile)
+        BeforeParamCom().setLearn((('CStudent', 'idCard'),), idCard)
         values = (str(unvsid), str(pfsnId), str(taId), str(feeList), str(scholarship), str(recruitType), str(grade), str(pfsnLevel), str(mobile), str(idCard))
         keys = (('data', 'unvsId'), ('data', 'pfsnid'), ('data', 'taId'), ('data', 'feeList'), ('data', 'scholarship')
                 , ('data', 'recruitType'), ('data', 'grade'), ('data', 'pfsnLevel'), ('data', 'mobile'), ('data', 'idCard'))
@@ -108,7 +110,7 @@ class MyTestCase(StartEnd):
         '''提取参数learnId'''
         resJosn = getJsonParm(response.text, 'body')
         learnId = str(resJosn['data'][0]['learnId'])
-        BeParamCom().setLearn((('CStudent', 'learnId'),), learnId)
+        BeforeParamCom().setLearn((('CStudent', 'learnId'),), learnId)
         '''断言'''
         self.assertTrue(MyAssert().assertchar(response.text, ['true', '00']), True)
 
@@ -120,7 +122,7 @@ class MyTestCase(StartEnd):
         case = TestCaseAssembly().setAipParam('toPay', (learnId,), (('data', 'learnId'),))
         response = YzApi().lapi(method=case[0], headers=case[1], urls=case[2], data=case[3])
         '''提取参数learnId'''
-        AfParamCom().moreParam(response.text, 'toPay', (('CStudent', 'order'), ('CStudent', '_web_token')))
+        AfterParamCom().moreParam(response.text, 'toPay', (('CStudent', 'order'), ('CStudent', '_web_token')))
         '''断言'''
         self.assertTrue(MyAssert().assertchar(response.text, ['true', '00']), True)
 

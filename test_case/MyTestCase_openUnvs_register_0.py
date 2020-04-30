@@ -1,10 +1,11 @@
 from common.myunit import *
 from ddt import ddt, data, unpack
-from public.TestCaseAssembly import TestCaseAssembly, BeParamCom
+from public.TestCaseAssembly import TestCaseAssembly, BeforeParamCom
 from public.TestCaseAssert import MyAssert
 from public.YamlParser import *
-from public.AfParamCom import *
-from requests_toolbelt import MultipartEncoder, MultipartEncoderMonitor
+from public.AfterParamCom import *
+from requests_toolbelt import MultipartEncoder
+
 
 
 # @ddt
@@ -21,7 +22,7 @@ class MyTestCase(StartEnd):
         response = YzApi().lapi(method=case[0], headers=case[1], urls=case[2], data=case[3])
         self.assertTrue(MyAssert().assertchar(response.text, ['true', '00']), True)
         '''提取参数'''
-        AfParamCom().saveParam(response.text, 'getGkOpenEnrollCityInfo', ('GStudent', 'city'))
+        AfterParamCom().saveParam(response.text, 'getGkOpenEnrollCityInfo', ('GStudent', 'city'))
 
     # @unittest.skip("skipping")
     def test_1_sUnvs(self):
@@ -31,20 +32,21 @@ class MyTestCase(StartEnd):
         response = YzApi().lapi(method=case[0], headers=case[1], urls=case[2], data=case[3])
         self.assertTrue(MyAssert().assertchar(response.text, ['true', '00']), True)
         '''提取参数'''
-        AfParamCom().saveParam(response.text, 'sUnvs', ('GStudent', 'unvsId'))
+        AfterParamCom().saveParam(response.text, 'sUnvs', ('GStudent', 'unvsId'))
 
     # @unittest.skip("skipping")
     def test_2_getOpenTestAreaByCity(self):
         '''随机获取国开报读考区ID+考区名称'''
         intFile = YamlParser('StudentInfo')
         extFile = YamlParser('LearnInfo')
-        case = TestCaseAssembly().setAipParam('getOpenTestAreaByCity', (
-        intFile.getYamlParms(('GK', 'level')), intFile.getYamlParms(('GK', 'grade')), extFile.getYamlParms(('GStudent', 'city'))),
-                                              (('data', 'ext2'), ('data', 'ext3'), ('data', 'ext1')))
+        level = intFile.getYamlParms(('GK', 'level'))
+        grade = intFile.getYamlParms(('GK', 'grade'))
+        city = extFile.getYamlParms(('GStudent', 'city'))
+        case = TestCaseAssembly().setAipParam('getOpenTestAreaByCity', (level,grade,city),(('data', 'ext2'), ('data', 'ext3'), ('data', 'ext1')))
         response = YzApi().lapi(method=case[0], headers=case[1], urls=case[2], data=case[3])
         self.assertTrue(MyAssert().assertchar(response.text, ['true', '00']), True)
         '''提取参数'''
-        AfParamCom().saveParam(response.text, 'getOpenTestAreaByCity', (('GStudent', 'taId'), ('GStudent', 'taName')))
+        AfterParamCom().saveParam(response.text, 'getOpenTestAreaByCity', (('GStudent', 'taId'), ('GStudent', 'taName')))
 
     # @unittest.skip("skipping")
     def test_3_getOpenPfsnByTaId(self):
@@ -57,8 +59,9 @@ class MyTestCase(StartEnd):
         response = YzApi().lapi(method=case[0], headers=case[1], urls=case[2], data=case[3])
         self.assertTrue(MyAssert().assertchar(response.text, ['true', '00']), True)
         '''提取参数'''
-        AfParamCom().saveParam(response.text, 'getOpenPfsnByTaId', (('GStudent', 'pfsnId'), ('GStudent', 'pfsnName'), ('GStudent', 'pfsnCode')))
+        AfterParamCom().saveParam(response.text, 'getOpenPfsnByTaId', (('GStudent', 'pfsnId'), ('GStudent', 'pfsnName'), ('GStudent', 'pfsnCode')))
 
+    # @unittest.skip("skipping")
     def test_4_showFeeList(self):
         '''获取国开报读收费标准信息'''
         intFile = YamlParser('StudentInfo')
@@ -69,8 +72,8 @@ class MyTestCase(StartEnd):
         response = YzApi().lapi(method=case[0], headers=case[1], urls=case[2], data=case[3])
         self.assertTrue(MyAssert().assertchar(response.text, ['true', '00']), True)
         '''提取参数'''
-        AfParamCom().saveJson(response.text, (('body','feeInfo','feeId'),), (('GStudent', 'feeId'),))
-        AfParamCom().saveParam(response.text, 'showFeeList', ('GStudent', 'feeList'))
+        AfterParamCom().saveJson(response.text, (('body', 'feeInfo', 'feeId'),), (('GStudent', 'feeId'),))
+        AfterParamCom().saveParam(response.text, 'showFeeList', ('GStudent', 'feeList'))
 
     # @unittest.skip("skipping")
     def test_5_gk_normal_register(self):
@@ -91,10 +94,12 @@ class MyTestCase(StartEnd):
         pfsnName = extFile.getYamlParms(('GStudent', 'pfsnName'))
         taId = extFile.getYamlParms(('GStudent', 'taId'))
         taName = extFile.getYamlParms(('GStudent', 'taName'))
-        mobile =BeParamCom().getPhone()
-        idCard =BeParamCom().getCard()
-        BeParamCom().setLearn((('GStudent','mobile'),),mobile)
-        BeParamCom().setLearn((('GStudent','idCard'),),idCard)
+        mobile =BeforeParamCom().getPhone()
+        idCard =BeforeParamCom().getCard()
+        self.log.info('学员手机号：'+mobile)
+        self.log.info('学员身份证号：'+idCard)
+        BeforeParamCom().setLearn((('GStudent', 'mobile'),), mobile)
+        BeforeParamCom().setLearn((('GStudent', 'idCard'),), idCard)
 
         pfsnLevel = intFile.getYamlParms(('GK', 'pfsnLevel'))
 
@@ -118,10 +123,3 @@ class MyTestCase(StartEnd):
 if __name__ == '__main__':
     unittest.main()
 
-    # 创建数据
-    # q=createTestdate()
-    # i = 1
-    # while(i > 0 ):
-    #   q.createRegiesterTestdate()
-    #   q.createGkRegiesterTestdate()
-    #   i=i-1

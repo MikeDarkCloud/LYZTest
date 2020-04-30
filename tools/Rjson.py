@@ -8,33 +8,34 @@ def getJsonParm(text,key = None):
     if key != None:
         return ldict[key]
 
-def getJson(ldict):
+def getJson(ldict:dict):
     '''字典转为json'''
     ldict = json.dumps(ldict,ensure_ascii=False)
     return ldict
 
 
-def readDict(ldict:dict,key:tuple):
-    if len(key) == 0 or len(key) >= 6:
+def readDict(ldict:dict, keys:tuple):
+    '''读取字典的值'''
+    if len(keys) == 0 or len(keys) >= 6:
         raise Exception("参数不能为空或参数超过5个！")
-    if len(key) == 1:
-        p = ldict[key[0]]
+    if len(keys) == 1:
+        p = ldict[keys[0]]
         return str(p)
 
-    if len(key) == 2:
-        p = ldict[key[0]][key[1]]
+    if len(keys) == 2:
+        p = ldict[keys[0]][keys[1]]
         return str(p)
 
-    if len(key) == 3:
-        p = ldict[key[0]][key[1]][key[2]]
+    if len(keys) == 3:
+        p = ldict[keys[0]][keys[1]][keys[2]]
         return str(p)
 
-    if len(key) == 4:
-        p = ldict[key[0]][key[1]][key[2]][key[3]]
+    if len(keys) == 4:
+        p = ldict[keys[0]][keys[1]][keys[2]][keys[3]]
         return str(p)
 
-    if len(key) == 5:
-        p = ldict[key[0]][key[1]][key[2]][key[3]][key[4]]
+    if len(keys) == 5:
+        p = ldict[keys[0]][keys[1]][keys[2]][keys[3]][keys[4]]
         return str(p)
 
 

@@ -1,3 +1,7 @@
+'''
+@description:自定义异常
+@author:lanmingyong
+'''
 class MyError(Exception):
     def isNoneError(self,value):
         if value == None:

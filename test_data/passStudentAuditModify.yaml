@@ -1,0 +1,8 @@
+data:
+  checkStatus: 2
+  exType: UPDATE
+  modifyId: '158805149551406147'
+  recruitType: 1
+hearders: ''
+method: post
+urls: /studentModify/passStudentAuditModify.do

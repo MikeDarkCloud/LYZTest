@@ -1,0 +1,109 @@
+[processID-19300]-[threadName-MainThread]-[2020-04-28 13:24:33,161] - Log.py] - INFO: post logining success!
+[processID-19300]-[threadName-MainThread]-[2020-04-28 13:24:33,235] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-19300]-[threadName-MainThread]-[2020-04-28 13:24:33,396] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sPfsnByOnScholarship.do:请求发送成功！
+[processID-19300]-[threadName-MainThread]-[2020-04-28 13:24:33,541] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sTaNotStop.do:请求发送成功！
+[processID-19300]-[threadName-MainThread]-[2020-04-28 13:24:33,805] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[processID-19300]-[threadName-MainThread]-[2020-04-28 13:24:33,986] - Log.py] - INFO: 学员手机号：14787784645
+[processID-19300]-[threadName-MainThread]-[2020-04-28 13:24:33,989] - Log.py] - INFO: 学员身份证号：530700197909076458
+[processID-19300]-[threadName-MainThread]-[2020-04-28 13:24:34,520] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[processID-19300]-[threadName-MainThread]-[2020-04-28 13:24:34,647] - Log.py] - INFO: post http://bms-3.yzwill.cn/stdFee/list.do:请求发送成功！
+[processID-19300]-[threadName-MainThread]-[2020-04-28 13:24:34,800] - Log.py] - INFO: get http://bms-3.yzwill.cn/stdFee/toPay.do:请求发送成功！
+[processID-19300]-[threadName-MainThread]-[2020-04-28 13:24:35,086] - Log.py] - INFO: post http://bms-3.yzwill.cn/stdFee/pay.do:请求发送成功！
+[processID-19300]-[threadName-MainThread]-[2020-04-28 13:24:35,249] - Log.py] - INFO: post http://bms-3.yzwill.cn/feeReview/reviewFee.do:请求发送成功！
+[processID-19300]-[threadName-MainThread]-[2020-04-28 13:24:35,349] - Log.py] - INFO: get http://bms-3.yzwill.cn/studentChange/edit.do:请求发送成功！
+[processID-19300]-[threadName-MainThread]-[2020-04-28 13:24:35,467] - Log.py] - INFO: get http://bms-3.yzwill.cn/studentChange/edit.do:请求发送成功！
+[processID-19300]-[threadName-MainThread]-[2020-04-28 13:24:35,596] - Log.py] - INFO: post http://bms-3.yzwill.cn/studentChange/findStudentGrade.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:46,661] - Log.py] - INFO: post logining success!
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:46,741] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:46,889] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sPfsnByOnScholarship.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:47,040] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sTaNotStop.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:47,306] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:47,473] - Log.py] - INFO: 学员手机号：13337450792
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:47,476] - Log.py] - INFO: 学员身份证号：150784198404104610
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:48,021] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:48,141] - Log.py] - INFO: post http://bms-3.yzwill.cn/stdFee/list.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:48,271] - Log.py] - INFO: get http://bms-3.yzwill.cn/stdFee/toPay.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:48,566] - Log.py] - INFO: post http://bms-3.yzwill.cn/stdFee/pay.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:48,689] - Log.py] - INFO: post http://bms-3.yzwill.cn/feeReview/reviewFee.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:48,800] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/getAnnexList.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:49,486] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/updateAnnex.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:50,051] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/updateAnnex.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:50,278] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/updateAnnex.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:50,656] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/updateAnnex.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:51,201] - Log.py] - INFO: post http://bms-3.yzwill.cn/annexCheck/getCommonAnnexList.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:51,397] - Log.py] - INFO: post http://bms-3.yzwill.cn/annexCheck/check.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:51,536] - Log.py] - INFO: post http://bms-3.yzwill.cn/annexCheck/charge.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:51,631] - Log.py] - INFO: post http://bms-3.yzwill.cn/annexCheck/charge.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:51,732] - Log.py] - INFO: post http://bms-3.yzwill.cn/annexCheck/charge.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:51,849] - Log.py] - INFO: post http://bms-3.yzwill.cn/annexCheck/charge.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:51,952] - Log.py] - INFO: post http://bms-3.yzwill.cn/testConfirm/okConfirm.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:52,062] - Log.py] - INFO: get http://bms-3.yzwill.cn/studentScore/edit.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:52,284] - Log.py] - INFO: post http://bms-3.yzwill.cn/studentScore/updateStudentScore.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:52,430] - Log.py] - INFO: post http://bms-3.yzwill.cn/stdEnroll/enroll.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:52,621] - Log.py] - INFO: post logining success!
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:52,699] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:52,844] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sPfsnByOnScholarship.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:52,992] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sTaNotStop.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:53,257] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:53,419] - Log.py] - INFO: 学员手机号：13175605680
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:53,422] - Log.py] - INFO: 学员身份证号：150784195812153397
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:53,942] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:54,058] - Log.py] - INFO: post http://bms-3.yzwill.cn/stdFee/list.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:54,182] - Log.py] - INFO: get http://bms-3.yzwill.cn/stdFee/toPay.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:54,471] - Log.py] - INFO: post http://bms-3.yzwill.cn/stdFee/pay.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:54,615] - Log.py] - INFO: post http://bms-3.yzwill.cn/feeReview/reviewFee.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:54,789] - Log.py] - INFO: post http://bms-3.yzwill.cn/studentModify/findStudentEnrollInfo.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:54,903] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:55,079] - Log.py] - INFO: post http://bms-3.yzwill.cn/baseinfo/sPfsnByTransaction.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:55,194] - Log.py] - INFO: post http://bms-3.yzwill.cn/testArea/findBdTestAreaNotStop.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:55,361] - Log.py] - INFO: post http://bms-3.yzwill.cn/studentModify/insertStudentModify.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:55,726] - Log.py] - INFO: post http://bms-3.yzwill.cn/studentModify/findStudentAuditModify.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:55,885] - Log.py] - INFO: post http://bms-3.yzwill.cn/studentModify/passStudentAuditModify.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:55,888] - Log.py] - INFO: {"code":"E000089","body":null,"msg":"原收费标准不存在","ok":false}
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:56,064] - Log.py] - INFO: post logining success!
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:56,175] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:56,339] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sPfsnByOnScholarship.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:56,492] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sTaNotStop.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:56,764] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:56,919] - Log.py] - INFO: 学员手机号：13676203606
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:56,922] - Log.py] - INFO: 学员身份证号：150784199810055396
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:57,428] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:57,543] - Log.py] - INFO: post http://bms-3.yzwill.cn/stdFee/list.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:57,690] - Log.py] - INFO: get http://bms-3.yzwill.cn/stdFee/toPay.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:57,969] - Log.py] - INFO: post http://bms-3.yzwill.cn/stdFee/pay.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:58,103] - Log.py] - INFO: post http://bms-3.yzwill.cn/feeReview/reviewFee.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:58,234] - Log.py] - INFO: post logining success!
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:58,300] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:58,455] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sPfsnByOnScholarship.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:58,596] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sTaNotStop.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:58,859] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:59,023] - Log.py] - INFO: 学员手机号：13508190832
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:59,025] - Log.py] - INFO: 学员身份证号：150784195906165276
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:59,576] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:59,692] - Log.py] - INFO: post http://bms-3.yzwill.cn/stdFee/list.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:24:59,849] - Log.py] - INFO: get http://bms-3.yzwill.cn/stdFee/toPay.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:25:00,111] - Log.py] - INFO: post http://bms-3.yzwill.cn/stdFee/pay.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:25:00,243] - Log.py] - INFO: post logining success!
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:25:00,318] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:25:00,461] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sPfsnByOnScholarship.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:25:00,565] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sTaNotStop.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:25:00,820] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:25:00,994] - Log.py] - INFO: 学员手机号：15728908411
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:25:00,997] - Log.py] - INFO: 学员身份证号：150784197706039717
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:25:01,522] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/recruitAdd.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:25:01,647] - Log.py] - INFO: post http://bms-3.yzwill.cn/stdFee/list.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:25:01,799] - Log.py] - INFO: get http://bms-3.yzwill.cn/stdFee/toPay.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:25:02,082] - Log.py] - INFO: post http://bms-3.yzwill.cn/stdFee/pay.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:25:02,213] - Log.py] - INFO: post http://bms-3.yzwill.cn/feeReview/reviewFee.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:25:02,351] - Log.py] - INFO: get http://bms-3.yzwill.cn/studentChange/edit.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:25:02,490] - Log.py] - INFO: get http://bms-3.yzwill.cn/studentChange/edit.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:25:02,608] - Log.py] - INFO: post http://bms-3.yzwill.cn/studentChange/findStudentGrade.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:25:02,801] - Log.py] - INFO: post logining success!
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:25:02,884] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getGkOpenEnrollCityInfo.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:25:02,989] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/sUnvs.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:25:03,144] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenTestAreaByCity.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:25:03,341] - Log.py] - INFO: get http://bms-3.yzwill.cn/baseinfo/getOpenPfsnByTaId.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:25:03,756] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/showFeeList.do:请求发送成功！
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:25:03,948] - Log.py] - INFO: 学员手机号：18690209388
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:25:03,951] - Log.py] - INFO: 学员身份证号：150784199412305150
+[processID-19084]-[threadName-MainThread]-[2020-04-28 13:25:04,596] - Log.py] - INFO: post http://bms-3.yzwill.cn/recruit/recruitAdd.do:请求发送成功！

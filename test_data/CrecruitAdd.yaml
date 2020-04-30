@@ -17,7 +17,7 @@ data:
   graduateTime: '2018-01-01'
   headPic: ''
   headPortrait: ''
-  idCard: '530328196503149370'
+  idCard: '150784197706039717'
   idType: '1'
   isOpenUnvs: '0'
   isPhotoChange: ''
@@ -26,7 +26,7 @@ data:
   jobType: '00'
   maritalStatus: ''
   materialCode: ''
-  mobile: '15606478927'
+  mobile: '15728908411'
   nation: '01'
   nowCityCode: '1601'
   nowCityName: 广州市
@@ -44,7 +44,7 @@ data:
   pfsnId: '157076102897516763'
   pfsnLevel: '5'
   pfsnName: ''
-  pfsnid: '158287266494620016'
+  pfsnid: '158287307097603815'
   points: '20'
   politicalStatus: '01'
   profession: 社会社会
@@ -61,10 +61,10 @@ data:
   sex: '1'
   stdId: ''
   stdName: AUTOTEST
-  taId: '182'
+  taId: '229'
   taName: ''
   telephone: ''
-  unvsId: '1'
+  unvsId: '50'
   unvsName: 社会小学
   wechat: ''
   workPlace: ''

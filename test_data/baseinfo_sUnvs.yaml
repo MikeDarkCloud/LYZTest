@@ -1,0 +1,9 @@
+data:
+  ext1: 1
+  page: 1
+  rows: 100
+  sName: ''
+hearders: ''
+method: get
+regx: '"unvsId":"(.+?)",'
+urls: /baseinfo/sUnvs.do

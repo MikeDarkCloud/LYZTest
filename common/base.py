@@ -1,12 +1,15 @@
 import requests
 from common.Log import *
 from common.DataSource import *
-
+'''
+@description:requests方法封装
+@author:lanmingyong
+'''
 
 class YzApi():
     def __init__(self):
         self.DataSource = DataSource()
-        self.Yaml = self.DataSource.getRallyaml('Logining')
+        self.Yaml = self.DataSource.getAllyaml('Logining')
         self.log = Log()
 
     def login(self):
@@ -26,6 +29,8 @@ class YzApi():
                                   cookies=self.DataSource.getCookie())
                 r.encoding = 'utf-8'
                 self.log.info(method + ' ' + self.DataSource.getBaseUrl() + urls + ":请求发送成功！")
+                if 'E00' in r.text:
+                    self.log.info(r.text)
                 return r
             except Exception as e:
                 self.log.info(method + ' ' + self.DataSource.getBaseUrl() + urls + ":请求失败:" + str(e))

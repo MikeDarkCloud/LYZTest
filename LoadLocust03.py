@@ -15,8 +15,8 @@ import queue
 
 
 class LoadLocust(TaskSet):
-    # def on_start(self):
-    #     self.session = HttpSession(base_url='http://bms-3.yzwill.cn')
+    def on_start(self):
+        self.session = HttpSession(base_url='http://bms-3.yzwill.cn')
 
     def test_00_login(self):
         t = DataSource().getAllyaml('Logining')
@@ -33,8 +33,9 @@ class LoadLocust(TaskSet):
             "Host": 'bms-3.yzwill.cn',
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, likeGecko) Chrome/73.0.3683.86 Safari/537.36"
         }
-        response = self.client.post(url=url, data=data, headers=headers, verify=False)
+        response = self.session.post(url=url, data=data, headers=headers, verify=False)
         cookies= requests.utils.dict_from_cookiejar(response.cookies)
+        print('>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>')
         print(cookies)
         if response.status_code == 200:
             print("success")
@@ -54,7 +55,7 @@ class LoadLocust(TaskSet):
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, likeGecko) Chrome/73.0.3683.86 Safari/537.36"
         }
 
-        response = self.client.post(url=case[2], data=case[3], headers=headers, verify=False)
+        response = self.session.post(url=case[2], data=case[3], headers=headers, verify=False)
         if response.status_code == 200:
             print("success")
         else:
@@ -73,7 +74,7 @@ class LoadLocust(TaskSet):
             "Host": 'bms-3.yzwill.cn',
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, likeGecko) Chrome/73.0.3683.86 Safari/537.36"
         }
-        response = self.client.post(url=case[2], data=case[3], headers=headers, verify=False)
+        response = self.session.post(url=case[2], data=case[3], headers=headers, verify=False)
         if response.status_code == 200:
             print("success")
         else:
@@ -94,7 +95,7 @@ class LoadLocust(TaskSet):
             "Host": 'bms-3.yzwill.cn',
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, likeGecko) Chrome/73.0.3683.86 Safari/537.36"
         }
-        response = self.client.post(url=case[2], data=case[3], headers=headers, verify=False)
+        response = self.session.post(url=case[2], data=case[3], headers=headers, verify=False)
         if response.status_code == 200:
             print("success")
         else:
@@ -117,7 +118,7 @@ class LoadLocust(TaskSet):
             "Host": 'bms-3.yzwill.cn',
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, likeGecko) Chrome/73.0.3683.86 Safari/537.36"
         }
-        response = self.client.post(url=case[2], data=case[3], headers=headers, verify=False)
+        response = self.session.post(url=case[2], data=case[3], headers=headers, verify=False)
         if response.status_code == 200:
             print("success")
         else:
@@ -142,7 +143,7 @@ class LoadLocust(TaskSet):
             "Host": 'bms-3.yzwill.cn',
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, likeGecko) Chrome/73.0.3683.86 Safari/537.36"
         }
-        response = self.client.post(url=case[2], data=case[3], headers=headers, verify=False)
+        response = self.session.post(url=case[2], data=case[3], headers=headers, verify=False)
         if response.status_code == 200:
             print("success")
         else:
@@ -152,9 +153,22 @@ class LoadLocust(TaskSet):
         Result = DataExtraction().extRegxParam(response.text, 'showFeeList')
         feeList = Result[random.randint(0, len(Result) - 1)]
         return feeId, feeList
-
-    def test_5_gk_normal_register(self, city, unvsId, feeId, feeList, pfsnId, pfsnName, pfsnCode, taId, taName):
+    @task
+    def test_5_gk_normal_register(self):
         '''随机录入国开类型学员学员'''
+        cookie = self.test_00_login()
+        city = self.test_0_getGkOpenEnrollCityInfo()
+        unvsId = self.test_1_sUnvs()
+        ta = self.test_2_getOpenTestAreaByCity(city)
+        pfsn = self.test_3_getOpenPfsnByTaId(ta[0])
+        pfsnId = pfsn[0]
+        pfsnCode = pfsn[1]
+        free = self.test_4_showFeeList(pfsn[0], ta[0])
+        feeId = free[0]
+        feeList = free[1]
+        taId = ta[0]
+        taName = ta[1]
+        pfsnName = pfsn[2]
         intFile = YamlParser('StudentInfo')
 
         '''从配置文件获取参数'''
@@ -178,42 +192,23 @@ class LoadLocust(TaskSet):
         headers = {'Accept': 'application/json, text/javascript, */*; q=0.01',
                    'Content-Type': '',
                    'Host': 'bms.yzwill.cn',
-                   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'}
+                   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+                   'Cookie':""}
+        cookies = cookie['SESSION']
+        headers["Cookie"] = 'SESSION='+cookies
         headers["Content-Type"] = data.content_type
-        response = self.client.post(url=case[2], data=data, headers=headers)
+        response = self.session.post(url=case[2], data=data, headers=headers)
         if response.status_code == 200:
             print("success")
         else:
             print("fails")
 
-    @task()
-    def test_01_gkregister(self):
-        self.test_00_login()
-        city = self.test_0_getGkOpenEnrollCityInfo()
-        unvsId = self.test_1_sUnvs()
-        ta = self.test_2_getOpenTestAreaByCity(city)
-        pfsn = self.test_3_getOpenPfsnByTaId(ta[0])
-        free = self.test_4_showFeeList(pfsn[0], ta[0])
-        taName = ta[1]
-        pfsnName = pfsn[2]
-        self.test_5_gk_normal_register(city, unvsId, free[0], free[1], pfsn[0], pfsn[1], pfsnName, ta[0], taName)
+    def on_stop(self):
+        print("=============================")
 
 
 class WebsiteUser(HttpLocust):
-    mobilList = [13560148201, 13829984462, 15220600630, 13380931310, 13928313848, 18927311598, 13302659358,
-                 13516679719, 13829946638, 13825452808, 13809837072, 13302659300, 13302659055, 13249136327,
-                 18824867989, 13316363619, 18927311599, 13531712554, 13422929660, 18927311533, 13302657779,
-                 18927311595, 18927311592, 13428067693, 15089561462, 18316420155, 13302659700, 18927311515,
-                 13809832588, 18927319798, 18927319792, 13669506061, 13630091278, 13553278196, 13202796139,
-                 15976116484, 13825418802, 18688343794, 15811902125, 13421615643, 13192809766, 18689481992,
-                 13928332330, 13433532344, 13680825687, 15767368908, 15118920995, 18814449910, 15767958977,
-                 13794500533, 15622720742, 13728051069, 18003017330, 15766564346, 18613095131, 18825078109,
-                 13631907254, 15014449123, 18200813197, 13411221798, 18129596682, 15766295545, 18825172583,
-                 18820044450, 13232693023, 15622564436, 17875050321, 18219042689, 13539022703, 18923659367,
-                 15016482831, 13422955477, 15516902516, 18927383931, 13719602899, 13480506480, 13794813633,
-                 13437662001, 14778580943, 15815434130, 15918654019, 13428058683, 13226629215, 13318610486,
-                 13750226525, 15915842165, 15277274655, 13416620223, 15916400624, 13437732624, 13531687922,
-                 18923608195, 15917771003, 15159268034, 15875253254, 15976108610, 13825059586, 15817013917]
+    mobilList = [13560148201, 13726716401,13300010001,13526323252,13168552424,16655441122]
     task_set = LoadLocust
     host = "http://bms-3.yzwill.cn"
     queueData = queue.Queue()

@@ -1,33 +1,46 @@
-from locust import HttpLocust, TaskSet, task
+#冒泡排序
+a = [3,2,5,7,85,8,3,0,54,77,99,9]
+
+for i in range(len(a)):
+    for j in range(len(a)-1):
+        if a[j]>a[j+1]:
+            tmp = a[j]
+            a[j]=a[j+1]
+            a[j+1]=tmp
+print(a)
 
 
-class UserBehavior(TaskSet):
-    # 初始化
-    def on_start(self):
-        self.users_index = 0  # 设置user参数下标的初始值
-        self.groups_index = 0  # 设置group参数下标的初始值
+#选择排序
+b = [3,2,5,7,85,8,3,0,54,77,99,9]
+for i in range(len(b)):
+    for j in range(len(b)-i):
+       tmp = b[i]
+       if b[i]>b[j+1] and b[j+1]<tmp:
+            tmp = b[j+1]
 
-    @task
-    def test_users(self):
-        users_id = self.locust.uid[self.users_index]  # 读取uid参数
-        url = '/users/' + str(users_id) + '/'
-        self.client.get(url, auth=('admin', 'admin123'))
-        # 取余运算，循环遍历参数（下标：0,1,2,3,0,1,2,3...）
-        self.users_index = (self.users_index + 1) % len(self.locust.uid)
-
-    @task
-    def test_groups(self):
-        groups_id = self.locust.gid[self.groups_index]  # 读取gid参数
-        url = '/groups/' + str(groups_id) + '/'
-        self.client.get(url, auth=('admin', 'admin123'))
-        self.groups_index = (self.groups_index + 1) % len(self.locust.gid)
+       b[i]=tmp
 
 
-class WebsiteUser(HttpLocust):
-    task_set = UserBehavior
-    # 参数配置
-    uid = [1, 2, 3, 4]
-    gid = [1, 2]
-    min_wait = 3000
-    max_wait = 6000
-    host = 'http://127.0.0.1:8000'  # 设置Host
+print(b)
+def selection_sort(list):
+    n=len(list)
+    for i in range (0,n):
+        min = i
+        for j in range(i+1,n):
+            if list[j]<list[min]:
+                min=j
+                list[min],list[i]=list[i],list[min]
+    return list
+
+
+
+#快速排序
+
+
+
+
+
+
+
+
+

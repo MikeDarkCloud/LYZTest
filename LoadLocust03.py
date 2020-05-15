@@ -2,13 +2,10 @@
 @author:lanmingyong
 @time:20200429
 """
-import requests
-from time import sleep
-
 from locust.clients import HttpSession
 from locust import *
 from common.DataSource import DataSource
-from public.TestCaseAssembly import TestCaseAssembly, BeforeParamCom
+from public.TestCaseAssembly import TestCaseAssembly
 from public.AfterParamCom import *
 from requests_toolbelt import MultipartEncoder
 import queue
@@ -36,9 +33,9 @@ class LoadLocust(TaskSequence):
         }
         response = self.session.post(url=url, data=data, headers=headers, verify=False)
         if response.status_code == 200:
-            print("success")
+            print("login success")
         else:
-            print("fails")
+            print("login fails")
 
     def test_0_getGkOpenEnrollCityInfo(self):
         '''随机获取国开报读城市'''
@@ -52,11 +49,11 @@ class LoadLocust(TaskSequence):
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, likeGecko) Chrome/73.0.3683.86 Safari/537.36"
         }
 
-        response = self.session.post(url=case[2], data=case[3], headers=headers, verify=False)
+        response = self.session.get(url=case[2], data=case[3], headers=headers, verify=False)
         if response.status_code == 200:
-            print("success")
+            print("getGkOpenEnrollCityInfo success")
         else:
-            print("fails")
+            print("getGkOpenEnrollCityInfo fails")
         '''提取参数city'''
         Result = DataExtraction().extRegxParam(response.text, 'getGkOpenEnrollCityInfo')
         city = Result[random.randint(0, len(Result) - 1)]
@@ -71,11 +68,11 @@ class LoadLocust(TaskSequence):
             "Host": 'bms-3.yzwill.cn',
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, likeGecko) Chrome/73.0.3683.86 Safari/537.36"
         }
-        response = self.session.post(url=case[2], data=case[3], headers=headers, verify=False)
+        response = self.session.get(url=case[2], data=case[3], headers=headers, verify=False)
         if response.status_code == 200:
-            print("success")
+            print("sUnvs success")
         else:
-            print("fails")
+            print("sUnvs fails")
         '''提取参数unvsId'''
         Result = DataExtraction().extRegxParam(response.text, 'sUnvs')
         unvsId = Result[random.randint(0, len(Result) - 1)]
@@ -92,11 +89,11 @@ class LoadLocust(TaskSequence):
             "Host": 'bms-3.yzwill.cn',
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, likeGecko) Chrome/73.0.3683.86 Safari/537.36"
         }
-        response = self.session.post(url=case[2], data=case[3], headers=headers, verify=False)
+        response = self.session.get(url=case[2], data=case[3], headers=headers, verify=False)
         if response.status_code == 200:
-            print("success")
+            print("getOpenTestAreaByCity success")
         else:
-            print("fails")
+            print("getOpenTestAreaByCity fails")
         '''提取参数taId+taName'''
         Result = DataExtraction().extRegxParam(response.text, 'getOpenTestAreaByCity')
         ta = Result[random.randint(0, len(Result) - 1)]
@@ -115,11 +112,11 @@ class LoadLocust(TaskSequence):
             "Host": 'bms-3.yzwill.cn',
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, likeGecko) Chrome/73.0.3683.86 Safari/537.36"
         }
-        response = self.session.post(url=case[2], data=case[3], headers=headers, verify=False)
+        response = self.session.get(url=case[2], data=case[3], headers=headers, verify=False)
         if response.status_code == 200:
-            print("success")
+            print("getOpenPfsnByTaId success")
         else:
-            print("fails")
+            print("getOpenPfsnByTaId fails")
         '''提取参数'''
         Result = DataExtraction().extRegxParam(response.text, 'getOpenPfsnByTaId')
         pfsn = Result[random.randint(0, len(Result) - 1)]
@@ -142,9 +139,9 @@ class LoadLocust(TaskSequence):
         }
         response = self.session.post(url=case[2], data=case[3], headers=headers, verify=False)
         if response.status_code == 200:
-            print("success")
+            print("showFeeList success")
         else:
-            print("fails")
+            print("showFeeList fails")
         '''提取参数'''
         feeId = getJsonParm(response.text)['body']['feeInfo']['feeId']
         Result = DataExtraction().extRegxParam(response.text, 'showFeeList')
@@ -174,7 +171,6 @@ class LoadLocust(TaskSequence):
         '''从参数文件获取参数'''
         mobile = DataSource().getMobile()
         idCard = DataSource().getIdcard()
-
         pfsnLevel = intFile.getYamlParms(('GK', 'pfsnLevel'))
 
         '''将参数组合到接口文件'''
@@ -189,9 +185,9 @@ class LoadLocust(TaskSequence):
         headers["Content-Type"] = data.content_type
         response = self.session.post(url=case[2], data=data, headers=headers)
         if response.status_code == 200:
-            print("success")
+            print("gkregister success")
         else:
-            print("fails")
+            print("gkregister fails")
 
     def on_stop(self):
         print("=============================")
@@ -283,7 +279,19 @@ class WebsiteUser(HttpLocust):
                  15018695460,18819980001,13536288325,13680827385,13502271326,13719646016,15819886099,18688325172,15820709108,
                  13824208687,15976237917,13923631087,13422918603,13928321938,13360863119,13413106783,13528089948,15018668859,
                  15013987208,13824295519,13669546377,13138343882,18933505781,13928332415,13902624825,13825465508,13825461225,
-                 18927347343,13542784488,15089294261,15217802448,15018609797,13480530314,13923623196,15916362572,13680825198,13692783806,13829983635,13413069933,13433465741,13824235263,13719607261,13509079822,15119019658,15976163398,13500173816,13422937518,13928399330,18923605361,18819640679,13532103220,15119040925,13421008823,14718022268,13536735836,15914928968,13823825740,13823814665,15807533857,13750586560,13823836077,13823850532,13411203151,15907621781,13794738577,18718331094,13435395520,18676226889,13650652401,18023100081,18902779567,18902779023,13642499501,13794729000,13435394893,13226761001,13809746223,13553209687,13435544225,18023100091,13553273048,13794737728,13690993898,13622499856,15917061603,15007625606,13435321635,13539111194,13725279471,18933751863,18607625890,13725655318,13532121099,13553288542,13539199600,13430161321,13560800352,13215147444,13662764069,15913777905,13790420043,13480060036,13712900531,13798898068,13516681455,13692706697,13509088901,15816889962,13437709371,15820717152,15916417986,18718819997,13560963320,13723633998,13823863056,13824598582,15914914181,13411290698,13719954207,13413167747,18129635363,13414789270,13928321938,13413769740,18924037616,13038893789,13026844888,13750219200,18923689933,18316918050,13925752356,13226767918,13794834830,13923013586,13923007056,18026586558,15016216906]
+                 18927347343,13542784488,15089294261,15217802448,15018609797,13480530314,13923623196,15916362572,13680825198,
+                 13692783806,13829983635,13413069933,13433465741,13824235263,13719607261,13509079822,15119019658,15976163398,
+                 13500173816,13422937518,13928399330,18923605361,18819640679,13532103220,15119040925,13421008823,14718022268,
+                 13536735836,15914928968,13823825740,13823814665,15807533857,13750586560,13823836077,13823850532,13411203151,
+                 15907621781,13794738577,18718331094,13435395520,18676226889,13650652401,18023100081,18902779567,18902779023,
+                 13642499501,13794729000,13435394893,13226761001,13809746223,13553209687,13435544225,18023100091,13553273048,
+                 13794737728,13690993898,13622499856,15917061603,15007625606,13435321635,13539111194,13725279471,18933751863,
+                 18607625890,13725655318,13532121099,13553288542,13539199600,13430161321,13560800352,13215147444,13662764069,
+                 15913777905,13790420043,13480060036,13712900531,13798898068,13516681455,13692706697,13509088901,15816889962,
+                 13437709371,15820717152,15916417986,18718819997,13560963320,13723633998,13823863056,13824598582,15914914181,
+                 13411290698,13719954207,13413167747,18129635363,13414789270,13928321938,13413769740,18924037616,13038893789,
+                 13026844888,13750219200,18923689933,18316918050,13925752356,13226767918,13794834830,13923013586,13923007056,
+                 18026586558,15016216906]
     task_set = LoadLocust
     host = "http://bms-3.yzwill.cn"
     queueData = queue.Queue()
